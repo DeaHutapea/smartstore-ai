@@ -40,7 +40,7 @@ milestone tersedia di [`docs/laporan_milestone1_2.md`](docs/laporan_milestone1_2
 **Kelompok:** Grup 14  
 **Dosen pengampu:** Samuel Indra Gunawan Situmeang  
 **Semester:** Gasal 2026/2027  
-**Repositori:** [FredrickAritonang/smartstore-ai-copilot](https://github.com/FredrickAritonang/smartstore-ai-copilot)
+**Repositori:** [DeaHutapea/smartstore-ai](https://github.com/DeaHutapea/smartstore-ai)
 
 ## Struktur Repositori
 

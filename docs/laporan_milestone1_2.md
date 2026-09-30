@@ -10,7 +10,7 @@
 | Program studi | Sarjana Sistem Informasi, Institut Teknologi Del |
 | Dosen pengampu | Samuel Indra Gunawan Situmeang |
 | Semester | Gasal 2026/2027 |
-| Repositori GitHub | [FredrickAritonang/smartstore-ai-copilot](https://github.com/FredrickAritonang/smartstore-ai-copilot) |
+| Repositori GitHub | [DeaHutapea/smartstore-ai](https://github.com/DeaHutapea/smartstore-ai) |
 | Branch | `main` |
 | Tag Milestone 2 | `v0.2-milestone2` — belum tersedia per 30 September 2026 |
 
