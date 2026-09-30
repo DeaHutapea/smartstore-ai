@@ -1,0 +1,15 @@
+[project]
+name = "smartstore-ai-cheapest-price"
+version = "0.1.0"
+description = "SmartStore AI - Sistem Pencarian Harga Termurah E-Commerce — Proyek Akhir 10S3001 Kecerdasan Buatan"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
