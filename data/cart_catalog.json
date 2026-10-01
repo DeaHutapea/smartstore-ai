@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "unit_price": "ribuan Rupiah",
+    "unit_delivery": "hari",
+    "note": "Data simulasi (dummy) untuk Milestone 1-2, bukan data marketplace nyata."
+  },
+  "catalog": {
+    "Laptop": [
+      {"seller": "TokoAndi",  "price": 4500, "city": "Jakarta",  "delivery_days": 3},
+      {"seller": "GadgetPro", "price": 4350, "city": "Semarang", "delivery_days": 5},
+      {"seller": "MegaStore", "price": 4600, "city": "Surabaya", "delivery_days": 2}
+    ],
+    "Mouse": [
+      {"seller": "TokoAndi",       "price": 150, "city": "Jakarta",    "delivery_days": 3},
+      {"seller": "BudiElektronik", "price": 130, "city": "Yogyakarta", "delivery_days": 4},
+      {"seller": "MegaStore",      "price": 160, "city": "Surabaya",   "delivery_days": 2}
+    ],
+    "Keyboard": [
+      {"seller": "GadgetPro",      "price": 300, "city": "Semarang",   "delivery_days": 5},
+      {"seller": "BudiElektronik", "price": 280, "city": "Yogyakarta", "delivery_days": 4},
+      {"seller": "MegaStore",      "price": 320, "city": "Surabaya",   "delivery_days": 2}
+    ]
+  }
+}
