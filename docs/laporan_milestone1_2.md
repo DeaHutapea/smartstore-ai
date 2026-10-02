@@ -12,7 +12,7 @@
 | Semester | Gasal 2026/2027 |
 | Repositori GitHub | [DeaHutapea/smartstore-ai](https://github.com/DeaHutapea/smartstore-ai) |
 | Branch | `main` |
-| Tag Milestone 2 | `v0.2-milestone2` — belum tersedia per 30 September 2026 |
+| Tag Milestone 2 | [`v0.2-milestone2`](https://github.com/DeaHutapea/smartstore-ai/tree/v0.2-milestone2) — tag remote menunjuk ke commit `9702542` |
 
 ### Anggota kelompok
 
@@ -22,6 +22,14 @@
 | Rospika Sarah Yosefin Siregar | 12S24008 |
 | Dea Anggreany Hutapea | 12S24053 |
 
+### Tautan kontribusi di GitHub
+
+| Anggota | Commit kontribusi |
+|---|---|
+| Dea Anggreany Hutapea | [LICENSE dan arsitektur 5-lapis](https://github.com/DeaHutapea/smartstore-ai/commit/d21f4da6b8cc96e043e792448668b6fa65e25328) |
+| Rospika Sarah Yosefin Siregar | [Katalog JSON, loader, skema, dan test](https://github.com/DeaHutapea/smartstore-ai/commit/a313dea54a340bd3f9af7e959e760042ec6570cf) |
+| Fredrick Laurensius Aritonang | [Test edge cases CSP](https://github.com/DeaHutapea/smartstore-ai/commit/8e21cc9f5cd10cf1a8b20aff46bfff119ed62903), [dokumen etika dan privasi](https://github.com/DeaHutapea/smartstore-ai/commit/332f439996dee84a755c8cc96a58526759802357), dan [pembaruan README](https://github.com/DeaHutapea/smartstore-ai/commit/1fccf42aee379009b234395615d61afe1646c5b3) |
+
 ## Ringkasan
 
 Proyek ini menyelesaikan dua submasalah rekomendasi belanja. Milestone 1
@@ -30,11 +38,11 @@ minimum menggunakan Uniform Cost Search (UCS) dan A*. Milestone 2 memilih
 penjual untuk setiap produk di keranjang dengan batasan tenggat, rentang
 waktu kedatangan, dan budget menggunakan CSP.
 
-Semua angka pada katalog yang tersedia saat ini merupakan **data simulasi
-yang tertanam di kode**, bukan dataset marketplace eksternal. Harga dan
-ongkir dinyatakan dalam ribuan Rupiah; karena itu nilai `267` berarti
-Rp267.000. Kesimpulan eksperimen hanya berlaku untuk graf dan katalog
-contoh tersebut.
+Semua angka pada katalog yang tersedia saat ini merupakan **data simulasi**
+yang disimpan di `data/cart_catalog.json`, bukan dataset marketplace
+eksternal. Harga dan ongkir dinyatakan dalam ribuan Rupiah; karena itu
+nilai `267` berarti Rp267.000. Kesimpulan eksperimen hanya berlaku untuk
+graf dan katalog contoh tersebut.
 
 ## 1. Milestone 1 — Problem Framing dan Baseline Search
 
@@ -166,16 +174,15 @@ uv run python src/search/price_search.py
 uv run python src/csp/cart_solver.py
 ```
 
-Hasil verifikasi pada sesi penyusunan draf: **10 test lulus**. Demo search
+Hasil verifikasi pada 2 Oktober 2026: **30 test lulus**. Demo search
 melaporkan biaya minimum Rp267.000 (UCS/A*); demo CSP melaporkan biaya
 optimum Rp4.800.000 pada skenario utama.
 
 ## 5. Batasan dan pekerjaan sebelum penyerahan
 
-1. Data saat ini sintetis dan tertanam di modul; belum ditemukan berkas
-   dataset terpisah di workspace. Jika tim punya data lain, dokumentasikan
-   sumber, satuan, tanggal pengambilan, dan cara anonimisasi sebelum
-   mengganti data contoh.
+1. Data saat ini sintetis dan tersedia sebagai `data/cart_catalog.json`.
+   Jika tim menggantinya dengan data lain, dokumentasikan sumber, satuan,
+   tanggal pengambilan, dan cara anonimisasi.
 2. Graf biaya rute Milestone 1 dan estimasi hari/biaya penjual Milestone 2
    adalah dua input simulasi terpisah; belum ada integrasi sumber logistik
    nyata.
@@ -184,9 +191,13 @@ optimum Rp4.800.000 pada skenario utama.
 4. Repositori GitHub kelompok dapat diakses pada tautan di bagian
    Identitas, dan file `LICENSE` pada repositori menyatakan lisensi MIT.
    Pastikan lisensi ini sesuai dengan keputusan seluruh anggota.
-5. Tag `v0.2-milestone2` belum ditemukan pada repositori per 30 September
-   2026. Buat tag setelah versi yang akan dikumpulkan sudah disepakati,
-   lalu tambahkan tautan tag tersebut pada salinan laporan yang diserahkan.
+5. Tag remote `v0.2-milestone2` tersedia, tetapi saat diperiksa menunjuk ke
+   commit `9702542` (pembaruan tautan repository, 30 September 2026), bukan
+   commit yang mencakup seluruh kontribusi Dea, Rospika, dan Fredrick.
+   Tautan kontribusi terbaru masing-masing anggota tercantum di atas.
+   Sebelum penyerahan final, sepakati bersama apakah akan membuat tag baru
+   untuk versi lengkap; hindari memindahkan tag yang sudah dibagikan tanpa
+   persetujuan seluruh anggota.
 6. Ekspor laporan sesuai format dan nama berkas yang diminta pada instruksi
    tugas. Jika Milestone 1 dan 2 dikumpulkan sebagai berkas terpisah,
    simpan bagian Milestone 1 dan Milestone 2 masing-masing sebagai
