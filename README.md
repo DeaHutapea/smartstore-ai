@@ -1,5 +1,11 @@
 # SmartStore AI — Sistem Pencarian Harga Termurah E-Commerce
 
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![Package manager](https://img.shields.io/badge/package%20manager-uv-purple)
+![Tests](https://img.shields.io/badge/tests-pytest-green)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Milestone](https://img.shields.io/badge/milestone-1--2%20selesai-yellow)
+
 Proyek Akhir mata kuliah **10S3001 - Kecerdasan Buatan**, Program Studi
 Sarjana Sistem Informasi, Institut Teknologi Del (Semester Gasal 2026/2027).
 
@@ -46,19 +52,29 @@ milestone tersedia di [`docs/laporan_milestone1_2.md`](docs/laporan_milestone1_2
 
 ```
 .
+├── data/
+│   └── cart_catalog.json     # Katalog penjual (data simulasi) format JSON
 ├── docs/
-│   ├── problem_framing.md   # Business problem framing + formulasi formal search
+│   ├── architecture.md       # Arsitektur 5-lapis + status per lapisan
+│   ├── data_schema.md        # Skema data katalog
+│   ├── etika_privasi.md      # Etika, privasi (UU PDP), bias, keamanan
+│   ├── problem_framing.md    # Business problem framing + formulasi formal search
 │   ├── peas.md               # Spesifikasi formal PEAS
 │   ├── csp_formulation.md    # Pemodelan matematis formal CSP (Milestone 2)
 │   └── laporan_milestone1_2.md # Draf laporan Tugas 1 & Tugas 2
 ├── src/
 │   ├── search/
 │   │   └── price_search.py   # M1: Baseline UCS & A* — harga total termurah
-│   └── csp/
-│       └── cart_solver.py    # M2: CSP solver — optimasi keranjang multi-produk
+│   ├── csp/
+│   │   └── cart_solver.py    # M2: CSP solver — optimasi keranjang multi-produk
+│   └── knowledge/
+│       └── catalog_loader.py # Loader + validasi katalog JSON
 ├── tests/
 │   ├── test_price_search.py
-│   └── test_cart_solver.py
+│   ├── test_cart_solver.py
+│   ├── test_cart_edge_cases.py   # Kasus ekstrem (boundary, keranjang kosong, dll.)
+│   └── test_catalog_loader.py
+├── LICENSE
 ├── pyproject.toml
 └── .gitignore
 ```
@@ -128,6 +144,17 @@ Repositori sudah berisi lisensi MIT; pastikan pilihan lisensi tersebut
 disetujui seluruh anggota.
 
 Kalau belum punya `uv`, install dulu: https://docs.astral.sh/uv/getting-started/installation/
+
+### Troubleshooting `uv sync`
+
+| Masalah | Solusi |
+|---|---|
+| `uv: command not found` / `'uv' is not recognized` | `uv` belum terpasang atau belum masuk `PATH`. Install, lalu tutup dan buka ulang terminal. |
+| Gagal karena versi Python | Proyek butuh Python `>=3.11`. Jalankan `uv python install 3.12` lalu `uv sync`. |
+| Gagal mengunduh paket (timeout) | Cek koneksi atau proxy, lalu `uv cache clean` dan `uv sync` lagi. |
+| Virtual environment rusak | Hapus `.venv` (PowerShell: `Remove-Item -Recurse -Force .venv`), lalu `uv sync`. |
+| `ModuleNotFoundError: pytest` | Jalankan lewat `uv run pytest -v`, bukan `pytest` langsung. |
+| `uv.lock` tidak sinkron | Setelah mengubah `pyproject.toml`: `uv lock`, `uv sync`, commit keduanya. |
 
 ## Roadmap Milestone Selanjutnya
 - **Milestone 3 (W07):** Knowledge Base & Vector Search (ChromaDB, RAG) —
