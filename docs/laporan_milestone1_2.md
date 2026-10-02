@@ -12,7 +12,7 @@
 | Semester | Gasal 2026/2027 |
 | Repositori GitHub | [DeaHutapea/smartstore-ai](https://github.com/DeaHutapea/smartstore-ai) |
 | Branch | `main` |
-| Tag Milestone 2 | [`v0.2-milestone2`](https://github.com/DeaHutapea/smartstore-ai/tree/v0.2-milestone2) — tag remote menunjuk ke commit `9702542` |
+| Tag Milestone 2 | [`v0.2.1-milestone2`](https://github.com/DeaHutapea/smartstore-ai/tree/v0.2.1-milestone2) |
 
 ### Anggota kelompok
 
@@ -191,13 +191,9 @@ optimum Rp4.800.000 pada skenario utama.
 4. Repositori GitHub kelompok dapat diakses pada tautan di bagian
    Identitas, dan file `LICENSE` pada repositori menyatakan lisensi MIT.
    Pastikan lisensi ini sesuai dengan keputusan seluruh anggota.
-5. Tag remote `v0.2-milestone2` tersedia, tetapi saat diperiksa menunjuk ke
-   commit `9702542` (pembaruan tautan repository, 30 September 2026), bukan
-   commit yang mencakup seluruh kontribusi Dea, Rospika, dan Fredrick.
-   Tautan kontribusi terbaru masing-masing anggota tercantum di atas.
-   Sebelum penyerahan final, sepakati bersama apakah akan membuat tag baru
-   untuk versi lengkap; hindari memindahkan tag yang sudah dibagikan tanpa
-   persetujuan seluruh anggota.
+5. Tag awal `v0.2-milestone2` tetap dipertahankan pada commit sebelumnya.
+   Untuk versi yang mencakup kontribusi lengkap ketiga anggota, gunakan
+   tag baru `v0.2.1-milestone2`; tautan di atas menunjuk ke versi tersebut.
 6. Ekspor laporan sesuai format dan nama berkas yang diminta pada instruksi
    tugas. Jika Milestone 1 dan 2 dikumpulkan sebagai berkas terpisah,
    simpan bagian Milestone 1 dan Milestone 2 masing-masing sebagai
