@@ -1,0 +1,21 @@
+{
+  "_catatan": "expected_docs = document_id yang dianggap jawaban benar (cukup salah satu = hit). WAJIB diverifikasi tim terhadap isi dokumen sebelum angka dilaporkan. type: synonym | ambiguous | out_of_domain.",
+  "queries": [
+    {"id": "Q01", "type": "synonym", "query": "Berapa lama uang saya kembali setelah pesanan dibatalkan?", "expected_docs": ["MKT004"]},
+    {"id": "Q02", "type": "synonym", "query": "Kenapa paket saya telat sampai melebihi perkiraan?", "expected_docs": ["MKT001"]},
+    {"id": "Q03", "type": "synonym", "query": "Penjual menolak keluhan saya, langkah apa yang bisa saya tempuh?", "expected_docs": ["MKT002"]},
+    {"id": "Q04", "type": "synonym", "query": "Voucher bebas biaya kirim bisa dipakai di jenis toko apa saja?", "expected_docs": ["MKT003", "MKT008"]},
+    {"id": "Q05", "type": "synonym", "query": "Apa hak pembeli jika barang yang diterima tidak sesuai perjanjian?", "expected_docs": ["REG001"]},
+    {"id": "Q06", "type": "synonym", "query": "Kewajiban penyelenggara platform dalam menjaga kerahasiaan data pribadi pengguna", "expected_docs": ["REG003"]},
+    {"id": "Q07", "type": "synonym", "query": "Berapa hari batas waktu retur barang di Shopee Mall?", "expected_docs": ["MKT006", "MKT005"]},
+    {"id": "Q08", "type": "synonym", "query": "Kewajiban pelaku usaha yang berdagang lewat sistem elektronik", "expected_docs": ["REG002"]},
+    {"id": "Q09", "type": "ambiguous", "query": "Bagaimana kebijakan pengembalian?", "expected_docs": ["MKT004", "MKT005", "MKT007"]},
+    {"id": "Q10", "type": "ambiguous", "query": "Aturan soal pengiriman barang", "expected_docs": ["MKT001", "MKT003", "REG004"]},
+    {"id": "Q11", "type": "ambiguous", "query": "Syarat dan ketentuan", "expected_docs": ["MKT007", "MKT008"]},
+    {"id": "Q12", "type": "out_of_domain", "query": "Resep nasi goreng seafood yang enak", "expected_docs": []},
+    {"id": "Q13", "type": "out_of_domain", "query": "Siapa juara Liga Champions musim lalu?", "expected_docs": []},
+    {"id": "Q14", "type": "out_of_domain", "query": "Cara install Python di Windows 11", "expected_docs": []},
+    {"id": "Q15", "type": "out_of_domain", "query": "Prakiraan cuaca besok di Medan", "expected_docs": []},
+    {"id": "Q16", "type": "out_of_domain", "query": "Apa itu teori relativitas Einstein?", "expected_docs": []}
+  ]
+}

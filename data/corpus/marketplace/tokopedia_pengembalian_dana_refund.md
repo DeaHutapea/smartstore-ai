@@ -1,0 +1,55 @@
+# Pengembalian Dana (Refund) Belum Diterima
+
+**Judul:** Pengembalian Dana (Refund) Belum Diterima
+**Sumber:** Tokopedia Care (PT Tokopedia)
+**URL:** https://www.tokopedia.com/help/article/saya-belum-menerima-pengembalian-dana-atas-pembatalan-pesanan
+**Tanggal akses:** 6 November 2026
+
+---
+
+## ISI DOKUMEN
+
+### Penting!
+
+1. Dana pada Saldo Refund (https://www.tokopedia.com/help/article/apa-itu-saldo-refund-saldo-penghasilan) dapat digunakan untuk transaksi kembali di Tokopedia.
+2. Dana yang dikembalikan ke Saldo Refund tidak termasuk Biaya Layanan (https://www.tokopedia.com/help/article/syarat-dan-ketentuan-biaya-layanan-virtual-account).
+3. Biaya ongkos kirim dan asuransi tidak dikembalikan apabila sudah ada proses pengiriman.
+
+Pengembalian dana kamu akan disesuaikan dengan metode bayar yang kamu gunakan. Simak informasi waktu & alur *refund* transaksi Tokopedia berikut ini:
+
+### Alur Refund Transaksi
+
+Berikut alur pengembalian dana beserta waktu dan metode pengembalian:
+
+| Metode Bayar yang Digunakan | Waktu maksimal pengembalian Dana | Refund Dikirim ke |
+|---|---|---|
+| GoPay | H+1 Hari kerja jam 23:59 | GoPay |
+| GoPay Coins | H+1 Hari kerja jam 23:59 | GoPay Coins |
+| GoPay Later | H+1 Hari kerja jam 23:59 | GoPay Later |
+| Virtual Account | H+1 Hari Kerja jam 23:59 | Saldo Refund |
+| Retail (Indomaret & Alfamart) | H+1 Hari kerja jam 23:59 | Saldo Refund |
+| OVO Cash | H+1 Hari kalender jam 23:59 | OVO Cash |
+| DANA | H+1 Hari kalender jam 23:59 | DANA\*\* |
+| Jago | H+1 Hari kalender jam 23:59 | Jago (Kantong yang digunakan) |
+| QRIS | Max H+2 hari kerja | Saldo Refund |
+| Debit Online BNI (VCN) | 3x24 jam hari kerja\* | Saldo Refund |
+| Debit Online | 14 hari kerja\* | Saldo Rekening |
+| Kartu Kredit | 14 hari kerja\* | Limit Kartu Kredit |
+| BRI Ceria | H+1 Hari Kerja jam 23:59 | Limit BRI Ceria |
+| PayLater | H+1 Hari Kerja jam 23:59 | Limit PayLater |
+
+\*Tidak termasuk Sabtu, Minggu, hari libur.
+
+\*\*Khusus DANA apabila nominal refund sudah mendekati atau sudah mencapai limit bulanan, maka akan di-refund ke Saldo Tokopedia (tidak ada refund partial).
+
+### Pembayaran dengan 2 metode
+
+Apabila kamu bertransaksi menggunakan **2 metode bayar**, maka pengembalian dana akan diteruskan ke 2 metode bayar yang kamu gunakan tersebut.
+
+**Contoh:**
+
+Kamu membeli barang senilai Rp140.000 dan bayar menggunakan transfer bank sebesar Rp120.000 + GoPay Rp20.000.
+
+Maka *refund* yang akan kamu terima apabila transaksi batal sesuai dengan nilai transaksi tersebut **Rp120.000** ke **Saldo Refund** dan **Rp20.000** ke **Saldo GoPay** kamu.
+
+**Catatan:** Pengembalian dana yang diteruskan ke Saldo Refund dapat kamu tarik ke rekening atau GoPay dengan mengikuti panduan Cara Tarik Dana Saldo Tokopedia (https://www.tokopedia.com/help/article/cara-melakukan-penarikan-dana-dari-saldo).
