@@ -1,0 +1,17 @@
+id,type,query,top1_doc,top1_section,top1_score,top2_score,expected,rank_of_expected,hit@1,hit@3,rr
+Q01,synonym,Berapa lama uang saya kembali setelah pesanan dibatalkan?,REG004,Paragraf 5 Keamanan Informasi Penyelenggara Pos yang menyediakan layanan komunik,0.8603,0.8593,MKT004,6,0,0,0.1667
+Q02,synonym,Kenapa paket saya telat sampai melebihi perkiraan?,MKT001,Pertanyaan dan Jawaban,0.8601,0.8534,MKT001,1,1,1,1.0
+Q03,synonym,"Penjual menolak keluhan saya, langkah apa yang bisa saya tempuh?",MKT002,Proses Komplain dan Penanganannya,0.8732,0.8627,MKT002,1,1,1,1.0
+Q04,synonym,Voucher bebas biaya kirim bisa dipakai di jenis toko apa saja?,MKT008,,0.8712,0.865,"MKT003,MKT008",1,1,1,1.0
+Q05,synonym,Apa hak pembeli jika barang yang diterima tidak sesuai perjanjian?,REG001,BAB III HAK DAN KEWAJIBAN,0.866,0.8581,REG001,1,1,1,1.0
+Q06,synonym,Kewajiban penyelenggara platform dalam menjaga kerahasiaan data pribadi pengguna,REG004,Pasal 47 ayat (2) huruf a merupakan kepastian waktu tempuh Kiriman yang dihitung,0.9028,0.8915,REG003,2,0,1,0.5
+Q07,synonym,Berapa hari batas waktu retur barang di Shopee Mall?,MKT006,,0.8985,0.8728,"MKT005,MKT006",1,1,1,1.0
+Q08,synonym,Kewajiban pelaku usaha yang berdagang lewat sistem elektronik,REG002,BAB VI KEWAJIBAN PELAKU USAHA PERDAGANGAN MELALUI SISTEM ELEKTRONIK Pedagang dal,0.8877,0.8842,REG002,1,1,1,1.0
+Q09,ambiguous,Bagaimana kebijakan pengembalian?,MKT005,,0.8787,0.8647,"MKT004,MKT005,MKT007",1,1,1,1.0
+Q10,ambiguous,Aturan soal pengiriman barang,REG002,BAB XIII PENGIRIMAN BARANG DAN JASA DALAM PERDAGANGAN MELALUI SISTEM ELEKTRONIK ,0.8899,0.8813,"MKT001,MKT003,REG004",5,0,0,0.2
+Q11,ambiguous,Syarat dan ketentuan,MKT008,,0.8616,0.8593,"MKT007,MKT008",1,1,1,1.0
+Q12,out_of_domain,Resep nasi goreng seafood yang enak,MKT004,Alur Refund Transaksi,0.8073,0.8024,,,,,
+Q13,out_of_domain,Siapa juara Liga Champions musim lalu?,REG004,"Pasal 5 ayat (2), Pasal 113, Pasal 114, Pasal 127, Pasal 128,",0.7632,0.7628,,,,,
+Q14,out_of_domain,Cara install Python di Windows 11,MKT004,Alur Refund Transaksi,0.7891,0.7881,,,,,
+Q15,out_of_domain,Prakiraan cuaca besok di Medan,REG004,"Pasal 5 ayat (2), Pasal 113, Pasal 114, Pasal 127, Pasal 128,",0.8166,0.8148,,,,,
+Q16,out_of_domain,Apa itu teori relativitas Einstein?,REG003,BAB XVI KETENTUAN PENUTUP Undang-Undang ini mulai berlaku pada tanggal Agar,0.767,0.7666,,,,,

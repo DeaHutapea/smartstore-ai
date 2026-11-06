@@ -1,0 +1,104 @@
+{
+  "collection": "kb_paraphrase_multilingual_minilm_l12_v2_c120_o24",
+  "model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "total_chunks": 449,
+  "docs": [
+    {
+      "doc_id": "REG001",
+      "words": 7314,
+      "chunks": 77,
+      "min_words": 45,
+      "max_words": 135,
+      "mean_words": 106.5
+    },
+    {
+      "doc_id": "REG002",
+      "words": 6745,
+      "chunks": 69,
+      "min_words": 47,
+      "max_words": 143,
+      "mean_words": 105.8
+    },
+    {
+      "doc_id": "REG003",
+      "words": 7871,
+      "chunks": 84,
+      "min_words": 31,
+      "max_words": 144,
+      "mean_words": 105.0
+    },
+    {
+      "doc_id": "REG004",
+      "words": 15497,
+      "chunks": 163,
+      "min_words": 27,
+      "max_words": 137,
+      "mean_words": 104.9
+    },
+    {
+      "doc_id": "MKT001",
+      "words": 321,
+      "chunks": 4,
+      "min_words": 37,
+      "max_words": 113,
+      "mean_words": 91.2
+    },
+    {
+      "doc_id": "MKT002",
+      "words": 581,
+      "chunks": 6,
+      "min_words": 106,
+      "max_words": 115,
+      "mean_words": 110.8
+    },
+    {
+      "doc_id": "MKT003",
+      "words": 353,
+      "chunks": 4,
+      "min_words": 42,
+      "max_words": 120,
+      "mean_words": 91.0
+    },
+    {
+      "doc_id": "MKT004",
+      "words": 384,
+      "chunks": 4,
+      "min_words": 74,
+      "max_words": 143,
+      "mean_words": 103.0
+    },
+    {
+      "doc_id": "MKT005",
+      "words": 1040,
+      "chunks": 12,
+      "min_words": 53,
+      "max_words": 116,
+      "mean_words": 96.2
+    },
+    {
+      "doc_id": "MKT006",
+      "words": 165,
+      "chunks": 2,
+      "min_words": 82,
+      "max_words": 88,
+      "mean_words": 85.0
+    },
+    {
+      "doc_id": "MKT007",
+      "words": 514,
+      "chunks": 6,
+      "min_words": 32,
+      "max_words": 120,
+      "mean_words": 96.3
+    },
+    {
+      "doc_id": "MKT008",
+      "words": 1824,
+      "chunks": 18,
+      "min_words": 57,
+      "max_words": 120,
+      "mean_words": 106.5
+    }
+  ],
+  "skipped": []
+}

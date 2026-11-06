@@ -1,0 +1,678 @@
+PERATURAN MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA NOMOR 8 TAHUN 2025 TENTANG LAYANAN POS KOMERSIAL DENGAN RAHMAT TUHAN YANG MAHA ESA MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA, Menimbang : a. bahwa penyelenggaraan pos memiliki peran penting dalam mendukung pertumbuhan ekonomi digital dan arus pengiriman barang sehingga perlu diselenggarakan secara efektif, efisien, dan berdaya saing; bahwa untuk mendukung penyelenggaraan pos yang efektif, efisien, berdaya saing serta menjamin perlindungan konsumen, meningkatkan pemberdayaan penyelenggaraan pos dalam negeri, dan menjaga persaingan usaha yang sehat, perlu pengaturan mengenai standar pelayanan layanan pos komersial, penyesuaian perizinan penyelenggaraan pos, monitoring evaluasi penyelenggaraan pos, pemanfaatan teknologi, interkoneksi layanan pos universal, dan sistem kode pos; bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, serta untuk melaksanakan ketentuan Pasal 10 ayat (3), Pasal 22, Pasal 25, Pasal 27 ayat
+(5), dan Pasal 35 ayat (5) Peraturan Pemerintah Nomor 15 Tahun 2013 tentang Pelaksanaan Undang-Undang Nomor 38 Tahun 2009 tentang Pos, perlu menetapkan Peraturan Menteri Komunikasi dan Digital tentang Layanan Pos Komersial; Mengingat : 1.
+Pasal 17 ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;
+
+Undang-Undang Nomor 38 Tahun 2009 tentang Pos (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 146, Tambahan Lembaran Negara Republik Indonesia Nomor 5065) sebagaimana telah diubah dengan UndangUndang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856); Peraturan Pemerintah Nomor 15 Tahun 2013 tentang Pelaksanaan Undang-Undang Nomor 38 Tahun 2009 tentang Pos (Lembaran Negara Republik Indonesia Tahun 2013 Nomor 38, Tambahan Lembaran Negara Republik Indonesia Nomor 5403); Peraturan Pemerintah Nomor 5 Tahun 2021 tentang Penyelenggaraan Perizinan Berusaha Berbasis Risiko (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 15, Tambahan Lembaran Negara Republik Indonesia Nomor 6617); Peraturan Pemerintah Nomor 46 Tahun 2021 tentang Pos, Telekomunikasi, dan Penyiaran (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 56, Tambahan Lembaran Negara Republik Indonesia Nomor 6658); Peraturan Presiden Nomor 174 Tahun 2024 tentang Kementerian Komunikasi dan Digital (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 370); Peraturan Menteri Komunikasi dan Informatika Nomor 4 Tahun 2021 tentang Penyelenggaraan Pos (Berita Negara Republik Indonesia Tahun 2021 Nomor 302); Peraturan Menteri Komunikasi dan Informatika Nomor 1 Tahun 2025 tentang Organisasi dan Tata Kerja Kementerian Komunikasi dan Digital (Berita Negara Republik Indonesia Tahun 2025 Nomor 17); MEMUTUSKAN: Menetapkan : PERATURAN MENTERI KOMUNIKASI DAN DIGITAL TENTANG LAYANAN POS KOMERSIAL.
+
+BAB I KETENTUAN UMUM Dalam Peraturan Menteri ini yang dimaksud dengan: Pos adalah layanan komunikasi tertulis dan/atau surat elektronik, paket, logistik, transaksi keuangan, dan layanan keagenan Pos untuk kepentingan umum. Penyelenggara Pos adalah suatu badan usaha yang menyelenggarakan Pos. Penyelenggara Pos Asing adalah badan usaha asing yang menyelenggarakan layanan pos di luar Indonesia. Penyelenggaraan adalah keseluruhan kegiatan pengelolaan dan penatausahaan layanan Pos.
+
+Layanan Pos Komersial adalah layanan Pos yang besaran tarif dan standar layanannya tidak ditetapkan oleh pemerintah. Layanan Pos Universal adalah layanan Pos jenis tertentu yang wajib dijamin oleh pemerintah untuk menjangkau seluruh wilayah Negara Kesatuan Republik Indonesia yang memungkinkan masyarakat mengirim dan/atau menerima kiriman dari satu tempat ke tempat lain di dunia. Perizinan Berusaha adalah legalitas yang diberikan kepada pelaku usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya. Sistem Perizinan Berusaha Terintegrasi secara Elektronik (Online Single Submission) yang selanjutnya disebut Sistem OSS adalah sistem elektronik terintegrasi yang dikelola dan diselenggarakan oleh lembaga OSS untuk penyelenggaraan Perizinan Berusaha berbasis risiko. Standar Pelayanan adalah tolok ukur yang dipergunakan sebagai pedoman penyelenggaraan pelayanan dan acuan penilaian kualitas pelayanan sebagai kewajiban dan janji Penyelenggara Pos kepada masyarakat dalam rangka pelayanan yang berkualitas, cepat, mudah, terjangkau, dan terukur.
+10. Standar Operasi dan Prosedur yang selanjutnya disingkat SOP adalah seperangkat aturan yang menjadi petunjuk bagi Penyelenggara Pos dalam menyelenggarakan layanan Pos.
+11. Pengguna Layanan Pos adalah seluruh pihak yang menggunakan layanan Pos.
+12. Pengirim adalah Pengguna Layanan Pos yang mengirimkan kiriman melalui Penyelenggara Pos.
+13. Penerima adalah Pengguna Layanan Pos yang menerima kiriman melalui Penyelenggara Pos.
+14. Perdagangan Melalui Sistem Elektronik yang selanjutnya disingkat PMSE adalah perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik.
+15. Penyelenggara Perdagangan Melalui Sistem Elektronik yang selanjutnya disingkat PPMSE adalah pelaku usaha penyedia sarana komunikasi elektronik yang digunakan untuk transaksi perdagangan.
+16. Tarif Layanan Pos Komersial adalah tarif yang ditetapkan oleh Penyelenggara Pos berdasarkan formula tarif yang ditetapkan oleh pemerintah.
+17. Giro Pos adalah simpanan Rupiah pada Penyelenggara Pos yang penarikannya dapat dilakukan setiap saat dengan menggunakan cek Pos, bilyet giro Pos, sarana pembayaran atau penarikan, atau dengan pemindahbukuan.
+18. Transfer Dana adalah rangkaian kegiatan yang dimulai dengan perintah dari Pengirim asal yang bertujuan untuk memindahkan sejumlah dana kepada Penerima yang disebutkan dalam perintah transfer dana sampai dengan diterimanya dana oleh Penerima.
+19. Tabungan Pos adalah simpanan uang melalui Penyelenggara Pos yang penarikannya hanya dapat dilakukan menurut syarat tertentu.
+
+20. Wesel Pos adalah layanan pengiriman uang secara tunai dan/atau transfer yang diselenggarakan oleh Penyelenggara Pos.
+21. Kode Pos adalah sederetan angka atau huruf atau gabungan angka dan huruf yang dituliskan di belakang nama kota untuk memudahkan penyortiran, penyampaian kiriman, dan keperluan lain.
+22. Interkoneksi adalah keterhubungan jaringan pos antar Penyelenggara Pos.
+23. Daftar Penawaran Interkoneksi yang selanjutnya disingkat DPI adalah dokumen yang memuat aspek teknis dan aspek operasional terkait penyediaan Interkoneksi Penyelenggaraan Pos.
+24. Pemohon Interkoneksi adalah Penyelenggara Pos yang mengajukan permohonan Interkoneksi.
+25. Pengguna Interkoneksi adalah Penyelenggara Pos yang menggunakan Interkoneksi.
+26. Penyedia Interkoneksi adalah Penyelenggara Pos yang menyediakan Interkoneksi.
+27. Titik Interkoneksi adalah titik atau lokasi terjadinya Interkoneksi atau penyerahan kiriman dari satu Penyelenggara Pos ke Penyelenggara Pos lainnya.
+28. Kiriman adalah satuan komunikasi tertulis, surat elektronik, paket, logistik, atau uang yang dikirim melalui Penyelenggara Pos.
+29. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informasi.
+30. Kementerian adalah kementerian yang lingkup tugas dan fungsinya di bidang komunikasi dan informasi.
+31. Direktur Jenderal adalah direktur jenderal yang lingkup tugas dan fungsinya di bidang Penyelenggaraan Pos.
+32. Direktorat Jenderal adalah direktorat jenderal yang tugas dan fungsinya di bidang Penyelenggaraan Pos. Ruang lingkup pengaturan Peraturan Menteri ini meliputi: ketentuan teknis; Standar Pelayanan untuk Layanan Pos Komersial; pemanfaatan teknologi, Kode Pos, dan kode pengiriman; Interkoneksi antar Penyelenggara Pos; Penyelenggaraan Pos untuk keperluan kebencanaan;
+f. indeks kinerja;
+g. pemanfaatan teknologi logistik hijau; dan
+h. pengawasan dan pengendalian.
+
+BAB II KETENTUAN TEKNIS
+
+Bagian Kesatu Umum Penyelenggara Pos wajib menyediakan layanan Pos sesuai dengan Perizinan Berusaha Penyelenggaraan Pos yang diperoleh.
+
+Layanan Pos terdiri atas layanan: komunikasi tertulis dan/atau surat elektronik; paket; logistik; transaksi keuangan; dan/atau keagenan Pos. dalam menyediakan sebagaimana dimaksud pada ayat (2) wajib menjaga keselamatan dan keamanan Kiriman. Paragraf 1 Layanan Komunikasi Tertulis dan/atau Surat Elektronik Layanan komunikasi tertulis dan/atau surat elektronik sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf a merupakan kegiatan pengumpulan, pemrosesan, pengangkutan, dan penyampaian informasi berupa surat, warkatpos, kartupos, barang cetakan, dokumen, dan/atau sekogram. Layanan komunikasi tertulis sebagaimana dimaksud pada ayat (1) termasuk bungkusan kecil (surat berisi barang) sampai dengan 2 (dua) kilogram. Layanan surat elektronik sebagaimana dimaksud pada ayat
+(1) merupakan layanan surat yang proses penyampaiannya kepada Penyelenggara Pos dilaksanakan secara elektronik atau dalam bentuk salinan digital (soft copy) untuk disampaikan secara fisik (hard copy) kepada Pengguna Layanan Pos. Pengantaran untuk layanan komunikasi tertulis dan/atau surat elektronik sebagaimana dimaksud pada ayat (1) terdiri atas:
+a. pengantaran dalam kota;
+b. pengantaran antarkota;
+c. pengantaran antarprovinsi atau antarpulau; dan
+d. pengantaran antarnegara. Paragraf 2 Layanan Paket Layanan paket sebagaimana dimaksud dalam Pasal 3 ayat
+(2) huruf b merupakan kegiatan layanan pengambilan, penerimaan, pemrosesan, pengangkutan, dan/atau pengantaran barang. Barang sebagaimana dimaksud pada ayat (1) merupakan 1 (satu) atau sejumlah barang yang dibungkus dan dikirimkan sebagai satu kesatuan atau terpisah sampai dengan berat 50 (lima puluh) kilogram untuk setiap jenis Kiriman. Ketentuan berat jenis Kiriman sebagaimana dimaksud pada ayat (2), untuk Kiriman yang melalui wilayah pabean didasarkan pada ketentuan peraturan perundang-undangan di bidang kepabeanan. Pengantaran untuk layanan paket sebagaimana dimaksud pada ayat (1) terdiri atas: pengantaran dalam kota;
+
+pengantaran antarkota; pengantaran antarprovinsi atau antarpulau; dan pengantaran antarnegara. Paragraf 3 Layanan Logistik Layanan logistik sebagaimana dimaksud dalam Pasal 3 ayat
+(2) huruf c merupakan kegiatan perencanaan, penanganan, dan pengendalian terhadap pengiriman dan penyimpanan barang, termasuk informasi, jasa pengurusan, administrasi yang dilaksanakan oleh Penyelenggara Pos. Penyelenggara Pos yang melaksanakan layanan logistik sebagaimana dimaksud pada ayat (1) paling sedikit harus menyediakan layanan: komunikasi tertulis dan/atau surat elektronik; dan/atau paket, sebagaimana dimaksud dalam Pasal 3. Barang sebagaimana dimaksud pada ayat (1) merupakan barang yang tidak dibatasi jenis, tingkat berat, dan ukurannya, baik dikemas maupun tidak dikemas. Layanan logistik sebagaimana dimaksud dalam Pasal 6 terdiri atas jenis Kiriman berupa: Kiriman umum; dan/atau Kiriman spesifik. Kiriman umum sebagaimana dimaksud pada ayat (1) huruf a merupakan Kiriman yang sifatnya tahan lama dan tidak memerlukan penanganan khusus. Kiriman spesifik sebagaimana dimaksud pada ayat (1) huruf b merupakan Kiriman yang membutuhkan penanganan khusus setiap tahapan operasional berupa pembungkusan dengan bahan khusus, penempatan yang dipisahkan, dan/atau pengiriman dengan menggunakan moda transportasi yang disesuaikan. Dalam menyediakan layanan logistik, Penyelenggara Pos dapat melaksanakan kegiatan berupa: manajemen penyimpanan atau pergudangan terintegrasi keperluan Kiriman (integrated warehousing); dan/atau manajemen transportasi Kiriman atau manajemen distribusi (integrated freight forwarding), sesuai dengan ketentuan peraturan perundang-undangan. Kegiatan sebagaimana dimaksud pada ayat (1) dapat dilakukan secara mandiri atau bekerja sama dengan pihak lain.
+
+Paragraf 4 Layanan Transaksi Keuangan Layanan transaksi keuangan sebagaimana dimaksud dalam
+Pasal 3 ayat (2) huruf d merupakan kegiatan penyetoran, penyimpanan, pemindahbukuan, pendistribusian, pembayaran uang dari dan/atau untuk Pengguna Layanan Pos yang dilaksanakan oleh Penyelenggara Pos. Layanan transaksi keuangan sebagaimana dimaksud pada ayat (1) terdiri atas: Wesel Pos; Giro Pos; Transfer Dana; dan Tabungan Pos. Paragraf 5 Layanan Keagenan Pos Layanan keagenan Pos sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf e merupakan kegiatan penyediaan sarana dan prasarana untuk layanan Pos. Layanan keagenan Pos sebagaimana dimaksud pada ayat (1) terdiri atas: kegiatan layanan Pos yang dilaksanakan oleh pihak lain; dan/atau kegiatan layanan pihak lain yang dilaksanakan oleh Penyelenggara Pos. Kegiatan keagenan Pos sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.
+
+Bagian Kedua Pemanfaatan Layanan Pengguna Layanan Pos dapat memanfaatkan layanan yang disediakan oleh Penyelenggara Pos dengan mekanisme: ritel; dan/atau grosir (wholesale). Penggunaan mekanisme grosir (wholesale) sebagaimana dimaksud pada ayat (1) huruf b dapat dilakukan melalui perjanjian kerja sama atau kontrak.
+
+Bagian Ketiga Persyaratan Penyediaan Layanan Paragraf 1 Layanan Komunikasi Tertulis dan/atau Surat Elektronik dan Layanan Paket Penyelenggara Pos yang menyediakan layanan komunikasi tertulis dan/atau surat elektronik dan/atau layanan paket, wajib menyediakan sarana dan prasarana berupa:
+
+sarana transportasi pengumpulan pengambilan Kiriman; gerai layanan atau kantor perwakilan; gudang, tempat penyimpanan, atau tempat sortir; sarana transportasi Kiriman antar wilayah; sarana transportasi untuk melakukan pengantaran Kiriman;
+f. timbangan sesuai Standar Nasional Indonesia dan telah diberikan tera;
+g. sistem manajemen yang terhubung ke dalam jaringan;
+h. sistem informasi pelacakan Kiriman; dan
+i. layanan pengaduan yang dapat diakses secara daring. Selain sarana dan prasarana sebagaimana dimaksud pada ayat (1), Penyelenggara Pos dapat menyediakan: aplikasi yang terhubung secara daring; dan/atau sistem pembayaran berbasis digital. Paragraf 2 Layanan Logistik Penyelenggara Pos yang menyediakan layanan logistik wajib menyediakan sarana dan prasarana berupa: gerai layanan atau kantor perwakilan; gudang atau tempat penyimpanan sebagai pusat distribusi, pusat sortir, manajemen pemenuhan pesanan (fulfillment); sarana transportasi Kiriman antarkota; sarana transportasi pengiriman akhir; sistem operasional yang terhubung secara daring dengan Pengguna Layanan Pos;
+f. sistem pembayaran berbasis digital;
+g. sistem informasi pelacakan Kiriman; dan
+h. layanan pengaduan yang dapat diakses secara daring. Paragraf 3 Pemenuhan Sarana dan Prasarana Penyediaan sarana dan prasarana untuk layanan komunikasi tertulis dan/atau surat elektronik dan/atau layanan paket sebagaimana dimaksud dalam Pasal 12 dan untuk layanan logistik sebagaimana dimaksud dalam Pasal 13 dapat disediakan secara mandiri atau melalui kerja sama dengan pihak lain. Paragraf 4 Penyediaan Wilayah Operasi Penyelenggara Pos yang menyediakan layanan komunikasi tertulis dan/atau surat elektronik, layanan paket, dan/atau layanan logistik wajib memiliki wilayah operasi paling sedikit pada 50% (lima puluh persen) provinsi di Indonesia. Penyediaan layanan sebagaimana dimaksud pada ayat (1) meliputi aktivitas penerimaan dan pengantaran Kiriman.
+
+Paragraf 5 Keamanan Informasi Penyelenggara Pos yang menyediakan layanan komunikasi tertulis dan/atau surat elektronik, layanan paket, dan layanan logistik harus menerapkan sistem manajemen keamanan informasi yang dibuktikan dengan sertifikat. Paragraf 6 Standar Sarana dan Prasarana Sarana dan prasarana sebagaimana dimaksud dalam Pasal 12 ayat (1) dan Pasal 13 serta penyediaan wilayah operasi sebagaimana dimaksud dalam Pasal 15 ayat (1) harus dipenuhi dalam jangka waktu: 18 (delapan belas) bulan bagi Penyelenggara Pos yang telah memiliki izin Penyelenggaraan Pos; dan 12 (dua belas) bulan bagi Penyelenggara Pos yang memperoleh izin Penyelenggaraan Pos setelah Peraturan Menteri ini diundangkan. Paragraf 7 Layanan Transaksi Keuangan Penyediaan sarana dan prasarana oleh Penyelenggara Pos yang menyediakan layanan transaksi keuangan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. Paragraf 8 Layanan Keagenan Penyediaan sarana dan prasarana oleh Penyelenggara Pos yang menyediakan layanan keagenan Pos dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.
+
+Bagian Keempat Kepemilikan Kiriman Hak milik atas Kiriman tetap merupakan hak milik Pengirim selama belum diserahkan kepada Penerima. Penyelenggara Pos mengembalikan Kiriman kepada Pengirim dalam hal Kiriman tidak dapat diserahkan kepada Penerima. Pengembalian Kiriman sebagaimana dimaksud pada ayat (2) dilakukan berdasarkan kesepakatan antara Penyelenggara Pos dengan Pengirim. Biaya pengembalian Kiriman sebagaimana dimaksud pada ayat (2) dibebankan kepada Pengirim. Penyelenggara Pos dapat menetapkan tarif penyimpanan Kiriman yang belum dapat diserahkan kepada Penerima atas permintaan Penerima sampai penyerahan Kiriman kepada Penerima dilakukan.
+
+Tarif penyimpanan sebagaimana dimaksud pada ayat (5) dilakukan berdasarkan jangka waktu tertentu ditetapkan oleh Penyelenggara Pos. Dalam hal Kiriman tidak diterima atau ditolak oleh Penerima dan tidak dapat dikirim kembali kepada Pengirim dalam jangka waktu 30 (tiga puluh) hari sejak dilakukan pengiriman, Penyelenggara Pos dapat: melakukan pemusnahan terhadap Kiriman; dan/atau menyerahkan kepada lembaga amal atau instansi yang berwenang terhadap Kiriman yang dianggap memiliki manfaat bagi masyarakat. Dalam hal Kiriman tidak diterima atau ditolak oleh Penerima dan tidak dapat dikirimkan kembali kepada Pengirim dalam wilayah pabean berlaku ketentuan peraturan perundang-undangan di bidang kepabeanan.
+
+Bagian Kelima Kiriman yang Terlarang Penyelenggara Pos dilarang mengirimkan barang Kiriman yang terlarang. Kiriman yang terlarang sebagaimana dimaksud pada ayat (1) merupakan Kiriman yang dilarang untuk dikirimkan oleh Pengguna Layanan Pos karena sifat barang yang dapat membahayakan Kiriman lainnya, lingkungan, dan/atau keselamatan orang. Kiriman yang terlarang sebagaimana dimaksud pada ayat (1) meliputi: narkotika, psikotropika, dan obat-obatan terlarang lainnya; barang yang mudah meledak; barang yang mudah terbakar; barang yang mudah rusak dan dapat mencemari lingkungan; barang yang melanggar kesusilaan; dan/atau
+f. barang lainnya yang menurut peraturan perundangundangan dinyatakan terlarang. Penyelenggara Pos wajib menolak untuk mengirimkan Kiriman yang dinyatakan terlarang oleh negara tujuan untuk Kiriman Internasional. Ketentuan sebagaimana dimaksud pada ayat dikecualikan terhadap Kiriman yang berasal dari lembaga atau instansi yang berwenang sesuai dengan ketentuan peraturan perundang-undangan. Penyelenggara Pos wajib menetapkan SOP penanganan Kiriman yang terlarang yang dikirimkan oleh lembaga atau instansi yang berwenang sebagaimana dimaksud pada ayat
+(5). Pengiriman Kiriman yang terlarang sebagaimana dimaksud pada ayat (5) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.
+
+Bagian Keenam Kiriman Perdagangan Melalui Sistem Elektronik Penyelenggara Pos dapat bekerja sama dengan PPMSE untuk mengirimkan barang Kiriman yang ditransaksikan melalui PMSE. Kerja sama sebagaimana dimaksud pada ayat (1) meliputi: pengiriman; pengangkutan; penyediaan dan manajemen gudang atau pusat distribusi; manajemen pemenuhan pesanan (fulfillment); sistem pembayaran;
+f. sistem teknologi dan informasi; dan/atau
+g. kerja sama lainnya. Kerja sama sebagaimana dimaksud pada ayat dilaksanakan dengan: prinsip perlakuan yang sama; dan tidak merugikan Pengguna Layanan Pos.
+(4) Kerja sama sebagaimana dimaksud pada ayat (3) harus: mengutamakan transparansi, parameter yang jelas, dan adil terkait mekanisme serta promosi di PMSE; dan memberikan kesempatan kepada Pengguna Layanan Pos untuk memilih Penyelenggara Pos. Penyelenggara Pos bertanggung jawab atas pelaksanaan pengiriman Kiriman pada PMSE. Selain pengiriman barang sebagaimana dimaksud pada ayat
+(1), dalam proses PMSE dapat melaksanakan kegiatan: fasilitasi pembayaran di tempat; dan/atau fasilitasi lain. Kegiatan fasilitasi lain sebagaimana dimaksud pada ayat (2) dilaksanakan berdasarkan kesepakatan bersama antara Penyelenggara Pos dengan PPMSE. Dalam hal terdapat laporan dugaan praktik perilaku persaingan usaha tidak sehat dan/atau laporan masyarakat terkait penurunan kualitas pelayanan, Direktur Jenderal meminta Penyelenggara Pos yang bekerja sama dengan PPMSE untuk melaporkan pelaksanaan kerja sama. Laporan pelaksanaan kerja sama sebagaimana dimaksud pada ayat (1) paling sedikit memuat: tarif Kiriman; standar kualitas pelayanan; dan jumlah Kiriman. Laporan sebagaimana dimaksud pada ayat (2) huruf a dan b, harus dilengkapi dengan bukti atau data dukung paling sedikit berupa: dugaan praktik perilaku persaingan usaha tidak sehat; dan/atau penurunan kualitas pelayanan.
+
+Bagian Ketujuh Kerja Sama Pemanfaatan Sarana dan Prasarana Penyelenggara Pos dapat melakukan pemanfaatan sarana dan prasarana milik badan usaha bukan Penyelenggara Pos berdasarkan kerja sama. Kerja sama sebagaimana dimaksud pada ayat (1) dituangkan dalam bentuk perjanjian tertulis dengan memperhatikan: hak, kewajiban, peran, dan tanggung jawab masingmasing pihak; pembagian risiko atas keamanan, keselamatan, dan kerahasiaan Kiriman; dan pemenuhan Standar Pelayanan. Kerja sama sebagaimana dimaksud pada ayat dilaksanakan berdasarkan prinsip efektivitas, efisiensi, saling menguntungkan, nondiskriminasi, nonintervensi, transparansi, dan persaingan usaha yang sehat sesuai dengan ketentuan peraturan perundang-undangan.
+
+Bagian Kedelapan Pengasuransian Kiriman Penyelenggara Pos dalam memberikan layanan Pos kepada calon Pengguna menginformasikan ketersediaan asuransi terhadap Kiriman. Pengguna Layanan Pos dapat menggunakan atau tidak menggunakan asuransi terhadap Kiriman. Biaya asuransi dibebankan kepada Pengguna Layanan Pos. Kewajiban menginformasikan asuransi sebagaimana dimaksud pada ayat (1) dapat dilakukan oleh PPMSE yang bekerja sama dengan Penyelenggara Pos.
+
+Bagian Kesembilan Kerja Sama dengan Pelaku Usaha Orang Perseorangan Penyelenggara Pos dalam menyelenggarakan layanan dapat bekerja sama dengan pelaku usaha orang perseorangan. Kerja sama sebagaimana dimaksud pada ayat (1) dapat meliputi: pengambilan dan/atau pengantaran; pengumpulan; dan/atau pemasaran. Tanggung jawab pelaksanaan pengiriman Kiriman yang dilakukan melalui kerja sama sebagaimana dimaksud pada ayat (1) dibebankan kepada Penyelenggara Pos. Bentuk kerja sama sebagaimana dimaksud pada ayat (1) ditetapkan oleh Penyelenggara Pos dan dituangkan dalam perjanjian kerja sama. Kerja sama sebagaimana dimaksud pada ayat (1) harus dilakukan dengan prinsip efisien, efektif, transparan, kesetaraan, dan saling menguntungkan.
+
+Bagian Kesepuluh Kerja Sama Pos Asing Penyelenggara Pos Asing dapat menyelenggarakan Pos di wilayah Negara Kesatuan Republik Indonesia dengan syarat: wajib bekerja sama dengan Penyelenggara Pos dalam negeri melalui usaha patungan; dan kerja sama Asing dengan Penyelenggara Pos dalam negeri dibatasi wilayah operasinya pada ibu kota provinsi. Usaha patungan sebagaimana dimaksud pada ayat (1) huruf a dilakukan dalam bentuk Perseroan Terbatas. Modal atau saham Penyelenggara Pos Asing sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai ketentuan peraturan perundang-undangan. Penyelenggara Pos Asing yang bekerja sama dengan Penyelenggara Pos dalam negeri melalui usaha patungan sebagaimana dimaksud dalam Pasal 29 ayat (1) huruf a tidak dapat melaksanakan pengiriman antarkota. Pengiriman antarkota sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui kerja sama operasi dengan Penyelenggara Pos dalam negeri. Perjanjian kerja sama operasi sebagaimana dimaksud pada ayat (2) paling sedikit memuat: peran dan tanggung jawab masing-masing pihak; pembagian risiko atas keamanan, keselamatan, dan kerahasiaan Kiriman; dan pemenuhan Standar Pelayanan. Pengiriman antaribu kota provinsi oleh usaha patungan dapat dilakukan sepanjang memiliki kantor layanan di ibu kota provinsi tujuan. Pengiriman ke ibu kota provinsi tujuan sebagaimana dimaksud pada ayat (4) dapat dilakukan secara mandiri oleh usaha patungan dan/atau melalui kerja sama dengan pelaku usaha lainnya.
+
+Bagian Kesebelas Perizinan Berusaha Paragraf 1 Umum Penyelenggaraan Pos dapat dilakukan setelah memenuhi Perizinan Berusaha sesuai ketentuan peraturan perundangundangan.
+
+Paragraf 2 Persyaratan dan Tata Cara Pemberian Izin Permohonan Perizinan Berusaha sebagaimana dimaksud dalam Pasal 31 harus memenuhi persyaratan sebagai berikut: memiliki modal usaha paling sedikit Rp500.000.000,00 (lima ratus juta rupiah); memiliki nomor induk berusaha; menyampaikan: proposal rencana usaha 5 (lima) tahun yang berisi: a) profil badan usaha, struktur permodalan, susunan direksi atau pengurus, dan dewan komisaris atau pengawas; b) aspek teknis; c) aspek bisnis; dan d) aspek keuangan, surat pernyataan kesanggupan mematuhi ketentuan Penyelenggaraan Pos; surat pernyataan yang menyatakan seluruh isian dokumen dalam permohonan Perizinan Berusaha benar dan valid; dan dokumen susunan kepengurusan sebagai bukti bahwa direksi, pengurus, dan/atau badan hukum tidak ditetapkan dalam daftar hitam Penyelenggara Pos;
+d. mematuhi persyaratan pembayaran biaya Perizinan Berusaha Penyelenggaraan Pos. Selain memenuhi persyaratan sebagaimana dimaksud pada ayat (1), permohonan Perizinan Berusaha yang menyertakan modal asing harus memenuhi ketentuan peraturan perundang-undangan di bidang penanaman modal. Perizinan Berusaha sebagaimana dimaksud dalam Pasal 31 diberikan berdasarkan jenis layanan Pos yang diajukan oleh pelaku usaha. Perizinan Berusaha sebagaimana dimaksud pada ayat (1) dikenai biaya izin Penyelenggaraan Pos yang merupakan penerimaan negara bukan pajak sesuai dengan ketentuan peraturan perundang-undangan. Permohonan Perizinan Berusaha sebagaimana dimaksud dalam Pasal 32 diajukan melalui Sistem OSS sesuai ketentuan peraturan perundang-undangan. Direktorat Jenderal melakukan verifikasi terhadap keabsahan kelengkapan dokumen persyaratan perizinan sebagaimana dimaksud dalam Pasal 32. Dalam hal hasil verifikasi sebagaimana dimaksud pada ayat
+(2) dinyatakan sah dan lengkap, Direktur Jenderal menerbitkan surat perintah membayar kepada pelaku usaha.
+
+Surat perintah membayar sebagaimana dimaksud pada ayat
+(3) berlaku untuk jangka waktu 10 (sepuluh) hari kerja terhitung sejak surat perintah membayar diterbitkan oleh Direktur Jenderal. Perizinan Berusaha diberikan apabila pelaku usaha telah melakukan pembayaran berdasarkan surat perintah membayar sebagaimana dimaksud pada ayat (4). Penyelenggara Pos dapat mengajukan Perizinan Berusaha Penyelenggaraan Pos untuk layanan transaksi keuangan sebagaimana dimaksud dalam Pasal 9 ayat (2) dengan memenuhi persyaratan sebagai berikut: memperoleh Perizinan Berusaha Penyelenggaraan Pos untuk layanan komunikasi tertulis dan/atau surat elektronik dan/atau Layanan Paket; memiliki jaringan di seluruh ibu kota provinsi; dan menjalankan kegiatan usaha paling singkat 1 (satu) tahun. Penyelenggara Pos yang mengajukan permohonan Perizinan Berusaha Penyelenggaraan transaksi keuangan berupa Wesel Pos sebagaimana dimaksud dalam Pasal 9 ayat (2) huruf a dan/atau Transfer Dana sebagaimana dimaksud dalam Pasal 9 ayat (2) huruf c harus melampirkan bukti Perizinan Berusaha dan/atau persetujuan dari lembaga yang berwenang di bidang sistem pembayaran dan memenuhi ketentuan peraturan perundang-undangan terkait layanan transaksi keuangan bidang Pos. Penyelenggara Pos yang mengajukan permohonan Perizinan Berusaha Penyelenggaraan transaksi keuangan untuk Giro Pos sebagaimana dimaksud dalam Pasal 9 ayat (2) huruf b dan/atau Tabungan Pos sebagaimana dimaksud dalam Pasal 9 ayat (2) huruf d harus memenuhi ketentuan peraturan perundang-undangan mengenai layanan transaksi keuangan bidang Pos. Perizinan Berusaha Penyelenggaraan transaksi keuangan dapat diberikan setelah memenuhi persyaratan sebagaimana dimaksud dalam Pasal 35, Pasal 36, dan Pasal 37 berdasarkan hasil verifikasi dokumen Perizinan Berusaha oleh Direktur Jenderal. Paragraf 3 Penambahan Jenis Layanan Penyelenggara Pos dapat melakukan penambahan jenis layanan Pos untuk masing-masing layanan sebagaimana dimaksud dalam Pasal 3 ayat (2). Penambahan jenis layanan Pos sebagaimana dimaksud pada ayat (1) dilakukan melalui Sistem OSS.
+
+Penambahan jenis layanan Pos dikenakan biaya yang merupakan penerimaan negara bukan pajak sesuai ketentuan peraturan perundang-undangan. Paragraf 4 Proposal Rencana Usaha Proposal rencana usaha berisi aspek teknis sebagaimana dimaksud dalam Pasal 32 ayat (1) huruf c angka 1 huruf b) paling sedikit memuat pemanfaatan teknologi dan infrastruktur operasional Penyelenggaraan Pos. Proposal rencana usaha berisi aspek bisnis sebagaimana dimaksud dalam Pasal 32 ayat (1) huruf c angka 1 huruf c) paling sedikit memuat jumlah sumber daya manusia, cakupan wilayah, dan sertifikasi. Proposal rencana usaha yang berisi aspek keuangan sebagaimana dimaksud dalam Pasal 32 ayat (1) huruf c angka 1 huruf d) paling sedikit memuat sumber dana dan proyeksi kebutuhan pendanaan. Penyediaan infrastruktur operasional pada aspek teknis sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui kerja sama dan/atau Interkoneksi.
+
+Bagian Keduabelas Tarif Layanan Pos Komersial Penyelenggara Pos menetapkan besaran Tarif Layanan Pos Komersial. Besaran tarif sebagaimana dimaksud pada ayat (1) ditetapkan dengan formula perhitungan berbasis biaya (cost based). Perhitungan berbasis biaya (cost based) sebagaimana dimaksud pada ayat (2) meliputi biaya produksi atau biaya operasional ditambah margin untuk penyelenggaraan Layanan Pos Komersial. Biaya produksi atau biaya operasional sebagaimana dimaksud pada ayat (3) merupakan biaya yang timbul dalam menjalankan operasional penyediaan layanan Pos yang terdiri atas: biaya tenaga kerja atau karyawan; biaya transportasi; biaya aplikasi; biaya teknologi; biaya yang timbul akibat kerja sama penyediaan sarana dan prasarana; dan
+f. biaya yang timbul akibat kerja sama dengan pelaku usaha orang perseorangan. Perhitungan berbasis biaya (cost based) sebagaimana dimaksud pada ayat memperhitungkan proyeksi permintaan layanan dalam tahun berjalan. Hasil perhitungan berbasis biaya (cost based) sebagaimana dimaksud pada ayat (3) ditetapkan menjadi biaya pokok layanan atau produk layanan.
+
+Selain komponen biaya produksi atau biaya operasional sebagaimana dimaksud pada ayat (4), formula tarif dapat memperhitungkan: biaya pemasaran; dan/atau biaya administrasi dan umum. Biaya pemasaran sebagaimana dimaksud pada ayat (7) huruf a merupakan biaya timbul dalam mempromosikan layanan Pos, terdiri atas: biaya promosi produk; biaya peluncuran produk; biaya pengembangan pasar; dan/atau biaya pemeliharaan pelanggan. Biaya administrasi dan umum sebagaimana dimaksud pada ayat (7) huruf b merupakan biaya yang timbul dalam pemenuhan kegiatan administrasi dan umum. Dalam hal terdapat: laporan dari masyarakat; atau laporan dari Penyelenggara Pos, Menteri melakukan evaluasi Tarif Layanan Pos Komersial. Evaluasi sebagaimana dimaksud pada ayat (1) dilaksanakan dengan memperhatikan paling sedikit: ulasan pasar; kajian biaya; penilaian dampak terhadap masyarakat; kinerja keuangan perusahaan; dan keberlangsungan layanan Pos. Berdasarkan hasil evaluasi sebagaimana dimaksud pada ayat (2), Menteri dapat menetapkan tarif batas atas dan/atau tarif batas bawah Penyelenggaraan Pos dengan memperhatikan kepentingan masyarakat dan persaingan usaha yang sehat. Penetapan tarif batas atas dan/atau tarif batas bawah Penyelenggaraan Pos diberlakukan untuk jangka waktu paling lama 6 (enam) bulan. Penetapan tarif batas atas dan/atau tarif batas bawah sebagaimana dimaksud dalam Pasal 42 ayat (3) dievaluasi paling sedikit setiap 3 (tiga) bulan atau sewaktu-waktu jika diperlukan. Direktur Jenderal dapat meminta laporan perhitungan besaran Tarif Layanan Pos Komersial kepada Penyelenggara Pos dalam hal terjadi: penurunan kualitas layanan; perubahan tarif yang signifikan; dan/atau indikasi ketidaksesuaian dalam penerapan perhitungan besaran tarif. Direktur Jenderal memberikan rekomendasi kepada Penyelenggara Pos dalam proses perhitungan Tarif Layanan Komersial berdasarkan hasil evaluasi laporan sebagaimana dimaksud pada ayat (1).
+
+Rekomendasi Direktur Jenderal sebagaimana dimaksud pada ayat (2) wajib dilaksanakan oleh Penyelenggara Pos dalam penetapan Tarif Layanan Pos Komersial. Penyelenggara Pos dapat menerapkan potongan harga terhadap besaran Tarif Layanan Pos Komersial sebagaimana dimaksud dalam Pasal 41 ayat (1) sebagai bagian dalam strategi usaha. Potongan harga sebagaimana dimaksud pada ayat (1) dapat diterapkan sepanjang tahun apabila besaran Tarif Layanan Pos Komersial setelah potongan harga masih di atas atau sama dengan biaya pokok layanan. Potongan harga yang mengakibatkan besaran Tarif Layanan Pos Komersial di bawah biaya pokok layanan hanya dapat diterapkan untuk kurun waktu tertentu. Kurun waktu tertentu sebagaimana dimaksud pada ayat (3) dilaksanakan paling lama 3 (tiga) hari dalam satu bulan. Direktur Jenderal dapat melakukan evaluasi terhadap pelaksanaan potongan harga sebagaimana dimaksud pada ayat (1). Penyelenggara Pos wajib memberikan data yang dibutuhkan oleh Direktur Jenderal dalam hal dilakukan evaluasi pelaksanaan potongan harga sebagaimana dimaksud pada ayat (5). Hasil evaluasi sebagaimana dimaksud pada ayat (6) dikoordinasikan dengan instansi atau lembaga negara yang bertanggung jawab untuk mengawasi persaingan usaha. Direktur Jenderal dapat mengambil kebijakan diperlukan untuk menjaga persaingan usaha yang sehat terkait pelaksanaan potongan harga sebagaimana dimaksud pada ayat (3) setelah berkoordinasi dengan instansi atau lembaga negara yang bertanggung jawab untuk mengawasi persaingan usaha. Tarif layanan paket pada PMSE ditetapkan dengan mempertimbangkan biaya pokok layanan dan produk layanan. Tarif layanan paket sebagaimana dimaksud pada ayat (1) merupakan tarif grosir (wholesale). Penetapan tarif layanan paket sebagaimana dimaksud pada ayat (1) dilakukan setelah mempertimbangkan penawaran harga dari PPMSE. Pelaksanaan potongan harga pada penyediaan layanan paket melalui PMSE diinformasikan oleh PPMSE berdasarkan kesepakatan dengan Penyelenggara Pos.
+
+BAB III STANDAR PELAYANAN UNTUK LAYANAN POS KOMERSIAL
+
+Bagian Kesatu Umum Penyelenggara Pos dalam menyediakan dan melaksanakan layanan Pos wajib memenuhi Standar Pelayanan untuk Layanan Pos Komersial. Standar Pelayanan Komersial sebagaimana dimaksud pada ayat (1) meliputi: kepastian waktu layanan; kepastian biaya layanan; kejelasan prosedur layanan; produk layanan; kompetensi sumber daya manusia;
+f. keamanan, kerahasiaan, dan keselamatan Kiriman;
+g. penanganan pengaduan, saran, masukan, informasi;
+h. sarana, prasarana, dan/atau fasilitas; dan
+i. jaminan pemberian ganti rugi atas keterlambatan, kehilangan, ketidaksesuaian layanan, dan kerusakan yang terbukti sebagai akibat kelalaian dan kesalahan Penyelenggara Pos paling tinggi 10 (sepuluh) kali biaya pengiriman, kecuali Kiriman yang diasuransikan.
+
+Bagian Kedua Kepastian Waktu Layanan Kepastian waktu layanan sebagaimana dimaksud dalam
+Pasal 47 ayat (2) huruf a merupakan kepastian waktu tempuh Kiriman yang dihitung sejak Penyelenggara Pos menerima Kiriman sampai dengan Penerima menerima Kiriman. Penerimaan Kiriman dari Pengirim kepada Penyelenggara Pos sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui: gerai layanan; atau penjemputan (pick up) Kiriman. Penyelenggara Pos menetapkan waktu tempuh Kiriman sebagai komitmen kepada Pengguna berdasarkan standar waktu. Perhitungan standar waktu tempuh Kiriman melalui gerai layanan sebagaimana dimaksud pada ayat (2) huruf a dihitung ketika Kiriman diserahkan oleh Pengguna Layanan Pos di gerai layanan. Perhitungan standar waktu tempuh Kiriman melalui penjemputan (pick up) Kiriman sebagaimana dimaksud pada ayat (2) huruf b dihitung sejak Penyelenggara Pos menerima permintaan penjemputan (pick up) Kiriman dari Pengguna Layanan Pos. Penyelenggara Pos menetapkan rentang waktu antara permintaan penjemputan (pick up) Kiriman dengan waktu penjemputan (pick up) Kiriman.
+
+Pemesanan layanan dapat dilakukan secara langsung atau melalui sistem elektronik. Kepastian waktu layanan sebagaimana dimaksud pada ayat
+(1) dipublikasikan melalui sistem informasi layanan Pos. Ketentuan waktu tempuh Kiriman untuk layanan komunikasi tertulis dan/atau surat elektronik serta layanan paket meliputi: pada hari yang sama dalam rentang waktu kurang dari 6 (enam) jam di dalam kota dan kawasan aglomerasi; pada hari yang sama dalam rentang waktu 6 (enam) sampai dengan 12 (dua belas) jam untuk wilayah dalam kota dan kawasan aglomerasi; pada hari berikutnya untuk wilayah kota atau kabupaten dalam pulau dan antarpulau paling lama 24 (dua puluh empat) jam; antarkota dalam pulau paling lama 3 (tiga) hari; antarkota antarpulau paling lama 7 (tujuh) hari; dan
+f. untuk wilayah zona khusus atau daerah tertinggal yang ditetapkan oleh pemerintah paling lama 20 (dua puluh) hari. Penyelenggara Pos menetapkan standar waktu tempuh Kiriman yang melalui wilayah pabean dan memublikasikannya melalui sistem informasi Layanan Pos kepada Pengguna Layanan Pos dengan mempertimbangkan ketentuan peraturan perundangundangan mengenai kepabeanan. Penyelenggara Pos menyimpan data pengiriman yang dituangkan dalam bentuk kode quick response paling singkat 4 (empat) bulan sejak dilakukan transaksi antara Pengguna Layanan Pos dengan Penyelenggara Pos. Penyimpanan data pengiriman sebagaimana dimaksud pada ayat (1) harus dilengkapi dengan sistem pencadangan. Ketentuan waktu tempuh Kiriman untuk Kiriman yang terjadwal didasarkan pada kontrak kerja sama.
+
+Bagian Ketiga Kepastian Biaya Layanan Penyelenggara Pos dalam memberikan kepastian biaya layanan sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf b membuat daftar tarif layanan sesuai dengan jenis atau produk layanan yang disediakan dan dipublikasikan kepada masyarakat. Tarif layanan untuk pengiriman yang berbasis kontrak kerja sama ditetapkan berdasarkan kesepakatan antara Penyelenggara Pos dengan Pengguna Layanan Pos.
+
+Bagian Keempat Kejelasan Prosedur Layanan Penyelenggara Pos wajib menetapkan dan melaksanakan SOP menjamin kejelasan prosedur sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf c. SOP sebagaimana dimaksud pada ayat (1), paling sedikit memuat: prosedur penyediaan layanan; jadwal pelayanan; prosedur pelacakan Kiriman; prosedur layanan dalam keadaan darurat; dan jenis produk layanan. SOP sebagaimana dimaksud pada ayat (1) memperhatikan hak dan kewajiban Pengguna Layanan Pos. Penyelenggara Pos menetapkan pedoman Pengguna Layanan Pos, yang paling sedikit memuat: deskripsi umum jenis layanan, produk, dan/atau fitur; daftar tarif produk dan/atau layanan yang ditawarkan; daftar Kiriman terlarang yang dapat dikirim dengan persyaratan tertentu sesuai dengan ketentuan peraturan perundang-undangan; daftar kantor layanan yang tersedia yang memudahkan Pengguna Layanan Pos melakukan pengiriman; hak dan kewajiban Pengguna Layanan Pos dan Penyelenggara Pos;
+f. kebijakan pemrosesan data pribadi Pengguna Layanan Pos;
+g. prosedur dan tata cara pengaduan, saran dan masukan, ganti rugi, serta asuransi terhadap penyelenggaraan layanan; dan
+h. prosedur layanan yang ditetapkan instansi terkait dengan penyelenggaraan sesuai dengan ketentuan peraturan perundang-undangan. Pedoman Pengguna Layanan Pos untuk Kiriman yang terlarang sebagaimana dimaksud pada ayat (1) huruf c, prosedur layanan sebagaimana dimaksud pada ayat (1) huruf h, serta untuk Kiriman dari dan ke daerah pabean, dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. Penyelenggara Pos menetapkan SOP layanan pada keadaan darurat karena bencana alam dan/atau nonalam. SOP sebagaimana dimaksud pada ayat (1) bertujuan untuk menjaga keselamatan jiwa, keamanan Kiriman, aset atau harta benda, dan kontinuitas pelayanan. SOP sebagaimana dimaksud pada ayat (1) paling sedikit memuat: jadwal pelayanan dalam keadaan darurat; standar waktu tempuh Kiriman dalam keadaan darurat;
+
+prosedur pengamanan Kiriman dalam keadaan darurat; penerimaan pengaduan dalam keadaan darurat. Dalam hal terjadi keadaan darurat karena bencana alam dan/atau nonalam sebagaimana dimaksud pada ayat (1), memprioritaskan Kiriman diperuntukkan korban dan/atau kebutuhan penanganan bencana alam dan/atau nonalam. Penyelenggara Pos memublikasikan SOP sebagaimana dimaksud pada ayat (1) kepada masyarakat.
+
+Bagian Kelima Produk Layanan menetapkan produk sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf d. Produk layanan sebagaimana dimaksud pada ayat (1) merupakan produk turunan dari jenis layanan, waktu tempuh, segmen pengguna, jangkauan, moda transportasi, dan tarif. Informasi mengenai produk layanan sebagaimana dimaksud pada ayat (1) dicantumkan pada kode quick response. Produk layanan sebagaimana dimaksud pada ayat (2) harus dibungkus dengan menggunakan merek Penyelenggara Pos. Produk layanan sebagaimana dimaksud pada ayat (4) dapat dibungkus ulang dengan merek lain dalam hal terdapat kerja sama antar Penyelenggara Pos.
+
+Bagian Keenam Kompetensi Sumber Daya Manusia Penyelenggara Pos harus memiliki sumber daya manusia yang memiliki kompetensi di bidang Penyelenggaraan Pos. Kompetensi sebagaimana dimaksud pada ayat dibuktikan dengan sertifikat kompetensi dan/atau bukti pelatihan lainnya di bidang Penyelenggaraan Pos. Penyelenggara Pos memberikan pelatihan dasar bagi pegawai yang bertugas: pada gerai atau kantor pelayanan; dan melakukan pengantaran kepada Pengguna Layanan Pos, sesuai dengan tugas dan fungsinya. Pelatihan dasar sebagaimana dimaksud pada ayat (1) paling sedikit terdiri atas pelatihan: penerimaan dan penerusan Kiriman; pengolahan Kiriman; pengangkutan Kiriman; dan pengantaran Kiriman.
+
+Penyelenggara Pos memberikan pelatihan di bidang pelindungan data pribadi kepada pegawai ditugaskan mengendalikan atau memproses data pribadi.
+
+Bagian Ketujuh Keamanan, Kerahasiaan, dan Keselamatan Kiriman Penyelenggara Pos menjamin keamanan, kerahasiaan, dan keselamatan Kiriman. Dalam menjamin keamanan, kerahasiaan, dan keselamatan Kiriman sebagaimana dimaksud pada ayat
+(1), Penyelenggara Pos menetapkan SOP yang paling sedikit memuat: pencegahan dan penanganan atas risiko pengiriman Kiriman yang terlarang dan/atau Kiriman khusus yang dikirim melalui Penyelenggara Pos; pencegahan penanganan kehilangan atau pencurian Kiriman dipercayakan kepada Penyelenggara Pos; pencegahan dan penanganan lalu lintas narkotika, psikotropika, dan obat-obatan terlarang lainnya; penanganan terhadap kerahasiaan informasi Kiriman; prosedur penerimaan, pengiriman, dan pengawasan Kiriman yang terlarang dan Kiriman khusus; dan
+f. prosedur koordinasi dengan otoritas keselamatan dan keamanan di bandar udara dan/atau pelabuhan laut. Kiriman sebagaimana dimaksud pada ayat (1) memenuhi ketentuan pengiriman barang terlarang sesuai dengan ketentuan peraturan perundang-undangan. Penyelenggara Pos meminta informasi kepada Pengguna Layanan Pos terkait isi dari Kiriman. Penyelenggara Pos berhak membuka dan/atau memeriksa Kiriman di hadapan Pengguna Layanan Pos dalam hal terdapat indikasi Kiriman yang terlarang sebagai berikut: ketidaklaziman terkait bentuk, berat, dan dimensi kemasan Kiriman; ketidaklaziman terkait jumlah frekuensi pengiriman; dan/atau hasil pemindaian baik secara manual maupun otomatis dengan berbagai metode, alat, dan/atau perangkat tertentu. Penyelenggara Pos harus berkoordinasi dengan instansi berwenang menentukan indikasi selain sebagaimana dimaksud pada ayat (2). Pemeriksaan sebagaimana dimaksud pada ayat (2) tidak dilakukan terhadap informasi yang terkandung di dalam Kiriman surat, kartu Pos, dan/atau dokumen. Penyelenggara Pos wajib menjaga kerahasiaan terhadap isi Kiriman.
+
+Penyelenggara Pos harus menjamin pembungkusan Kiriman dilakukan dengan baik. Pembungkusan Kiriman sebagaimana dimaksud pada ayat
+(1) memperhatikan aspek ramah lingkungan. Penyelenggara Pos dalam menyelenggarakan kegiatan Penyelenggaraan Pos menggunakan setiap jenis moda transportasi baik darat, laut, dan/atau udara. Dalam rangka menjamin keamanan dan keselamatan Kiriman, pengambilan dan/atau pengantaran Kiriman oleh Penyelenggara Pos dilakukan dengan menggunakan moda transportasi sesuai dengan ketentuan peraturan perundangundangan. Pengambilan dan/atau pengantaran Kiriman kepada Pengguna Layanan Pos menggunakan moda transportasi: sepeda motor roda dua; sepeda motor roda tiga; mobil barang; dan/atau kendaraan atau angkutan lainnya dapat digunakan untuk mengangkut barang. Moda transportasi sebagaimana dimaksud pada ayat (3) digunakan dalam rangka efektivitas efisiensi Penyelenggaraan Pos. Kiriman yang diambil dan/atau diantar dengan menggunakan sepeda motor roda dua sebagaimana dimaksud dalam Pasal 65 ayat (3) huruf a atau sepeda motor roda tiga sebagaimana dimaksud dalam Pasal 65 ayat (3) huruf b harus memperhatikan: berat maksimal per Kiriman 20 (dua puluh) kilogram; total maksimal berat dan jumlah Kiriman yang diangkut tidak melebihi daya angkut kendaraan; Kiriman ditempatkan di belakang pengemudi atau di ruang muatan yang diperuntukkan untuk sepeda motor roda dua atau sepeda motor roda tiga; tinggi muatan tidak melebihi 90 (sembilan puluh) sentimeter dari atas tempat duduk pengemudi; dan lebar muatan tidak melebihi stang kemudi. Penyelenggara Pos wajib menjaga kerahasiaan terhadap data pribadi Pengguna Layanan Pos. Penyelenggara Pos melakukan pemrosesan data pribadi Pengguna Layanan Pos untuk kepentingan Penyelenggaraan Pos yang meliputi: nama Pengguna Layanan Pos; alamat Pengguna Layanan Pos; dan nomor telepon Pengguna Layanan Pos. Penyelenggara Pos dalam melakukan pemrosesan data pribadi sebagaimana dimaksud pada ayat (2) menggunakan sistem keamanan dan pelindungan data pribadi yang andal, aman, dan bertanggung jawab.
+
+dilarang secara melawan hukum mengungkapkan kepada pihak lain dan/atau menggunakan data pribadi Pengguna Layanan Pos dengan maksud untuk menguntungkan diri sendiri atau orang lain yang dapat mengakibatkan kerugian Pengguna Layanan Pos. Pelaksanaan pengawasan atas pengelolaan, pemrosesan, pemanfaatan, keamanan, dan kerahasiaan data pribadi Pengguna Layanan Pos dilakukan sesuai dengan ketentuan peraturan perundang-undangan.
+
+Bagian Kedelapan Penanganan Pengaduan, Saran, Masukan, dan Informasi Penyelenggara Pos menyediakan layanan penanganan pengaduan, saran, masukan, dan pengelolaan informasi. memberikan respons terhadap pengaduan atas layanan yang diberikan kepada Pengguna Layanan Pos dalam jangka waktu paling lama 1 (satu) hari kerja terhitung sejak pengaduan diterima. Respons sebagaimana dimaksud pada ayat (2) berupa informasi mengenai: hasil pelacakan Kiriman; keberadaan Kiriman; dan/atau kondisi Kiriman. Penyelenggara Pos menyampaikan informasi perkembangan penyelesaian penanganan pengaduan, penerimaan saran, masukan, dan pengelolaan informasi apabila diminta oleh Pengguna Layanan Pos. Layanan penanganan pengaduan sebagaimana dimaksud pada ayat (1) dilakukan melalui sarana elektronik dan/atau nonelektronik serta terdokumentasi. Dalam hal Pengguna Layanan Pos dan/atau Penyelenggara Pos tidak sepakat atas penyelesaian pengaduan, dapat mengajukan penyelesaian melalui: badan yang bertugas menangani dan menyelesaikan sengketa konsumen; pengadilan; dan/atau alternatif penyelesaian sengketa lainnya, sesuai dengan ketentuan peraturan perundang-undangan. Pengaduan atas Layanan Pos melalui PMSE dari Pengguna Layanan Pos, ditindaklanjuti oleh PPMSE. PPMSE menindaklanjuti pengaduan sebagaimana dimaksud pada ayat (1) kepada Penyelenggara Pos melalui layanan penanganan pengaduan sebagaimana dimaksud dalam
+Pasal 68 ayat (1). Ketentuan sebagaimana dimaksud pada ayat dikecualikan dalam hal PPMSE dan Penyelenggara Pos telah memiliki mekanisme layanan penanganan pengaduan berdasarkan kontrak kerja sama.
+
+Menteri melakukan survei kepuasan atas pemanfaatan layanan oleh Pengguna Layanan Pos. Menteri dalam melaksanakan survei sebagaimana dimaksud pada ayat (1) mendelegasikan kepada Direktur Jenderal. Survei kepuasan sebagaimana dimaksud pada ayat (1) dilakukan secara berkala paling sedikit 1 (satu) kali dalam 1 (satu) tahun. Hasil survei kepuasan Pengguna Layanan Pos sebagaimana dimaksud pada ayat (1) dipublikasikan oleh Direktorat Jenderal.
+
+Bagian Kesembilan Sarana, Prasarana, dan/atau Fasilitas Penyelenggara Pos menyediakan sarana dan prasarana sebagaimana dimaksud dalam Pasal 12 dan/atau Pasal 13. Selain sarana dan prasarana sebagaimana dimaksud pada ayat (1), Penyelenggara Pos juga menyediakan sarana, prasarana, dan/atau fasilitas bagi penyandang disabilitas.
+
+Bagian Kesepuluh Ganti Rugi Dalam hal terjadi kehilangan, kerusakan, keterlambatan, dan/atau ketidaksesuaian layanan terhadap Kiriman yang diakibatkan pelaksanaan layanan oleh Penyelenggara Pos, Penyelenggara Pos memberikan ganti rugi kepada Pengguna Layanan Pos paling tinggi 10 (sepuluh) kali biaya pengiriman kepada Pengguna Layanan Pos, kecuali Kiriman yang diasuransikan. Pengenaan biaya asuransi kepada Pengguna Layanan Pos dilakukan berdasarkan kesepakatan antara Penyelenggara Pos dan Pengguna Layanan Pos. Ganti rugi sebagaimana dimaksud pada ayat (1) wajib diselesaikan oleh Penyelenggara Pos sesuai dengan kerangka waktu sebagai berikut: untuk kehilangan Kiriman, Penyelenggara Pos wajib memberikan ganti rugi dalam jangka waktu paling lama 7 (tujuh) hari kerja terhitung sejak terbukti terjadinya kehilangan Kiriman; untuk kerusakan Kiriman, Penyelenggara Pos wajib memberikan ganti rugi dalam jangka waktu paling lama 7 (tujuh) hari kerja terhitung sejak terbukti terjadinya kerusakan Kiriman; untuk keterlambatan Kiriman, Penyelenggara Pos wajib memberikan ganti rugi dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak terbukti terjadinya keterlambatan Kiriman; dan ketidaksesuaian standar dijanjikan, Penyelenggara Pos wajib memberikan ganti rugi dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak terbukti terjadinya ketidaksesuaian layanan.
+
+Dalam hal Kiriman telah diasuransikan, ganti rugi diberikan sesuai dengan pertanggungan yang diatur dalam perjanjian asuransi. Penyelenggara Pos tidak berkewajiban memberikan ganti rugi kepada Pengguna Layanan Pos dalam hal terjadi kehilangan atau kerusakan Kiriman yang diakibatkan oleh: bencana alam; keadaan darurat; kerusakan karena sifat atau keadaan Kiriman yang dikirim; kesalahan atau kelalaian pengguna layanan; akibat ketidaksesuaian informasi mengenai isi Kiriman; atau
+f. hal lain diluar kemampuan manusia. Dalam hal terjadi kerusakan, perubahan bentuk Kiriman, dan/atau perubahan bentuk kemasan yang disebabkan dari pemeriksaan oleh pejabat yang berwenang berdasarkan ketentuan peraturan perundang-undangan, tidak menjadi tanggung jawab dari Penyelenggara Pos. Selain memberikan ganti rugi sebagaimana dimaksud dalam
+Pasal 73 ayat (3) huruf c, Penyelenggara Pos menyelesaikan pengiriman dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak pemberitahuan keterlambatan Kiriman berdasarkan hasil pelacakan Kiriman. Ganti rugi atas kehilangan, kerusakan, keterlambatan, dan/atau ketidaksesuaian layanan yang diakibatkan oleh mitra atau agen Penyelenggara Pos merupakan tanggung jawab Penyelenggara Pos kepada Pengguna Layanan Pos. Mitra atau agen Penyelenggara Pos sebagaimana dimaksud pada ayat (1) turut bertanggung jawab atas kehilangan, kerusakan, keterlambatan dan/atau ketidaksesuaian layanan kepada Penyelenggara Pos sesuai dengan perjanjian kerja sama antara mitra atau agen dengan Penyelenggara Pos. Ganti rugi atas kehilangan, kerusakan, keterlambatan, dan/atau ketidaksesuaian layanan yang melalui PMSE diberikan kepada Pengguna Layanan Pos berdasarkan informasi Layanan Pos yang disampaikan oleh PPMSE kepada Pengguna Layanan Pos.
+
+BAB IV PEMANFAATAN TEKNOLOGI, KODE POS, DAN KODE PENGIRIMAN
+
+Bagian Kesatu Pemanfaatan Teknologi Paragraf 1 Kode Quick Response Penyelenggara Pos menyediakan teknologi kode quick response sebagai teknologi yang digunakan pada resi pengiriman. Kode quick response sebagaimana dimaksud pada ayat (1) dapat diakses oleh Penyelenggara Pos dan Pengguna Layanan Pos melalui sistem informasi atau aplikasi yang disediakan oleh Penyelenggara Pos. Kode quick response sebagaimana dimaksud pada ayat (1) paling sedikit memuat informasi sebagai berikut: nama Pengguna Layanan Pos, baik Pengirim maupun Penerima; alamat Pengguna Layanan Pos, baik Pengirim maupun Penerima; Kode Pos; nomor telepon Pengguna Layanan Pos; informasi mengenai Kiriman; dan
+f. tarif layanan. Kode quick response dapat terintegrasi dengan sistem informasi: Kode Pos; pelacakan Kiriman; pembayaran digital; Interkoneksi; pertukaran data;
+f. pengaduan konsumen; dan
+g. portal informasi lainnya. Penyediaan teknologi kode quick response dapat dilakukan secara mandiri maupun bekerja sama dengan: Penyelenggara Pos lainnya; penyedia teknologi; dan/atau PPMSE dalam hal pengiriman dilakukan melalui kerja sama dengan PPMSE. Penggunaan kode quick response sebagaimana dimaksud pada ayat (1) dikecualikan untuk Kiriman dari dan/atau ke luar negeri. Standardisasi kode quick response keperluan Interkoneksi sebagaimana dimaksud dalam Pasal 77 ayat (4) huruf d disepakati bersama oleh Penyelenggara Pos.
+
+Dalam hal standardisasi sebagaimana dimaksud pada ayat
+(1) belum disepakati bersama oleh Penyelenggara Pos, Direktur Jenderal dapat menetapkan standardisasi kode quick response dan/atau menyediakan sistem informasi atau aplikasi untuk keperluan Interkoneksi bagi Penyelenggara Pos. Paragraf 2 Sistem Pelacakan Kiriman Penyelenggara Pos harus menyediakan sistem pelacakan Kiriman. Dalam hal Penyelenggara Pos belum dapat menyediakan sistem pelacakan Kiriman sebagaimana dimaksud pada ayat
+(1), penyediaan dapat dilakukan melalui: fasilitasi oleh Direktorat Jenderal; atau kerja sama antar Penyelenggara Pos. Paragraf 3 Sistem Informasi Penyelenggaraan Pos Penyelenggara Pos harus memublikasikan informasi layanan Pos yang disediakan. Publikasi sebagaimana dimaksud pada ayat (1) paling sedikit berisi jenis layanan dan tarif. Dalam hal Penyelenggara Pos bekerja sama dengan PPMSE, publikasi sebagaimana dimaksud pada ayat (1) dapat dilakukan oleh PPMSE. Direktorat Jenderal dapat memfasilitasi publikasi sebagaimana dimaksud dalam Pasal 80 ayat (1) melalui penyediaan sistem informasi Penyelenggaraan Pos yang dapat diakses oleh Pengguna Layanan Pos. Sistem informasi Penyelenggaraan sebagaimana dimaksud pada ayat (1) paling sedikit berisi: letak atau posisi gerai layanan Pos; cakupan layanan Pos; tarif layanan Pos; informasi Kode Pos; informasi prangko dan filateli; dan
+f. validasi Perizinan Berusaha. Paragraf 4 Kerja Sama Layanan Logistik Penyelenggara Pos yang menyediakan layanan logistik dapat melakukan kerja sama pengangkutan (transporting) dan pergudangan (warehousing) untuk meningkatkan efisiensi dan efektivitas penyediaan layanan logistik melalui sistem informasi atau aplikasi.
+
+Kerja sama sebagaimana dimaksud pada ayat (1) dapat dilakukan berdasarkan prinsip saling menguntungkan: antar Penyelenggara Pos; atau antara Penyelenggara Pos dengan pelaku usaha pengiriman lainnya bukan Penyelenggara Pos. Direktorat Jenderal dapat memfasilitasi kerja sama sebagaimana dimaksud dalam Pasal 82 ayat (1) melalui sistem informasi atau aplikasi kerja sama layanan logistik. Sistem informasi atau aplikasi kerja sama layanan logistik sebagaimana dimaksud pada ayat (1) bertujuan untuk meningkatkan kerja sama dan efisiensi pemanfaatan infrastruktur Penyelenggara Pos. Sistem informasi atau aplikasi sebagaimana dimaksud pada ayat (2) menyediakan informasi yang meliputi: ketersediaan kapasitas gudang atau tempat penyimpanan; ketersediaan kapasitas moda dan jalur transportasi; mekanisme Interkoneksi; dan informasi lain yang dibutuhkan terkait sarana dan prasarana.
+
+Bagian Kedua Kode Pos Pengguna harus mencantumkan Kode Pos untuk setiap Kiriman. Kode Pos terdiri atas: angka; huruf; atau gabungan angka dan huruf. Kode Pos sebagaimana dimaksud pada ayat (1) digunakan untuk: penanda wilayah Negara Kesatuan Republik Indonesia; memudahkan penyortiran Kiriman; meningkatkan efektivitas dan efisiensi pengiriman; memudahkan Interkoneksi antar Penyelenggara Pos; meningkatkan kualitas layanan. Kode Pos ditetapkan oleh Menteri setelah berkoordinasi dengan kementerian menyelenggarakan urusan pemerintahan dalam negeri lembaga menyelenggarakan tugas pemerintahan di bidang statistik. Menteri dalam menetapkan Kode sebagaimana dimaksud pada ayat (1) paling sedikit memuat: susunan, urutan, dan skema penomoran wilayah; dan nomor Kode Pos sampai dengan wilayah terkecil suatu daerah.
+
+Bagian Ketiga Kode Pengiriman Menteri melalui Direktur Jenderal menetapkan kode pengiriman untuk digunakan dalam Penyelenggaraan Pos. Penetapan kode pengiriman sebagaimana dimaksud pada ayat (1) berdasarkan masukan: Penyelenggara Pos; instansi penyelenggara negara; dan/atau masyarakat.
+
+BAB V INTERKONEKSI ANTAR PENYELENGGARA POS
+
+Bagian Kesatu Umum Interkoneksi antar dilakukan berdasarkan prinsip nondiskriminatif, transparan, bertanggung jawab, dan saling menguntungkan. Interkoneksi sebagaimana dimaksud pada ayat dilaksanakan sebagai berikut: penyampaian Kiriman Pos universal melalui jaringan Penyelenggara Pos yang menyediakan Layanan Pos Komersial; penyampaian Kiriman menyediakan Komersial dengan menggunakan jaringan penyelenggara Layanan Pos Universal; dan/atau penyampaian Kiriman dari Penyelenggara Pos melalui jaringan Penyelenggara Pos lainnya untuk Layanan Pos Komersial. Interkoneksi sebagaimana dimaksud pada ayat (2) huruf b dan huruf c dilaksanakan untuk keperluan Kiriman berupa: surat atau dokumen dalam rangka layanan komunikasi tertulis dan/atau surat elektronik; dan bungkusan kecil dan/atau barang dalam rangka layanan paket dan/atau logistik. Interkoneksi keperluan Kiriman sebagaimana dimaksud pada ayat dilaksanakan berdasarkan perjanjian kerja sama untuk pengiriman yang berbasis grosir (wholesale).
+
+Bagian Kedua Interkoneksi Interkoneksi dilaksanakan pada titik layanan atau jaringan yang ditentukan oleh Penyelenggara Pos. Interkoneksi dilaksanakan dengan memperhatikan keterhubungan sistem informasi dimiliki oleh Penyelenggara Pos.
+
+Dalam penyediaan Interkoneksi, Penyedia Interkoneksi harus menyediakan paling sedikit: informasi secara terbuka tentang fasilitas yang dimiliki dan dapat dipergunakan oleh Penyelenggara Pos lain; prosedur dan tarif sesuai dengan ketentuan peraturan perundang-undangan; dan DPI yang dipublikasikan dengan paling sedikit memuat: 1) jaringan yang ditawarkan; 2) spesifikasi teknis Interkoneksi; 3) tarif Interkoneksi; 4) prosedur pelaksanaan layanan Interkoneksi; dan 5) tanggung jawab penyedia layanan Interkoneksi. Pengguna Interkoneksi harus memenuhi spesifikasi teknis yang dipersyaratkan oleh Penyedia Interkoneksi.
+
+Bagian Ketiga Kerja Sama Interkoneksi Interkoneksi sebagaimana dimaksud dalam Pasal 88 ayat (2) huruf c dilaksanakan berdasarkan kesepakatan antar Penyelenggara Pos dalam bentuk perjanjian kerja sama Interkoneksi.
+
+Bagian Keempat Pelindungan Pengguna Layanan Pos dalam Interkoneksi Penyelenggara Pos dalam melaksanakan Interkoneksi, wajib menjaga Standar Pelayanan Pos yang dijanjikan kepada Pengguna Layanan Pos. Penyelenggara Pos yang menerima Kiriman dari Pengirim wajib menyelesaikan Kiriman dan bertanggung jawab terhadap Kiriman yang terlambat, hilang, rusak, dan/atau tidak sesuai dengan layanan yang dijanjikan kepada Pengirim yang diakibatkan pelaksanaan Interkoneksi.
+
+Bagian Kelima Interkoneksi Kiriman untuk Layanan Pos Universal Penyelenggara Pos wajib menyediakan Interkoneksi untuk penyampaian Kiriman Layanan Pos universal dalam hal: penyelenggara Layanan Pos Universal tidak memiliki jaringan atau jangkauan layanan di suatu wilayah; Penyelenggara Pos yang menyediakan Layanan Pos Komersial mampu menyediakan layanan; dan penyelenggara Layanan Pos Universal menyampaikan permohonan kepada Penyedia Interkoneksi. Kiriman Pos universal yang dapat diinterkoneksikan sebagaimana dimaksud pada ayat (1) mencakup: surat, kartu Pos, barang cetakan, dan bungkusan kecil (surat berisi barang) dengan berat sampai dengan 2 (dua) kilogram;
+
+barang cetakan yang dikirim dalam kantong khusus yang ditujukan untuk Penerima dengan alamat yang sama dengan berat sampai dengan 30 (tiga puluh) kilogram (M-bag); dan paket Pos dengan berat sampai dengan 20 (dua puluh) kilogram. Interkoneksi Layanan Pos Universal dilaksanakan pada titik layanan yang diperjanjikan antara Penyelenggara Layanan Pos Universal dengan Penyedia Interkoneksi. Penyelenggara Pos dalam melakukan Interkoneksi Layanan Pos Universal harus memastikan keterhubungan jaringan nonfisik antar Penyelenggara Pos. Pelaksanaan Interkoneksi Layanan Pos Universal dilakukan sebagai berikut: penyelenggara Layanan Pos Universal menyampaikan Kiriman Pos universal kepada Penyedia Interkoneksi untuk diserahkan ke Penerima; atau Penyedia Interkoneksi menyampaikan Kiriman Pos universal kepada penyelenggara Layanan Pos Universal untuk diserahkan ke Penerima. Penyelenggara Layanan Pos Universal menyampaikan informasi kepada Pengguna Layanan Pos terkait Kiriman Pos universal yang diinterkoneksikan.
+
+Bagian Keenam Daftar Penawaran Interkoneksi Penyedia Interkoneksi harus menyediakan informasi mengenai fasilitas Interkoneksi yang dimiliki dan dapat dipergunakan secara terbuka kepada Pengguna Interkoneksi dalam bentuk DPI. DPI sebagaimana dimaksud pada ayat (1) paling sedikit memuat: jaringan yang ditawarkan, meliputi titik dan jangkauan layanan Pos; spesifikasi teknis Interkoneksi yang meliputi: 1) pemakaian formulir untuk serah terima Kiriman; 2) pemakaian kode yang seragam untuk Kiriman; dan 3) ukuran alat atau sarana untuk menghimpun Kiriman yang memenuhi standar; tarif Interkoneksi paling sedikit mempertimbangkan Titik Interkoneksi yang diperjanjikan; prosedur pelaksanaan Interkoneksi paling sedikit meliputi: 1) ketentuan pengoperasian; dan 2) panduan perjanjian kerjasama Interkoneksi; tanggung jawab Penyedia Interkoneksi. DPI sebagaimana dimaksud pada ayat (1) ditetapkan sesuai petunjuk penyusunan DPI dalam ketentuan teknis Interkoneksi sebagaimana tercantum dalam Lampiran I yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.
+
+Penyedia Interkoneksi harus memublikasikan DPI melalui situs resmi Penyedia Interkoneksi, media dan/atau cara lainnya sehingga dapat diketahui oleh Penyelenggara Pos Pengguna Interkoneksi.
+
+Bagian Ketujuh Permohonan dan Penolakan Interkoneksi Pemohon Interkoneksi mengajukan permohonan kepada Penyedia Interkoneksi. Permohonan sebagaimana dimaksud pada ayat (1) paling sedikit memuat: nama pejabat yang berwenang dan narahubung; objek Interkoneksi; titik layanan Interkoneksi; dan informasi lainnya terkait pelaksanaan Interkoneksi. Penyedia Interkoneksi memberikan jawaban dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak pengajuan permohonan dinyatakan memenuhi ketentuan sebagaimana dimaksud pada ayat (2). Jawaban sebagaimana dimaksud pada ayat (3) paling sedikit memuat: nama pejabat yang berwenang dan narahubung; kondisi teknis dan operasional, paling sedikit memuat: 1) jadwal persiapan sebelum pelaksanaan Interkoneksi; dan 2) informasi tentang titik layanan Interkoneksi, tarif Interkoneksi; dan informasi tentang pelaksanaan proses administrasi dalam penyediaan Interkoneksi. Penyedia Interkoneksi dapat menolak permohonan Interkoneksi dalam hal: permohonan tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (2); permohonan melebihi kapasitas Interkoneksi yang tersedia; dan/atau Titik Interkoneksi sudah tidak beroperasi baik permanen maupun sementara. Dalam hal Penyedia Interkoneksi menolak permohonan Interkoneksi sebagaimana dimaksud pada ayat (5), Penyedia Interkoneksi harus menyampaikan alasan penolakan dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak permohonan diterima. Pemohon Interkoneksi dapat mengajukan kembali permohonan Interkoneksi kepada Penyedia Interkoneksi setelah memenuhi alasan penolakan sebagaimana dimaksud pada ayat (6).
+
+Bagian Kedelapan Penyampaian Kiriman melalui Jaringan Layanan Pos Universal dapat menggunakan infrastruktur Layanan Pos Universal untuk mengirimkan Kiriman yang bersifat komersial.
+
+Infrastruktur Layanan Pos Universal sebagaimana dimaksud pada ayat (1) merupakan infrastruktur yang melekat pada penyelenggaraan Layanan Pos Universal. Kiriman sebagaimana dimaksud pada ayat (1) merupakan Kiriman yang menggunakan tarif dan Standar Pelayanan berdasarkan kesepakatan. Kiriman sebagaimana dimaksud pada ayat (1) dapat berupa Kiriman dalam negeri dan/atau luar negeri. Penyelenggara Layanan Pos Universal menyiapkan SOP pelaksanaan Interkoneksi Universal sebagaimana dimaksud dalam Pasal 88 ayat (2) huruf b. SOP sebagaimana dimaksud pada ayat harus memperhatikan ketentuan akta perhimpunan Pos sedunia dan ketentuan peraturan perundang-undangan. Interkoneksi dalam rangka penyampaian Kiriman sebagaimana dimaksud dalam Pasal 96 ayat (1) didasarkan pada perjanjian kerja sama Interkoneksi. Universal memperoleh pendapatan dari penyediaan Interkoneksi penyampaian Kiriman yang bersifat komersial melalui titik dan jaringan Layanan Pos Universal. Pendapatan sebagaimana dimaksud pada ayat (1) digunakan untuk perhitungan pembayaran subsidi atau bantuan operasional penyelenggaraan Layanan Pos Universal tahun berjalan.
+
+Bagian Kesembilan Tarif Interkoneksi Pengguna Interkoneksi dikenakan tarif Interkoneksi. Tarif Interkoneksi sebagaimana dimaksud pada ayat (1) dihitung melalui pendekatan penetapan tarif grosir (wholesale).
+
+Bagian Kesepuluh Tata Cara Pembayaran Tarif Interkoneksi Tata cara pembayaran tarif Interkoneksi dilakukan melalui proses perekaman informasi tagihan, pertukaran informasi tagihan, penagihan, pembayaran, penyelesaian perbedaan perhitungan. Tata cara pembayaran tarif Interkoneksi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan kesepakatan para pihak yang dituangkan dalam perjanjian kerja sama Interkoneksi.
+
+Tata cara pembayaran tarif Interkoneksi sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan teknis Interkoneksi sebagaimana tercantum dalam Lampiran I yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.
+
+Bagian Kesebelas Penyelesaian Perselisihan Interkoneksi Penyedia Interkoneksi atau Pengguna Interkoneksi dapat melakukan penyelesaian perselisihan melalui pengadilan atau diluar pengadilan sesuai dengan ketentuan perundangundangan. Direktur Jenderal dapat memfasilitasi penyelesaian perselisihan melalui mediasi apabila diminta oleh Penyedia Interkoneksi atau Pengguna Interkoneksi. Tata cara penyelesaian perselisihan melalui mediasi sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan teknis Interkoneksi sebagaimana tercantum dalam Lampiran I yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.
+
+BAB VI PENYELENGGARAAN POS UNTUK KEPERLUAN KEBENCANAAN Dalam hal penanggulangan bencana, menyediakan: SOP layanan darurat; rencana mitigasi bencana; rencana bisnis yang berkelanjutan; prosedur pemulihan dini; dan program pelatihan kebencanaan. Penyelenggara Pos dapat menyediakan layanan Pos untuk keperluan kemanusiaan bagi daerah yang terkena dampak bencana melalui: menyiapkan pedoman kebencanaan; menyiapkan kerangka kerja sama melibatkan pemangku kepentingan lainnya; menyiapkan sistem informasi dalam rangka memudahkan distribusi Kiriman; koordinasi, identifikasi, dan penentuan titik pengiriman saat darurat bencana; mendorong pengiriman tepat waktu dan tepat sasaran; dan
+f. berkoordinasi dalam rangka kemudahan akses dalam pengiriman Kiriman.
+
+BAB VII INDEKS KINERJA Direktur Jenderal menetapkan indeks kinerja Penyelenggaraan Pos dan status mutu Penyelenggara Pos secara nasional. Indeks kinerja sebagaimana dimaksud pada ayat (1) merupakan penilaian atas tingkat kinerja, kesehatan, dan pembangunan industri nasional dengan mempertimbangkan indikator relevan dengan Penyelenggaraan Pos secara nasional. Penilaian sebagaimana dimaksud pada ayat dilaksanakan dengan metode sesuai dengan ketentuan peraturan perundang-undangan. Status mutu Penyelenggara Pos sebagaimana dimaksud dalam Pasal 105 ayat (1) merupakan penilaian terhadap Penyelenggara Pos atas: pemenuhan terhadap ketentuan peraturan perundangundangan; pemenuhan Standar Pelayanan Penyelenggaraan Pos dan SOP Penyelenggara Pos; dan kriteria lainnya. Status mutu Penyelenggara Pos sebagaimana dimaksud pada ayat (1) meliputi: istimewa; baik; dan cukup baik. Status mutu berlaku untuk jangka waktu 5 (lima) tahun dan dievaluasi 1 (satu) kali dalam 1 (satu) tahun. Indeks kinerja Penyelenggara Pos dan status mutu Penyelenggaraan Pos sebagaimana dimaksud dalam Pasal 105 ayat (1) dipublikasikan melalui situs Kementerian.
+
+BAB VIII PEMANFAATAN TEKNOLOGI LOGISTIK HIJAU Penyelenggara Pos harus menyampaikan laporan penerapan teknologi logistik hijau kepada Direktur Jenderal. Penerapan teknologi logistik hijau sebagaimana dimaksud pada ayat (1) dapat berupa: penggunaan energi baru terbarukan; penggunaan moda transportasi yang ramah lingkungan dan rendah emisi karbon; penggunaan bangunan berkonsep ramah lingkungan; penggunaan bahan yang mudah didaur ulang.
+
+BAB IX PENGAWASAN DAN PENGENDALIAN
+
+Bagian Kesatu Umum Menteri melalui Direktur Jenderal melakukan pengawasan dan pengendalian terhadap Penyelenggaraan Pos. Pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1) meliputi: monitoring evaluasi terhadap pemenuhan ketentuan penyelenggaraan Layanan Pos Komersial; pengenaan sanksi atas pelanggaran oleh Penyelenggara Pos.
+
+Bagian Kedua Monitoring dan Evaluasi Monitoring dan evaluasi sebagaimana dimaksud dalam pasal 108 ayat (2) huruf a dilakukan berdasarkan: laporan Penyelenggara Pos; laporan masyarakat; dan/atau inspeksi lapangan. Monitoring dan evaluasi sebagaimana dimaksud dalam Pasal 108 ayat (2) huruf a dilakukan paling sedikit 1 (satu) kali dalam 1 (satu) tahun dan/atau sewaktu-waktu jika diperlukan. Monitoring dan evaluasi sebagaimana dimaksud pada ayat
+(1) dapat mengikutsertakan pemangku kepentingan di bidang Pos. Hasil monitoring dan evaluasi sebagaimana dimaksud pada ayat (2) dilaporkan kepada Menteri. Hasil monitoring sebagaimana dimaksud pada ayat (2) menjadi bahan evaluasi Perizinan Berusaha Penyelenggaraan Pos.
+
+Bagian Ketiga Sistem Monitoring Pos Dalam melakukan monitoring dan evaluasi sebagaimana dimaksud dalam Pasal 108 ayat (2) huruf a, Menteri membentuk sistem monitoring Penyelenggaraan Pos dengan memanfaatkan teknologi informasi dan komunikasi. Penyelenggara Pos wajib memberikan akses dan/atau informasi yang diminta untuk kepentingan monitoring dan evaluasi sebagaimana dimaksud pada ayat (1). Pemberian akses sebagaimana dimaksud pada ayat (2) dilakukan melalui keterhubungan sistem pada Penyelenggaraan Pos dengan sistem monitoring dan evaluasi Penyelenggaraan Pos. Ketentuan teknis mengenai sistem monitoring dan evaluasi Pos ditetapkan oleh Direktur Jenderal.
+
+Bagian Keempat Laporan Penyelenggaraan Pos wajib menyampaikan laporan Penyelenggaraan Pos yang memuat materi mengenai: jenis layanan; jumlah produksi; tarif layanan; pencapaian terhadap Standar Pelayanan; wilayah operasi; dan
+f. jumlah sumber daya manusia. Laporan Penyelenggaraan Pos sebagaimana dimaksud pada ayat (1) dibuat dengan format dan disampaikan sesuai dengan ketentuan peraturan perundang-undangan di bidang Penyelenggaraan Pos. Direktur Jenderal melakukan penilaian kepatuhan atas pencapaian terhadap Standar Pelayanan sebagaimana dimaksud pada ayat (1) huruf d untuk Layanan Pos Komersial. Direktur Jenderal dapat melakukan uji petik untuk memverifikasi pelaporan pencapaian terhadap Standar Pelayanan sebagaimana dimaksud pada ayat (1) huruf d. Tata cara penilaian atas pencapaian Standar Pelayanan sebagaimana dimaksud pada ayat (3) ditetapkan oleh Direktur Jenderal. Parameter dan tolok ukur atas pencapaian terhadap Standar Pelayanan Komersial sebagaimana dimaksud pada ayat (3) tercantum dalam Lampiran II yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini. Selain laporan sebagaimana dimaksud dalam Pasal 111, Penyelenggara Pos yang masuk kategori: 1 (satu) Penyelenggara Pos atau 1 (satu) kelompok Penyelenggara Pos menguasai 50% (lima puluh persen) atau lebih pangsa pasar satu jenis barang dan atau jasa tertentu; atau 2 (dua) atau 3 (tiga) Penyelenggara Pos atau kelompok Penyelenggara Pos menguasai 75% (tujuh puluh lima persen) atau lebih pangsa pasar satu jenis barang dan atau jasa tertentu, wajib menyampaikan laporan keuangan kepada regulator (regulatory financial report). Laporan keuangan kepada regulator (regulatory financial report) sebagaimana dimaksud pada ayat (1) dibuat sesuai format sebagaimana tercantum dalam Lampiran III yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.
+
+Bagian Kelima Laporan Interkoneksi Penyelenggara Pos yang menyediakan Layanan Pos Universal menyampaikan laporan pelaksanaan Interkoneksi Layanan Pos Universal kepada Direktur Jenderal. Laporan sebagaimana dimaksud pada ayat (1) memuat: informasi Pengguna Interkoneksi; objek Interkoneksi; lokasi Titik Interkoneksi; tarif Interkoneksi; masa berlaku Interkoneksi; dan
+f. jumlah Kiriman Interkoneksi. Laporan Interkoneksi sebagaimana dimaksud dalam Pasal 113 disampaikan kepada Menteri melalui Direktur Jenderal. Laporan sebagaimana dimaksud pada ayat (1) disampaikan paling lambat pada tanggal 31 Januari tahun berikutnya dengan periode laporan 1 Januari sampai dengan 31 Desember. Laporan Interkoneksi sebagaimana dimaksud pada ayat (1) dibuat sesuai dengan format dalam ketentuan teknis Interkoneksi sebagaimana tercantum dalam Lampiran I yang tidak terpisahkan dari Peraturan Menteri ini.
+
+Bagian Keenam Pengenaan Sanksi Administratif Paragraf 1 Sanksi Administratif Penyelenggara Pos yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 3 ayat (1) dan ayat (3), Pasal 12 ayat
+(1), Pasal 13, Pasal 15 ayat (1), Pasal 22 ayat (6), Pasal 25 ayat (1), Pasal 29 ayat (1), Pasal 41 ayat (2), Pasal 44 ayat (3),
+Pasal 45 ayat (6), Pasal 63 ayat (5), Pasal 92 ayat (1), Pasal 110 ayat (2), dan Pasal 112 ayat (1), dikenai sanksi administratif. Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa: teguran tertulis; penghentian sementara kegiatan berusaha; daya paksa polisional; dan/atau pencabutan Perizinan Berusaha. Penyelenggara Pos yang melanggar ketentuan Pasal 111 dikenai sanksi administratif. Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa: teguran tertulis; pengenaan denda administratif; penghentian sementara kegiatan berusaha;
+
+daya paksa polisional; dan/atau pencabutan Perizinan Berusaha. Daya paksa polisional sebagaimana dimaksud dalam Pasal 115 ayat (2) huruf c dan Pasal 116 ayat (2) huruf d dapat berupa: meminta identitas pelaku pelanggaran mendokumentasikan dalam bentuk digital; memasuki dan memeriksa lokasi kegiatan usaha; meminta keterangan melakukan pelanggaran; memanggil melakukan pelanggaran; dan/atau penyegelan sementara alat dan/atau perangkat penunjang yang digunakan untuk kegiatan berusaha. Daya paksa polisional sebagaimana dimaksud pada ayat (1) dapat dilakukan bersamaan dengan sanksi administratif berupa penghentian sementara kegiatan berusaha. Pengenaan sanksi administratif sebagaimana dimaksud dalam Pasal 115 dan Pasal 116 diberikan oleh Menteri. Menteri dalam memberikan sanksi administratif sebagaimana dimaksud pada ayat dapat mendelegasikannya kepada Direktur Jenderal. Pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dapat dilakukan secara langsung atau bertahap. Pengenaan sanksi secara langsung sebagaimana dimaksud pada ayat (3) dilakukan apabila Penyelenggara Pos melakukan pelanggaran yang membahayakan keamanan negara dan/atau merugikan negara. Pengenaan sanksi administratif tidak menghilangkan kewajiban Penyelenggara Pos untuk memenuhi kewajiban Penyelenggaraan Pos sesuai dengan ketentuan peraturan perundang-undangan. Penyelenggara Pos yang melanggar kewajiban sebagaimana dimaksud dalam Pasal 47 dikenai sanksi administratif oleh Menteri melalui Direktur Jenderal. Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa teguran tertulis yang disampaikan melalui surat atau situs. Teguran tertulis sebagaimana dimaksud pada ayat (2) diberikan paling banyak 3 (tiga) kali dengan jangka waktu masing-masing 30 (tiga puluh) hari kerja. Selain teguran tertulis yang disampaikan melalui surat, teguran tertulis ketiga dapat disampaikan melalui situs.
+
+tidak memenuhi kewajiban menjamin keamanan, kerahasiaan, keselamatan Kiriman sebagaimana dimaksud dalam Pasal 62 ayat (1) dikenakan sanksi administratif berupa pencabutan Perizinan Berusaha Pencabutan Perizinan Berusaha sebagaimana dimaksud pada ayat (1) dilakukan oleh Menteri melalui Direktur Jenderal. Paragraf 2 Tata Cara Pengenaan Sanksi Teguran tertulis sebagaimana dimaksud dalam Pasal 115 ayat (2) huruf a diberikan paling banyak 3 (tiga) kali untuk jangka waktu masing-masing 30 (tiga puluh) hari. Teguran tertulis sebagaimana dimaksud pada ayat (1) berupa teguran secara tertulis yang disampaikan melalui surat atau situs. Selain teguran tertulis yang disampaikan melalui surat, teguran tertulis ketiga dapat disampaikan melalui situs. Tahapan pengenaan teguran tertulis sebagaimana dimaksud pada ayat (1) dihentikan prosesnya jika Penyelenggara Pos telah memenuhi kewajibannya. Dalam hal Penyelenggara Pos dalam jangka waktu teguran tertulis sebagaimana dimaksud pada ayat (1) tidak memenuhi kewajibannya, dikenai sanksi penghentian sementara kegiatan berusaha. Penghentian sementara kegiatan berusaha sebagaimana dimaksud pada ayat (5) merupakan sanksi administratif untuk menghentikan kegiatan operasional Penyelenggara Pos untuk jangka waktu paling lama 1 (satu) tahun. Penghentian sementara kegiatan berusaha sebagaimana dimaksud pada ayat berakhir sampai dengan dipenuhinya kewajiban yang harus dilaksanakan oleh terhadap pelanggaran telah dilakukan. Dalam hal dikenai sanksi administratif berupa penghentian sementara kegiatan berusaha telah memenuhi kewajiban sebelum jangka waktu masa penghentian sementara kegiatan berusaha berakhir sebagaimana dimaksud pada ayat (6), Penyelenggara Pos dapat kembali melaksanakan kegiatan Penyelenggaraan Pos dan Penyelenggara Pos harus melapor kepada Direktur Jenderal. Dalam hal Penyelenggara Pos yang telah dikenai sanksi administratif penghentian sementara kegiatan berusaha tidak melaksanakan kewajiban sampai dengan berakhirnya jangka waktu sebagaima dimaksud pada ayat
+(6), Penyelenggara Pos dikenai sanksi pencabutan Perizinan Berusaha.
+(10) Pengenaan sanksi administratif berupa penghentian sementara kegiatan berusaha sebagaimana dimaksud pada ayat (9) dapat dilakukan bersamaan dengan sanksi administratif berupa daya paksa polisional.
+
+(11) Pencabutan Perizinan Berusaha sebagaimana dimaksud pada ayat (9) dilakukan oleh Menteri melalui Direktur Jenderal. Teguran tertulis sebagaimana dimaksud dalam Pasal 116 ayat (2) huruf a diberikan paling banyak 3 (tiga) kali untuk jangka waktu masing-masing 30 (tiga puluh) hari. Teguran tertulis pertama dan teguran tertulis kedua disampaikan melalui surat. Selain melalui surat sebagaimana dimaksud pada ayat (2), teguran tertulis ketiga disampaikan juga melalui situs. Tahapan pengenaan teguran tertulis sebagaimana dimaksud pada ayat (1) dihentikan prosesnya jika Penyelenggara Pos telah memenuhi kewajibannya. Dalam hal Penyelenggara Pos dalam jangka waktu teguran tertulis sebagaimana dimaksud pada ayat (1) tidak memenuhi kewajibannya, diberikan sanksi pengenaan denda administratif. Direktur Jenderal menerbitkan surat pemberitahuan pembayaran pengenaan denda administratif sebagaimana dimaksud pada ayat (5) dalam jangka waktu paling lama 10 (sepuluh) hari kerja terhitung sejak berakhirnya batas waktu teguran tertulis terakhir. Surat pemberitahuan pembayaran untuk pengenaan denda administratif sebagaimana dimaksud pada ayat (6) paling sedikit memuat: besaran denda yang dikenakan; jatuh tempo pembayaran; cara penyetoran; dan informasi denda keterlambatan pembayaran sesuai dengan ketentuan peraturan perundang-undangan. Jatuh tempo pembayaran sebagaimana dimaksud pada ayat
+(7) huruf b terhitung 1 (satu) bulan sejak diterbitkannya surat pemberitahuan pembayaran. Apabila dalam jangka waktu paling lama 10 (sepuluh) hari kerja terhitung sejak jatuh tempo pembayaran sebagaimana dimaksud pada ayat (8) Penyelenggara Pos belum atau tidak melunasi kewajibannya, Direktur Jenderal menerbitkan surat tagihan pertama.
+(10) Apabila dalam jangka waktu 1 (satu) bulan terhitung sejak tanggal surat tagihan pertama sebagaimana dimaksud pada ayat (9) diterbitkan Penyelenggara Pos belum atau tidak melunasi kewajibannya, Direktur Jenderal menerbitkan surat tagihan kedua.
+(11) Jatuh tempo surat tagihan kedua sebagaimana dimaksud pada ayat (10) terhitung 2 (dua) bulan sejak diterbitkannya surat tagihan kedua.
+(12) Apabila dalam jangka waktu 2 (dua) bulan terhitung sejak tanggal surat tagihan kedua sebagaimana dimaksud pada ayat (11) diterbitkan Penyelenggara Pos belum atau tidak melunasi kewajibannya, Direktur Jenderal menerbitkan surat tagihan ketiga.
+(13) Jatuh tempo surat tagihan ketiga sebagaimana dimaksud pada ayat (12) terhitung 3 (tiga) bulan sejak diterbitkannya surat tagihan kedua.
+
+(14) Apabila dalam jangka waktu 3 (tiga) bulan terhitung sejak tanggal surat tagihan ketiga sebagaimana dimaksud pada ayat (13) diterbitkan Penyelenggara Pos belum atau tidak melunasi kewajibannya, berlaku ketentuan sebagai berikut: penyerahan penagihan kepada instansi berwenang mengurus piutang negara untuk diproses sesuai dengan ketentuan peraturan perundangundangan di bidang piutang negara; dan selain penyerahan penagihan kepada instansi yang berwenang sebagaimana dimaksud pada huruf a, Penyelenggara Pos dapat dikenakan sanksi berupa: penghentian sementara kegiatan berusaha; dan/atau pencabutan Perizinan Berusaha. Keterlambatan atas pembayaran sanksi denda yang melebihi jatuh tempo pembayaran sebagaimana ditetapkan dalam surat pemberitahuan pembayaran, dikenai sanksi denda keterlambatan sebesar 2% (dua persen) per bulan dari jumlah sanksi denda yang harus dibayarkan dan bagian dari bulan dihitung 1 (satu) bulan penuh. Sanksi denda keterlambatan pembayaran sebagaimana dimaksud pada ayat (1) dikenakan untuk jangka waktu paling lama 24 (dua puluh empat) bulan. Pembayaran sanksi administratif berupa denda oleh Penyelenggara Pos disetor langsung ke kas negara melalui rekening bendahara penerima pada bank pemerintah yang ditunjuk. Dalam hal Penyelengara tidak melaksanakan kewajibannya dalam jangka waktu berakhirnya pengenaan denda administratif sebagaimana dimaksud dalam Pasal 123, dikenai sanksi penghentian sementara kegiatan berusaha. Penghentian sementara kegiatan berusaha sebagaimana dimaksud pada ayat (1) merupakan sanksi administratif untuk menghentikan kegiatan operasional Penyelenggara Pos untuk jangka waktu paling lama 1 (satu) tahun. Penghentian sementara kegiatan berusaha sebagaimana dimaksud pada ayat berakhir sampai dengan dipenuhinya kewajiban yang harus dilaksanakan oleh terhadap pelanggaran telah dilakukan. Dalam hal Penyelenggara Pos yang dikenakan sanksi administratif penghentian sementara kegiatan berusaha telah memenuhi kewajiban sebelum jangka waktu masa penghentian sementara kegiatan berusaha berakhir sebagaimana dimaksud pada ayat (3), Penyelenggara Pos dapat kembali melaksanakan kegiatan Penyelenggaraan Pos dan Penyelenggara Pos harus melapor kepada Direktur Jenderal.
+
+Dalam hal Penyelenggara Pos yang telah dikenakan sanksi administratif penghentian sementara kegiatan berusaha tidak melaksanakan kewajiban sampai dengan berakhirnya jangka waktu sebagaimana dimaksud pada ayat (4) Penyelenggara Pos dikenai sanksi pencabutan Perizinan Berusaha. Pengenaan sanksi administratif berupa penghentian sementara kegiatan berusaha dapat dilakukan bersamaan dengan sanksi administratif berupa daya paksa polisional. Pencabutan Perizinan Berusaha sebagaimana dimaksud pada ayat (5) dilakukan oleh Menteri. Pencabutan Perizinan Berusaha sebagaimana dimaksud pada ayat (1) tidak menghapuskan kewajiban Penyelenggara Pos terhadap piutang negara. Penyelenggara Pos dapat mengajukan keberatan kepada Direktur Jenderal dalam jangka waktu paling lama 21 (dua puluh satu) hari kerja terhitung sejak pertama kali diterbitkannya teguran tertulis sesuai jenis pelanggarannya dengan melampirkan dokumen pendukung. mengajukan keberatan sebagaimana dimaksud pada ayat (1) wajib menyampaikan surat pernyataan keberatan dan bukti pendukung tidak melakukan pelanggaran. Keberatan sebagaimana dimaksud pada ayat (1) tidak menunda pengenaan sanksi administratif. Direktur Jenderal menyelesaikan keberatan sebagaimana dimaksud pada ayat (2) dalam jangka waktu paling lama 10 (sepuluh) hari kerja terhitung sejak diterimanya keberatan yang dibuktikan dengan tanda terima pengiriman surat. Direktur Jenderal menetapkan keputusan untuk menerima atau menolak keberatan dalam jangka waktu paling lama 5 (lima) hari kerja terhitung sejak berakhirnya tenggang waktu sebagaimana dimaksud pada ayat (4). Dalam hal keberatan diterima, sanksi administratif yang diberikan terkait dengan pelanggaran kewajiban dimaksud batal demi hukum. Dalam hal Direktur Jenderal tidak memproses keberatan dalam jangka waktu sebagaimana dimaksud pada ayat (4), keberatan dianggap dikabulkan. Dalam proses penyelesaian keberatan sebagaimana dimaksud pada ayat (5), Direktur Jenderal berwenang meminta keterangan tambahan kepada Penyelenggara Pos yang bersangkutan atau pihak lain yang dianggap perlu. Paragraf 3 Daftar Hitam Direksi, pengurus, perorangan, dan/atau badan hukum Penyelenggara Pos dapat ditetapkan dalam daftar hitam penyelenggara dalam hal Penyelenggara Pos dikenai sanksi administratif berupa pencabutan Perizinan Berusaha. Daftar hitam sebagaimana dimaksud pada ayat (1) ditetapkan oleh Direktur Jenderal.
+
+Direksi, pengurus, perorangan, dan/atau badan hukum Penyelenggara Pos yang ditetapkan dalam daftar hitam sebagaimana dimaksud pada ayat (2) dilarang terlibat dalam Penyelenggaraan Pos. Direksi, pengurus, perorangan, dan/atau badan hukum dikeluarkan dari daftar hitam penyelenggara setelah: 2 (dua) tahun sejak tanggal ditetapkan dalam daftar hitam penyelenggara; dan/atau kewajiban yang menjadi piutang negara dipenuhi. Paragraf 4 Rincian Pengenaan Sanksi Administratif Ketentuan mengenai pengenaan sanksi administratif tercantum dalam Lampiran IV yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.
+
+BAB X KETENTUAN PENUTUP Pada saat Peraturan Menteri ini mulai berlaku, ketentuan Penyelenggaraan Pos yang telah ada sebelum berlakunya Peraturan Menteri ini dinyatakan tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Menteri ini. Pada saat Peraturan Menteri ini mulai berlaku: Peraturan Menteri Komunikasi dan Informatika Nomor: 01/PER/M.KOMINFO/01/2012 tentang Formula Tarif Layanan Pos Komersial (Berita Negara Republik Indonesia Tahun 2012 Nomor 52); Peraturan Menteri Komunikasi dan Informatika Nomor 7 Tahun 2017 tentang Persyaratan dan Tata Cara Pemberian Izin Penyelenggaraan Pos (Berita Negara Republik Indonesia Tahun 2017 Nomor 232); dan
+Pasal 5 ayat (2), Pasal 113, Pasal 114, Pasal 127, Pasal 128,
+Pasal
+
+Peraturan Menteri Komunikasi Informatika Nomor 4 Tahun 2021 tentang Penyelenggaraan Pos (Berita Negara Republik Indonesia Tahun 2021 Nomor 302), dicabut dan dinyatakan tidak berlaku. Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.
+
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 9 Mei 2025 MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA, Œ MEUTYA VIADA HAFID Diundangkan di Jakarta pada tanggal Д DIREKTUR JENDERAL PERATURAN PERUNDANG-UNDANGAN KEMENTERIAN HUKUM REPUBLIK INDONESIA, Ѽ DHAHANA PUTRA BERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR Ж
+
+LA MPIRAN I PERATURAN MENTERI KO MUNIKASI DAN DIGITAL REPUBLIK INDONESIA NO MOR 8 TAHUN 2025 TENTANG LAYANAN POS KO M ERSIAL KETENTUAN TEKNIS INTERKONEKSI PETUNJUK PENYUSUNAN DAFTAR PENA WARAN INTERKONEKSI DPI paling sedikit memuat tentang: Jaringan yang ditawarkan Jaringan yang ditawarkan merupakan infrastruktur layanan Pos baik fisik maupun nonfisik. Penyedia Interkoneksi memberikan informasi paling sedikit meliputi keseluruhan titik layanan Pos (gerai), kapasitas pengiriman, kantor cabang, kantor agen, alamat, titik koordinat, jangkauan layanan untuk masing-masing kantor, dan penanggung jawab. Berikut adalah contoh tabel jaringan Interkoneksi. No. Titik Layanan/Titik Interkoneksi Wilayah Alamat Lengkap Titik Koordinat Jangkauan Penanggung Jawab Keterangan: No mor urut Daftar titik layanan/Titik Interkoneksi Pembagian wilayah berdasarkan tingkatan wilayah administrasi Alamat titik layanan Lokasi titik layanan sesuai dengan posisi lintang dan bujur di peta Cakupan layanan untuk setiap titik layanan Informasi terkait penanggung jawab (PIC) untuk setiap titik Spesifikasi teknis Interkoneksi Spesifikasi teknis Interkoneksi, antara lain: formulir untuk serah terima Kiriman yang memuat daftar Kirim an ke/dan dari Pengguna kepada pihak Penyedia Interkoneksi. kode pengiriman yang seragam termasuk sistem pelacakan Kiriman yang dapat diakses oleh Pengguna Interkoneksi dan Penyedia Interkoneksi. ukuran alat atau sarana untuk menghimpun Kiriman yang me menuhi standar sesuai moda transportasi yang digunakan baik darat, laut, maupun udara. Tarif Interkoneksi, berupa tarif yang ditawarkan kepada Pengguna Interkoneksi. Prosedur pelaksanaan Interkoneksi Ketentuan pengoperasian: 1) permohonan Interkoneksi dari Pemohon berupa permohonan tertulis dan/atau elektronik; 2) Penyedia Interkoneksi menyampaikan informasi kepada Pemohon Interkoneksi terkait jaringan atau titik layanan yang disediakan; 3) Pemohon Interkoneksi Penyedia Interkoneksi menyepakati:
+
+a) jaringan yang akan diinterkoneksikan; b) jenis layanan; c) volume (dimensi), jumlah, dan berat Kiriman; dan/atau d) tata cara penerimaan dan penyerahan Kiriman. Panduan penyusunan perjanjian kerja sama Interkoneksi. Materi dari suatu Perjanjian kerja sama Interkoneksi mencakup hal-hal sebagai berikut: 1) tanggal dan identitas para penyelenggara; 2) definisi dan interpretasi; 3) ruang lingkup perjanjian; 4) masa berlaku perjanjian; 5) hak dan kewajiban para pihak; 6) spesifikasi teknis; 7) penyediaan informasi dan kerahasiaan; 8) layanan Interkoneksi dari para penyelenggara; 9) pembebanan biaya, penagihan, dan pembayaran; 10) pelindungan dan keamanan Kiriman; 11) force majeure dan batas kewajiban; 12) pemindahan hak dan kewajiban; 13) kecurangan (fraud); 14) penyelesaian perselisihan; dan 15) pelanggaran dan pengakhiran perjanjian. Penyampaian tanggung jawab Penyedia Interkoneksi. TATA CARA PEMBAYARAN TARIF INTERKONEKSI Perekaman Informasi Tagihan Perekaman dilakukan dengan menggunakan formulir yang disepakati kedua belah pihak yang paling sedikit berisi: jenis, jumlah, asal, tujuan, tarif Kiriman diInterkoneksikan; identitas Penyedia Interkoneksi dan Pengguna Interkoneksi; dan tanggal dan waktu pada saat Interkoneksi. Pertukaran Informasi Tagihan Pertukaran informasi tagihan meliputi: frekuensi pertukaran informasi tagihan dalam periode mingguan dan/atau bulanan; informasi tagihan yang disepakati oleh Penyedia Interkoneksi dan Pengguna Interkoneksi; format penyajian informasi tagihan yang disepakati; dan mitigasi risiko apabila terjadi kerusakan atau gangguan pada sistem perekaman dapat mengakibatkan tidak tersampaikannya informasi tagihan baik dari satu pihak atau kedua pihak. Penagihan Penagihan meliputi: waktu pengiriman dan batas akhir pengiriman tagihan; seluruh beban biaya dapat ditagihkan berdasarkan Perjanjian Interkoneksi; dan ketentuan lain yang disepakati oleh kedua belah pihak antara lain berkaitan dengan keterlambatan suatu penyelenggara dalam menyampaikan tagihannya. Pembayaran Ketentuan pembayaran meliputi: waktu pembayaran dan batas akhir pembayaran;
+
+denda dikenakan apabila terjadi keterlambatan pembayaran; ketentuan tentang pengembalian apabila terjadi kelebihan pembayaran; dan ketentuan tentang pajak sesuai dengan ketentuan peraturan perundang-undangan. TATA CARA PENYELESAIAN PERSELISIHAN INTERKONEKSI Penyelesaian Perselisihan Interkoneksi melalui Mediasi oleh Direktur Jenderal Dalam menyelesaikan perselisihan Interkoneksi, para pihak: me mberikan informasi terkait dalam rangka penelitian untuk proses penyelesaian perselisihan Interkoneksi; me mberikan jawaban tertulis atas permintaan informasi dan atau tanggapan terkait perselisihan Interkoneksi yang diajukan oleh pihak lainnya; menghadiri pertemuan dan/atau dengar pendapat diperlukan; menunjuk dan menetapkan perwakilan yang diberi kuasa untuk me mberikan informasi dan menghadiri pertemuan atau dengar pendapat, perwakilan diberi kuasa tidak dapat menyerahkan kewajibannya kepada pihak lain namun dapat didampingi oleh tenaga ahli yang dianggap kompeten dalam proses mediasi. Tata Cara Pelaporan Kasus Perselisihan Pelaporan suatu kasus Perselisihan Interkoneksi dilakukan secara tertulis dalam bahasa Indonesia dengan ditandatangani oleh Direktur Utama berwenang dari pelapor disampaikan kepada Direktur Jenderal. Laporan perselisihan Interkoneksi dilengkapi dengan: 1) nama dan alamat domisili pelapor dan terlapor; 2) uraian yang lengkap dan jelas tentang lingkup perselisihan Interkoneksi; 3) uraian kewajiban menjadi su mber perselisihan, termasuk tinjauan tentang aspek teknis dan ekonomis yang terkait; 4) rincian mengenai tuntutan atau hasil yang diinginkan; dan 5) doku men pendukung lainnya yang telah menunjukan upaya m usyawarah dengan Terlapor. Laporan perselisihan Interkoneksi yang memenuhi ketentuan sebagaimana dimaksud pada huruf b akan diproses lebih lanjut dalam jangka waktu paling lama 10 (sepuluh) hari kerja terhitung sejak tanggal laporan diterima. Direktur Jenderal me mberitahukan kepada pelapor apabila laporan tidak memenuhi ketentuan sebagaimana dimaksud pada huruf b dan memberikan penjelasan mengenai ketidaklengkapan laporan, dalam jangka waktu paling lama 10 (sepuluh) hari kerja terhitung sejak tanggal laporan diterima. Dalam hal pelapor tidak dapat memberikan uraian yang jelas mengenai perselisihan Interkoneksi dalam jangka waktu paling lama waktu 10 (sepuluh) hari kerja terhitung sejak tanggal diterimanya pemberitahuan ketidaklengkapan laporan sebagaimana dimaksud pada huruf d, laporan dianggap tidak lengkap dan tidak dapat diproses lebih lanjut.
+
+FOR MAT LAPORAN INTERKONEKSI Penyelenggara Pos (sebagai penyedia): …… … ….. No. Pengguna Interkoneksi Objek Interkoneksi Lokasi Titik Interkoneksi Tarif Interkoneksi Masa Berlaku Interkoneksi (tahun) Jumlah Kiriman Interkoneksi (kg dan awb) MENTERI KO MUNIKASI DAN DIGITAL REPUBLIK INDONESIA, ttd. MEUTYA VIADA HAFID
+
+LAMPIRAN II PERATURAN MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA NOMOR 8 TAHUN 2025 TENTANG LAYANAN POS KOMERSIAL PARAMETER DAN TOLOK UKUR ATAS PENCAPAIAN TERHADAP STANDAR PELAYANAN UNTUK LAYANAN POS KOMERSIAL No Standar Pelayanan Parameter Tolok Ukur Standar Pemenuhan Kepastian Waktu Layanan
+1. Pengiriman komunikasi tertulis dan/atau surat elektronik dan layanan paket melalui gerai:
+
+a. persentase kepastian waktu layanan pengiriman yang memenuhi waktu tempuh Kiriman pada hari yang sama dalam rentang waktu kurang dari 6 (enam) jam di dalam kota kawasan aglomerasi dihitung sejak Penyelenggara Pos menerima Kiriman di gerai sampai dengan Penerima menerima Kiriman.
+b. persentase kepastian waktu layanan pengiriman yang memenuhi waktu tempuh Kiriman pada hari yang sama dalam rentang waktu 6 (enam) sampai dengan 12 (dua belas) jam untuk wilayah dalam kota dan kawasan aglomerasi dihitung sejak Penyelenggara Pos menerima Kiriman di gerai sampai dengan Penerima menerima Kiriman.
+c. persentase kepastian waktu layanan pengiriman yang memenuhi waktu tempuh Kiriman pada hari berikutnya untuk wilayah kota atau kabupaten dalam pulau dan antarpulau paling lama 24 (dua puluh empat) jam
+1. Pengiriman komunikasi tertulis dan/atau surat elektronik dan layanan paket melalui gerai:
+a. ≥ 95% (sembilan puluh lima persen) untuk pengiriman pada hari yang sama dalam rentang waktu kurang dari 6 (enam) jam di dalam kota dan kawasan aglomerasi.
+b. ≥ 95% (sembilan puluh lima persen) untuk pengiriman dalam rentang waktu
+
+(enam) sampai dengan 12 (dua belas) jam wilayah dalam kota dan kawasan aglomerasi.
+c. ≥ 95% (sembilan puluh lima persen) pada hari berikutnya untuk wilayah kota atau kabupaten dalam pulau dan antarpulau.
+
+No Standar Pelayanan Parameter Tolok Ukur terhitung sejak Penyelenggara Pos menerima Kiriman di gerai sampai dengan Penerima menerima Kiriman.
+d. kepastian waktu layanan pengiriman yang memenuhi waktu tempuh Kiriman antarkota dalam pulau paling lama 3 (tiga) hari terhitung sejak Penyelenggara Pos menerima Kiriman di gerai sampai dengan Penerima menerima Kiriman.
+e. kepastian waktu layanan pengiriman yang memenuhi waktu tempuh Kiriman antarkota antarpulau paling lama 7 (tujuh) hari terhitung sejak Penyelenggara Pos menerima Kiriman di gerai sampai dengan Penerima menerima Kiriman.
+f. kepastian waktu layanan pengiriman yang memenuhi waktu tempuh untuk wilayah zona khusus atau daerah tertinggal yang ditetapkan oleh pemerintah paling lama 20 (dua puluh) hari terhitung sejak Penyelenggara Pos menerima Kiriman di gerai sampai dengan Penerima menerima Kiriman.
+
+2. Pengiriman komunikasi tertulis dan/atau surat elektronik dan layanan paket melalui penjemputan (pick up) Kiriman:
+
+a. persentase kepastian waktu layanan pengiriman yang memenuhi waktu tempuh Kiriman pada hari yang sama dalam rentang waktu kurang dari 6 (enam) jam di dalam kota kawasan aglomerasi dihitung sejak Penyelenggara Pos menerima permintaan penjemputan (pick up) Kiriman dari Pengguna Layanan Pos sampai dengan Penerima menerima Kiriman.
+
+d. ≥ 95% (sembilan puluh lima persen) Kiriman antarkota dalam pulau.
+
+e. ≥ 95% (sembilan puluh lima persen) Kiriman antarkota antarpulau.
+
+f. ≥ 95% (sembilan puluh lima persen) untuk wilayah zona khusus atau daerah tertinggal yang ditetapkan oleh pemerintah.
+
+2. Pengiriman komunikasi tertulis dan/atau surat elektronik dan paket melalui penjemputan (pick up) Kiriman:
+a. ≥ 95% (sembilan puluh lima persen) untuk pengiriman dalam rentang waktu kurang dari 6 (enam) jam di dalam kota dan kawasan aglomerasi.
+
+No Standar Pelayanan Parameter Tolok Ukur
+b. Persentase kepastian pemenuhan waktu tempuh Kiriman pada hari yang sama dalam rentang waktu 6 (enam) sampai dengan 12 (dua belas) jam untuk wilayah dalam kota dan kawasan aglomerasi dihitung sejak Penyelenggara Pos menerima permintaan penjemputan (pick up) Kiriman dari Pengguna Layanan Pos sampai dengan Penerima menerima Kiriman.
+c. Persentase kepastian pemenuhan waktu tempuh Kiriman pada hari berikutnya untuk wilayah kota atau kabupaten dalam pulau dan antarpulau paling lama 24 (dua puluh empat) jam terhitung sejak Penyelenggara Pos menerima permintaan penjemputan (pick up) Kiriman dari Pengguna Layanan Pos sampai dengan Penerima menerima Kiriman.
+d. Persentase kepastian pemenuhan waktu tempuh Kiriman antarkota dalam pulau paling lama 3 (tiga) hari terhitung sejak menerima permintaan penjemputan (pick up) Kiriman dari Pengguna Layanan Pos sampai dengan Penerima menerima Kiriman.
+e. Persentase kepastian pemenuhan waktu tempuh Kiriman antarkota antarpulau paling lama 7 (tujuh) hari terhitung sejak menerima permintaan penjemputan (pick up) Kiriman dari Pengguna Layanan Pos sampai dengan Penerima menerima Kiriman.
+f. Persentase kepastian pemenuhan waktu tempuh untuk wilayah zona khusus atau daerah tertinggal yang ditetapkan oleh pemerintah paling lama 20 (dua puluh) hari terhitung sejak Penyelenggara Pos menerima permintaan penjemputan (pick up) Kiriman dari
+b. ≥ 95% (sembilan puluh lima persen) untuk pengiriman dalam rentang waktu
+
+(enam) sampai dengan 12 (dua belas) jam wilayah dalam kota dan kawasan aglomerasi.
+c. ≥ 95% (sembilan puluh lima persen) untuk pengiriman wilayah kota atau kabupaten dalam pulau dan antarpulau.
+
+d. ≥ 95% (sembilan puluh lima persen) Kiriman antarkota dalam pulau.
+
+e. ≥ 95% (sembilan puluh lima persen) Kiriman antarkota antarpulau.
+
+f. ≥ 95% (sembilan puluh lima persen) untuk wilayah zona khusus atau daerah tertinggal yang ditetapkan oleh pemerintah.
+
+No Standar Pelayanan Parameter Tolok Ukur Pengguna Layanan Pos sampai dengan Penerima menerima Kiriman.
+
+3. Waktu tempuh Kiriman untuk Kiriman yang terjadwal didasarkan pada kontrak kerja sama. Persentase kepastian pemenuhan waktu tempuh Kiriman untuk Kiriman yang terjadwal didasarkan pada kontrak kerja sama dihitung sesuai dengan waktu diperjanjikan dalam kontrak.
+
+3. Kiriman terjadwal didasarkan pada kontrak kerja sama. 100% (seratus persen) sesuai waktu dalam kontrak. Standar Pemenuhan Kepastian Biaya Layanan Persentase kesesuaian daftar tarif layanan sesuai dengan jenis atau produk layanan yang disediakan dan dipublikasikan kepada masyarakat dengan tarif digunakan/diterima oleh Pengguna Layanan Pos. 100% (seratus persen) kesesuaian Standar Ketersediaan Kejelasan Prosedur
+1. Persentase ketersediaan SOP dalam pelayanan Pos yang memuat prosedur layanan, jadwal pelayanan, prosedur pelacakan Kiriman, pelayanan dalam keadaan darurat, dan jenis produk layanan.
+
+2. Persentase ketersediaan pedoman Pengguna Layanan Pos.
+
+3. Persentase ketersediaan SOP layanan pada kondisi atau keadaan darurat karena bencana alam dan/atau nonalam. 100% (seratus persen) ketersediaan SOP Standar Produk
+1. Persentase kesesuaian produk layanan yang disampaikan dengan produk layanan yang diberikan kepada Pengguna Layanan Pos.
+
+2. Pemanfaatan kode quick response untuk informasi produk layanan.
+
+1. 100% (seratus persen) produk layanan sesuai
+
+2. Ketersediaan kode quick response.
+
+No Standar Pelayanan Parameter Tolok Ukur Standar Pengukuran Kompetensi SDM
+1. Persentase jumlah SDM pada gerai atau kantor pelayanan yang telah memiliki sertifikat kompetensi dan/atau bukti pelatihan di bidang Penyelenggaraan Pos.
+
+2. Persentase jumlah SDM pengantaran yang telah memiliki sertifikat kompetensi dan/atau bukti pelatihan di bidang Penyelenggaraan Pos.
+
+3. Persentase jumlah SDM ditugaskan mengendalikan atau memproses data pribadi, yang telah memiliki sertifikat kompetensi dan/atau bukti pelatihan lainnya di bidang pelindungan data pribadi
+
+1. 100% (seratus persen) SDM gerai memiliki sertifikat kompetensi dan/atau bukti pelatihan.
+
+2. 100% (seratus persen) SDM pengantaran memiliki sertifikat kompetensi dan/atau bukti pelatihan.
+
+3. 100% (seratus persen) SDM pengendali/pemroses data pribadi memiliki sertifikat kompetensi dan/atau bukti pelatihan di bidang pelindungan data pribadi. Keamanan, Kerahasiaan, Keselamatan Kiriman Pos
+1. Dokumen SOP Keamanan, Kerahasiaan, dan Keselamatan Kiriman.
+
+2. SOP yang ditetapkan sesuai dengan operasional yang dilaksanakan.
+1. Ketersediaan Dokumen SOP Keamanan, Kerahasiaan, Keselamatan Kiriman Pos.
+
+2. Kesesuaian SOP yang ditetapkan dengan operasional dilaksanakan. Penanganan Pengaduan, Saran, Masukan, dan Informasi
+1. Penyediaan layanan penanganan pengaduan, penerimaan saran, masukan, dan pengelolaan informasi.
+
+2. Persentase pengaduan, penerimaan saran, masukan, dan pengelolaan informasi yang direspon paling lama 1 (satu) hari kerja terhitung sejak pengaduan diterima
+1. Ketersediaan penanganan pengaduan, penerimaan saran, masukan, dan pengelolaan informasi.
+
+2. 100% (seratus persen) direspon paling lama 1 (satu) hari kerja.
+
+No Standar Pelayanan Parameter Tolok Ukur Sarana, Prasarana, dan/atau Fasilitas Layanan Komunikasi Tertulis dan/atau Surat Elektronik
+
+1. Sarana, prasarana, dan/atau fasilitas untuk layanan komunikasi tertulis dan/atau surat elektronik:
+a. Sarana transportasi pengumpulan pengambilan Kiriman;
+b. gerai sebagai tempat untuk menerima Kiriman;
+c. gudang atau tempat untuk menyortir dan memproses Kiriman di setiap kabupaten/kota yang dilayani;
+d. sarana transportasi untuk pengangkutan Kiriman antar pulau/antar provinsi yang terjadwal paling sedikit 1 (satu) kali sehari untuk setiap daerah tujuan layanan;
+e. moda transportasi untuk pengantaran ke alamat tujuan meliputi kendaraan roda empat dan kendaraan roda dua; dan
+f. timbangan surat sesuai Standar Nasional Indonesia (SNI) dengan daya tampung paling sedikit 0 (nol) sampai dengan 2 (dua) kilogram atau lebih dengan ketelitian sampai 100 (seratus) gram.
+
+2. Penguasaan wilayah operasi paling sedikit pada 50% (lima puluh persen) provinsi di Indonesia.
+
+3. Persentase ketersediaan/pemanfaatan teknologi meliputi:
+a. sistem operasional yang terhubung ke dalam jaringan;
+b. sistem pembayaran berbasis digital;
+c. sistem pelacakan Kiriman; dan
+d. layanan pengaduan yang dapat diakses secara daring. Komunikasi Tertulis dan/atau Surat Elektronik
+1. 100% (seratus persen) kepemilikan sarana, prasarana, dan/atau fasilitas.
+
+2. 100% (seratus persen) ketersediaan wilayah operasi.
+
+3. 100% (seratus persen) pemanfaatan teknologi.
+
+No Standar Pelayanan Parameter Tolok Ukur Layanan Paket
+1. Sarana, prasarana, dan/atau fasilitas untuk layanan paket:
+a. Sarana transportasi pengumpulan pengambilan Kiriman;
+b. gerai sebagai tempat untuk menerima Kiriman;
+c. gudang atau tempat untuk menyortir dan memproses Kiriman di setiap kabupaten/kota yang dilayani;
+d. sarana transportasi untuk pengangkutan Kiriman antar pulau/antar provinsi yang terjadwal paling sedikit 1 (satu) kali sehari untuk setiap daerah tujuan layanan;
+e. moda transportasi untuk pengantaran ke alamat tujuan meliputi kendaraan roda empat dan kendaraan roda dua; dan
+f. timbangan surat sesuai Standar Nasional Indonesia (SNI) dengan daya tampung paling sedikit 0 (nol) sampai dengan 2 (dua) kilogram atau lebih dengan ketelitian sampai 100 (seratus) gram.
+
+2. Penguasaan wilayah operasi paling sedikit pada 50% (lima puluh persen) provinsi di Indonesia.
+
+3. Persentase ketersediaan/pemanfaatan teknologi meliputi:
+a. sistem operasional yang terhubung ke dalam jaringan;
+b. sistem pembayaran berbasis digital;
+c. sistem pelacakan Kiriman; dan
+d. layanan pengaduan yang dapat diakses secara daring. Layanan Logistik
+1. Sarana, prasarana, dan/atau fasilitas untuk layanan paket:
+a. gerai layanan atau kantor perwakilan; Layanan Paket
+1. 100% (seratus persen) kepemilikan sarana, prasarana, dan/atau fasilitas.
+
+2. 100% (seratus persen) ketersediaan wilayah operasi.
+
+3. 100% (seratus persen) pemanfaatan teknologi. Layanan Logistik
+1. 100% (seratus persen) kepemilikan infrastruktur.
+
+No Standar Pelayanan Parameter Tolok Ukur
+b. gudang atau tempat penyimpanan sebagai pusat distribusi, sortir, dan manajemen pemenuhan pesanan meliputi: 1) ukuran paling sedikit 1.000 m2; dan/atau 2) menyediakan fullfilment atau proses pemenuhan produk dari pengguna layanan meliputi pemenuhan permintaan pesanan, penerimaan, pengepakan, pengangkutan, penyimpanan, pengemasan, dan/atau pengiriman barang.
+c. sarana transportasi untuk pengumpulan, pengambilan, dan pengiriman antarkota; dan
+d. moda transportasi pengangkutan darat berupa truk dengan kapasitas paling sedikit 2 (dua) ton atau headtruck sejumlah paling sedikit 1 (satu) unit;
+
+2. Penguasaan wilayah operasi paling sedikit pada 50% (lima puluh persen) provinsi di Indonesia.
+
+3. Persentase Ketersediaan/pemanfaatan teknolog meliputi:
+a. sistem operasional yang terhubung ke dalam jaringan;
+b. sistem pembayaran berbasis digital;
+c. sistem pelacakan Kiriman;
+d. layanan pengaduan yang dapat diakses secara daring;
+e. manajemen pergudangan.
+
+2. 100% (seratus persen) ketersediaan infrastruktur.
+
+3. 100% (seratus persen) ketersediaan/pemanfaatan teknologi. Jaminan Pemberian Ganti Rugi
+1. Persentase pemberian jaminan ganti rugi dalam jangka waktu paling lama 7 (tujuh) hari kerja terhitung sejak terbukti terjadi kehilangan Kiriman Pos. 100% (seratus persen) pemberian ganti rugi sesuai dengan waktu.
+
+No Standar Pelayanan Parameter Tolok Ukur
+2. Persentase pemberian jaminan ganti rugi dalam jangka waktu paling lama 7 (tujuh) hari kerja terhitung sejak terbukti terjadi kerusakan Kiriman Pos.
+
+3. Persentase pemberian jaminan ganti rugi dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak terbukti terjadi keterlambatan Kiriman Pos.
+
+4. Persentase pemberian jaminan ganti rugi dalam jangka waktu paling lama 3 (tiga) hari kerja terhitung sejak terbukti terjadi setelah terbukti terjadi ketidaksesuaian layanan. MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA, ttd. MEUTYA VIADA HAFID
+
+LAMPIRAN III PERATURAN MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA NOMOR 8 TAHUN 2025 TENTANG LAYANAN POS KOMERSIAL FORMAT LAPORAN KEUANGAN KEPADA REGULATOR (REGULATORY FINANCIAL REPORT) Laporan Kinerja Operasi Uraian Jumlah per tahun Jumlah Transaksi Jumlah Berat (kg)
+1. Layanan Komunikasi Tertulis dan/atau Surat Elektronik*
+
+a. …
+
+b. … dst.
+
+2. Layanan Paket*
+
+a. …
+
+b. … dst.
+
+3. Layanan Logistik*
+
+a. …
+
+b. … dst
+
+4. Layanan Transaksi Keuangan
+
+a. Wesel Pos
+
+b. Transfer dana
+
+c. Giro Pos
+
+d. Tabungan Pos
+
+*sesuai dengan jenis dan produk layanan yang dimiliki
+
+Komposisi Jumlah Produksi Kiriman Uraian satuan Dalam Kota Antar Kota dalam Provinsi Antar Kota Antar Provinsi Antar Kota Antar Pulau
+1. Layanan Komunikasi Tertulis dan/atau Surat Elektronik*
+
+a. … kg
+
+b. … kg dst.
+
+2. Layanan Paket*
+
+a. … kg
+
+b. … kg dst. kg
+
+3. Layanan Logistik*
+
+a. … kg
+
+b. … kg dst kg
+
+4. Layanan Transaksi Keuangan
+
+a. Wesel Pos transaksi
+
+b. Transfer dana transaksi
+
+c. Giro Pos transaksi
+
+d. Tabungan Pos transaksi
+
+*sesuai dengan jenis dan produk layanan yang dimiliki Laporan Keuangan Uraian Satuan Nilai PENDAPATAN
+
+1. Layanan Komunikasi Tertulis dan/atau Surat Elektronik* Rp.
+
+a. … Rp.
+
+b. … Rp. dst.
+
+2. Layanan Paket* Rp.
+
+a. … Rp.
+
+b. … Rp.
+
+dst. Rp.
+
+3. Layanan Logistik* Rp.
+
+4. Layanan Transaksi Keuangan Rp.
+
+5. Layanan Keagenan Pos Rp.
+
+6. Layanan Lainnya di Luar Pos Rp. Total Pendapatan Rp. BIAYA OPERASI
+
+1. Biaya Langsung
+
+a. Layanan Komunikasi Tertulis dan/atau Surat Elektronik* Rp. 1) … Rp. 2) … Rp. dst.
+
+b. Layanan Paket* Rp. 1) … Rp. 2) … Rp. dst. Rp.
+
+c. Layanan Logistik Rp.
+
+d. Layanan Transaksi Keuangan Rp.
+
+e. Layanan Keagenan Pos Rp.
+
+f. Layanan Lainnya di Luar Pos Rp.
+
+2. Biaya Tidak Langsung Beban Pemasaran dan Penjualan Rp. Beban Administrasi dan Umum Rp. Beban Personil kantor Rp. Biaya Kontribusi Penyelenggaraan LPU Rp. Beban Lainnya Rp. Total Biaya Operasi Rp. EBITDA (Earning Before Interest Tax Depr. & Amort.) Rp. Beban Depresiasi dan Amortisasi Rp.
+
+1. Layanan Komunikasi Tertulis dan/atau Surat Elektronik
+
+2. Layanan Paket
+
+*sesuai dengan jenis dan produk layanan yang dimiliki Laporan Neraca Keuangan
+3. Layanan Logistik
+
+4. Layanan Transaksi Keuangan
+
+5. Layanan Keagenan Pos
+
+6. Layanan Lainnya di Luar Pos Total Beban Depresiasi dan Amortisasi Rp. EBIT (Earning Before Interest Tax) Rp. Pendapatan/Biaya Lainnya Beban Bunga Rp. Pendapatan Bunga Rp. Beban Lainnya Rp. Pendapatan Lainnya Rp. Total Pendapatan/Biaya Lainnya Rp. EBT (Earning Before Tax) Rp. Pajak Rp. LABA BERSIH Rp. Uraian Satuan Nilai ASET Aset Lancar (Current Assets) Rp. Kas dan Setara Kas Rp. Piutang Usaha Rp. Aset Lancar Lainnya Rp. Total Aset Lancar Rp. Aset Tetap Bersih (Fixed Assets-Net) Rp.
+
+1. Layanan Surat Pos Rp.
+
+2. Layanan Paket Rp.
+
+3. Layanan Logistik Rp.
+
+4. Layanan Transaksi Keuangan Rp.
+
+5. Layanan Keagenan Pos Rp.
+
+Laporan Weighted Average Capital Cost (WACC) Variabel Deskripsi Nilai Sumber Data Ket. Rf Risk free rate Government Bond 10 th Dp Corporate debt premium Bond Performance Ri Interest rate of Debt (Rf + Dp) Ba Asset Beta Market Analysis
+
+6. Layanan Lainnya di Luar Pos Rp. Total Aset Tetap Bersih Rp. Aset Tidak Lancar Lainnya Rp. TOTAL ASET Rp. LIABILITAS Liabilitas Jangka Pendek (Current Liabilities) Rp. Hutang Usaha Rp. Hutang Jangka Panjang jatuh tempo Rp. Liabilitas Jangka Pendek Lainnya Rp. Total Current Liabilities Rp. Liabilitas Jangka Panjang (Non-Current Liabilities) Rp. Hutang Jangka Panjang Rp. Others Non-Current liabilities Rp. Total Non-Current Liabilities Rp. TOTAL LIABILITAS Rp. EKUITAS Modal Disetor Rp. Laba Ditahan Rp. Ekuitas Lainnya Rp. TOTAL EKUITAS Rp. LIABILITAS DAN EKUITAS Rp.
+
+Rm - Rf Market Risk premium Worldwide Business Research Debt % Komposisi Hutang corporate Equity % Komposisi modal sendiri corporate Tc Corporate tax rate Government tax Rd Cost of debt Formula Bc Company Beta Formula Re Cost of equity Formula Post Tax WACC
+- Formula Pre Tax WACC
+- Formula MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA, ttd. MEUTYA VIADA HAFID
+
+LAMPIRAN IV PERATURAN MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA NOMOR 8 TAHUN 2025 TENTANG LAYANAN POS KOMERSIAL PENGENAAN SANKSI ADMINISTRATIF NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+menyediakan layanan Pos tidak sesuai dengan Perizinan Berusaha Penyelenggaraan Pos yang diperoleh.
+
+-
+-
+-
+- Penghentian Sementara Daya Paksa Polisional
+- tidak dapat membuktikan telah menjaga keamanan keselamatan Kiriman.
+-
+-
+-
+-
+-
+- Pencabutan
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+menyediakan layanan komunikasi tertulis dan/atau surat elektronik dan/atau paket tidak menyediakan sarana prasarana paling sedikit berupa:
+a. sarana transportasi pengumpulan dan pengambilan Kiriman (first mile);
+b. gerai atau kantor perwakilan;
+c. gudang, tempat penyimpanan atau tempat sortir; 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+d. sarana transportasi Kiriman antar wilayah (middle mile);
+e. sarana transportasi untuk melakukan pengantaran Kiriman (last mile);
+f. timbangan sesuai Standar Nasional Indonesia (SNI) telah diberikan tera;
+g. sistem manajemen yang terhubung ke dalam jaringan;
+h. sistem informasi pelacakan Kiriman; dan
+i. layanan pengaduan yang dapat diakses secara daring.
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+menyediakan logistik tidak menyediakan sarana prasarana paling sedikit berupa:
+a. gerai atau kantor perwakilan;
+b. gudang atau tempat penyimpanan sebagai pusat distribusi, pusat sortir, manajemen fulfillment;
+c. sarana transportasi Kiriman antar kota;
+d. sarana transportasi pengiriman akhir; 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+e. sistem operasional yang terhubung secara daring dengan Pengguna Layanan Pos;
+f. sistem pembayaran berbasis digital;
+g. sistem informasi pelacakan Kiriman; dan
+h. layanan pengaduan yang dapat diakses secara daring. dalam menyediakan layanan komunikasi tertulis dan/atau surat elektronik, paket, dan/atau logistik tidak memenuhi 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+ketentuan wilayah operasi paling sedikit pada 50% (lima puluh persen) provinsi di Indonesia. tidak menetapkan SOP penanganan Kiriman terlarang dikirimkan oleh lembaga atau instansi berwenang. 30 hari 30 hari 30 hari
+-
+-
+-
+- yang bekerja sama dengan PPMSE tidak menyampaikan laporan pelaksanaan Kiriman berdasarkan permintaan Direktur Jenderal 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional
+-
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+memuat paling sedikit:
+a. tarif Kiriman;
+b. standar kualitas pelayanan; dan
+c. jumlah Kiriman. Asing di wilayah Negara Kesatuan Republik Indonesia tidak memenuhi syarat:
+a. kerja sama dengan Pos dalam negeri melalui usaha patungan; dan
+b. kerja sama Pos Asing dengan Pos dalam negeri dibatasi wilayah 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+operasinya pada ibu kota provinsi. menetapkan Tarif Komersial tidak sesuai formula perhitungan berbasis biaya (cost based). 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan tidak menindaklanjuti rekomendasi Direktur Jenderal dalam penetapan Tarif Layanan Pos Komersial. 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan tidak memberikan data dibutuhkan oleh Direktur Jenderal dalam hal dilakukan 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional
+-
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+evaluasi terhadap implementasi potongan harga. dalam menyediakan melaksanakan layanan Pos tidak memenuhi Standar Pelayanan Pos. 30 hari 30 hari 30 hari
+-
+-
+-
+- tidak melaksanakan SOP yang ditetapkan masingmasing layanan. 30 hari 30 hari 30 hari
+-
+- tidak menjaga kerahasiaan terhadap isi Kiriman. 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan tidak menyediakan Interkoneksi untuk penyampaian 30 hari 30 hari 30 hari
+-
+-
+- Pencabutan
+
+NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+Kiriman Pos Universal. tidak memberikan akses dan/atau informasi diminta kepentingan monitoring evaluasi. 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan tidak menyampaikan laporan Penyelenggaraan Pos yang memuat paling sedikit:
+a. jenis layanan;
+b. jumlah produksi;
+c. tarif layanan;
+d. pencapaian terhadap Standar Pelayanan;
+e. wilayah operasi; 30 hari 30 hari 30 hari Denda Administratif Penghentian Sementara
+- Pencabutan
+
+MENTERI KOMUNIKASI DAN DIGITAL REPUBLIK INDONESIA, ttd. MEUTYA VIADA HAFID NO. PELANGGARAN SANKSI ADMINISTRATIF TEGURAN TERTULIS PERTAMA TEGURAN TERTULIS KEDUA TEGURAN TERTULIS KETIGA PENGENAAN DENDA ADMINISTRATIF PENGHENTIAN SEMENTARA KEGIATAN BERUSAHA DAYA PAKSA POLISIONAL PENCABUTAN PERIZINAN BERUSAHA (JANGKA WAKTU TEGURAN TERTULIS PALING LAMA)
+
+f. jumlah sumber daya manusia. tidak menyampaikan laporan keuangan kepada regulator (regulatory financial report). 30 hari 30 hari 30 hari
+- Penghentian Sementara Daya Paksa Polisional Pencabutan
