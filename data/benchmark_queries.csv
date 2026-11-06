@@ -1,0 +1,25 @@
+query_id,group_id,category,query_text,expected_behavior,corpus_status
+Q01,G1,business,Bagaimana cara kerja perhitungan estimasi pesanan tiba di aplikasi Tokopedia untuk pembeli?,retrieve,Layak
+Q01_SYN,G1,synonym,Gimana mekanisme penentuan perkiraan waktu paket sampai ke tangan pelanggan di Tokopedia?,retrieve,Layak
+Q01_AMB,G1,ambiguous,Kok barang saya belum nyampe-nyampe ya padahal udah lama?,clarify_or_retrieve,Layak
+Q01_OOD,G1,out_of_domain,Berapa estimasi waktu penerbangan langsung dari Jakarta ke Tokyo menggunakan Garuda Indonesia?,reject,N/A
+Q02,G2,business,Apa saja syarat dan ketentuan utama agar pembeli bisa menggunakan promo Bebas Ongkir di Tokopedia?,retrieve,Layak
+Q02_SYN,G2,synonym,Ketentuan apa yang harus dipenuhi supaya pengguna dapat menikmati voucher gratis biaya pengiriman?,retrieve,Layak
+Q02_AMB,G2,ambiguous,Kenapa gratis ongkirnya nggak bisa dipakai pas mau bayar?,clarify_or_retrieve,Layak
+Q02_OOD,G2,out_of_domain,Bagaimana cara mendaftar program subsidi pupuk gratis dari Kementerian Pertanian tahun 2026?,reject,N/A
+Q03,G3,business,Ke mana dana pengembalian (refund) akan masuk jika transaksi dibatalkan dan berapa lama prosesnya?,retrieve,Layak
+Q03_SYN,G3,synonym,Melalui metode apa uang kembali dicairkan saat pesanan gagal dan berapa hari waktu pencairannya?,retrieve,Layak
+Q03_AMB,G3,ambiguous,Uang saya balik ke mana kalau pesanan batal?,clarify_or_retrieve,Layak
+Q03_OOD,G3,out_of_domain,Bagaimana prosedur pengajuan restitusi kelebihan pembayaran pajak penghasilan (PPh) di kantor pajak?,reject,N/A
+Q04,G4,business,Bagaimana langkah-langkah mengajukan komplain pesanan yang rusak atau kurang melalui Pusat Resolusi Tokopedia?,retrieve,Layak
+Q04_SYN,G4,synonym,Apa prosedur pelaporan kendala barang cacat atau tidak lengkap lewat fitur resolusi komplain pembeli?,retrieve,Layak
+Q04_AMB,G4,ambiguous,"Barang yang datang pecah, harus lapor ke mana?",clarify_or_retrieve,Layak
+Q04_OOD,G4,out_of_domain,Bagaimana tata cara mengajukan gugatan sengketa tanah ke Pengadilan Negeri setempat?,reject,N/A
+Q05,G5,business,Apa saja pilihan durasi pengiriman yang tersedia ketika menggunakan fasilitas Gratis Ongkir di Tokopedia?,retrieve,Layak dengan perbaikan
+Q05_SYN,G5,synonym,Jenis layanan kecepatan kurir apa saja yang didukung dalam program subsidi bebas ongkos kirim?,retrieve,Layak dengan perbaikan
+Q05_AMB,G5,ambiguous,Gratis ongkir bisa pakai pengiriman yang cepat sampai hari ini nggak?,clarify_or_retrieve,Layak dengan perbaikan
+Q05_OOD,G5,out_of_domain,Berapa durasi waktu pemanggangan kue bolu lapis legit agar matang merata di oven listrik?,reject,N/A
+Q06,G6,business,Apa yang dimaksud dengan layanan Kurir Rekomendasi di Tokopedia dan mitra logistik mana saja yang tergabung?,retrieve,Layak dengan perbaikan
+Q06_SYN,G6,synonym,Jelaskan sistem pengiriman otomatis Kurir Rekomendasi beserta daftar ekspedisi rekanan yang mendukungnya.,retrieve,Layak dengan perbaikan
+Q06_AMB,G6,ambiguous,Kurir rekomendasi itu nanti yang ngantar paketnya siapa?,clarify_or_retrieve,Layak dengan perbaikan
+Q06_OOD,G6,out_of_domain,Rekomendasi sepeda balap roadbike terbaik di bawah 10 juta rupiah untuk pemula.,reject,N/A
