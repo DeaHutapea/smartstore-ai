@@ -117,8 +117,6 @@ dataset marketplace eksternal.
 - [x] Unit test termasuk kasus ekstrem (budget sangat kecil, deadline
       sangat ketat → infeasible) serta perbandingan dengan brute-force
 
-> Submission ini menggabungkan revisi Milestone 1 dengan Milestone 2,
-> sesuai arahan asisten dosen.
 
 ## Cara Menjalankan (Astral `uv`)
 
@@ -155,6 +153,20 @@ Kalau belum punya `uv`, install dulu: https://docs.astral.sh/uv/getting-started/
 | Virtual environment rusak | Hapus `.venv` (PowerShell: `Remove-Item -Recurse -Force .venv`), lalu `uv sync`. |
 | `ModuleNotFoundError: pytest` | Jalankan lewat `uv run pytest -v`, bukan `pytest` langsung. |
 | `uv.lock` tidak sinkron | Setelah mengubah `pyproject.toml`: `uv lock`, `uv sync`, commit keduanya. |
+
+## Milestone 3 — Knowledge Base & Vector Semantic Search
+
+```bash
+uv sync
+uv run python scripts/build_index.py --reset          # bersihkan -> chunk -> embed -> ChromaDB (chroma_db/)
+uv run python scripts/run_benchmark.py                # reports/benchmark_<koleksi>.md|csv
+uv run pytest -v
+```
+
+Modul di `src/knowledge/`: `corpus_loader.py` (manifest + pembersihan), `chunker.py`
+(word-aware + overlap), `embedder.py` (Sentence-Transformers), `vector_store.py`
+(ChromaDB persisten, cosine, metadata lengkap), `retriever.py` (top-k + ambang out-of-domain).
+Kueri uji ada di `data/benchmark_queries.json` (ground truth wajib diverifikasi tim).
 
 ## Roadmap Milestone Selanjutnya
 - **Milestone 3 (W07):** Knowledge Base & Vector Search (ChromaDB, RAG) —
