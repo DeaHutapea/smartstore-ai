@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CORPUS_DIR = ROOT / "data" / "corpus"
-DEFAULT_MANIFEST = ROOT / "data" / "corpus_manifest.csv"
+DEFAULT_MANIFEST = DEFAULT_CORPUS_DIR / "corpus_manifest.csv"
 INCLUDED_DECISIONS = ("KEEP", "KEEP_PROVISIONAL", "REVISE")
 MIN_WORDS = 50  # di bawah ini dianggap gagal ekstraksi (PDF scan)
 
