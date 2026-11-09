@@ -1,7 +1,7 @@
 {
-  "_catatan": "expected_docs = document_id yang dianggap jawaban benar (cukup salah satu = hit). WAJIB diverifikasi tim terhadap isi dokumen sebelum angka dilaporkan. type: synonym | ambiguous | out_of_domain.",
+  "_catatan": "Set benchmark resmi T03. expected_docs memakai document_id dari manifest; setiap label diikat ke topik/dokumen yang ada. type: synonym | ambiguous | out_of_domain.",
   "queries": [
-    {"id": "Q01", "type": "synonym", "query": "Berapa lama uang saya kembali setelah pesanan dibatalkan?", "expected_docs": ["MKT004"]},
+    {"id": "Q01", "type": "synonym", "query": "Di Tokopedia, berapa lama dana refund masuk setelah pesanan dibatalkan?", "expected_docs": ["MKT004"]},
     {"id": "Q02", "type": "synonym", "query": "Kenapa paket saya telat sampai melebihi perkiraan?", "expected_docs": ["MKT001"]},
     {"id": "Q03", "type": "synonym", "query": "Penjual menolak keluhan saya, langkah apa yang bisa saya tempuh?", "expected_docs": ["MKT002"]},
     {"id": "Q04", "type": "synonym", "query": "Voucher bebas biaya kirim bisa dipakai di jenis toko apa saja?", "expected_docs": ["MKT003", "MKT008"]},

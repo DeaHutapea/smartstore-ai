@@ -1,131 +1,151 @@
-# Laporan Evaluasi & Metodologi Benchmark SmartStore AI (T03)
+# Laporan Evaluasi Teknis SmartStore AI — Tugas 3
 
-**Proyek:** SmartStore AI Enterprise Copilot (T03 - Benchmark & Evaluasi RAG)  
-**Tanggal Pembuatan Template:** 6 November 2026  
-**Status Data Eksperimen:** Menunggu eksekusi pipeline RAG (T01/T02) — *Tidak ada angka eksperimen yang dikarang.*
+**Mata kuliah:** 10S3001 Kecerdasan Buatan (+P)
 
----
+**Tugas:** Tugas 3 — Milestone 3, Basis Pengetahuan Korpus & Vector Semantic Search
 
-## 1. Tujuan & Ruang Lingkup Evaluasi
-Dokumen ini mendokumentasikan rancangan dataset pengujian (*benchmark*), pemetaan *ground truth* terhadap *corpus* resmi yang telah diaudit, rumus metrik evaluasi informasi (*Information Retrieval*), serta format pelaporan untuk menguji sistem *Retrieval-Augmented Generation* (RAG) SmartStore AI.
+**Kelompok:** Grup 14
 
-Sesuai aturan proyek:
-1. Tidak ada hasil eksperimen fiktif di dalam laporan ini; seluruh sel metrik ditandai `[TBD]` hingga pipeline RAG menghasilkan `predictions.csv`.
-2. *Ground truth* hanya mengacu pada dokumen *corpus* yang sudah tersedia dan lolos audit kelayakan.
-3. Evaluasi dilakukan secara eksternal melalui `scripts/benchmark.py` tanpa mengubah *source code* T01 maupun T02.
+**Tanggal acuan sumber:** 6 November 2026
 
----
+**Status:** Implementasi dan evaluasi teknis
 
-## 2. Pemetaan Status Corpus terhadap Ground Truth
-Berdasarkan hasil audit dokumen sumber Tokopedia (no. 5–12) dan regulasi Permendag, pemetaan kelayakan dokumen untuk dijadikan rujukan *ground truth* adalah sebagai berikut:
+## 1. Tujuan dan kesesuaian dengan luaran T03
 
-### A. Dokumen Layak (Digunakan Penuh pada Ground Truth)
-1. `tokopedia_estimasi_pesanan_tiba.md` — Rujukan utama untuk Grup Query **G1**.
-2. `tokopedia_faq_seputar_gratis_ongkir.md` — Rujukan utama untuk Grup Query **G2** dan rujukan pendukung **G5**.
-3. `tokopedia_pengembalian_dana_refund.md` — Rujukan utama untuk Grup Query **G3**.
-4. `tokopedia_faq_pusat_resolusi_pembeli.md` — Rujukan utama untuk Grup Query **G4**.
+Milestone ini membangun korpus bisnis 12 dokumen, pipeline ekstraksi dan
+pembersihan teks, word-aware chunking dengan overlap, Sentence-Transformers,
+indeks ChromaDB persisten, dan evaluasi pencarian terhadap kueri relevan,
+ambigu, dan out-of-domain. Keempat luaran tersebut sesuai dengan rincian
+tugas pada PDF T03.
 
-### B. Dokumen Layak dengan Perbaikan (Digunakan Terbatas pada Bagian Valid)
-5. `tokopedia_opsi_durasi_pengiriman_gratis_ongkir.md` — Rujukan untuk Grup Query **G5**. Pertanyaan dibatasi pada jenis opsi durasi layanan pengiriman dan tidak menanyakan nominal angka subsidi pada tabel yang masih perlu dicocokkan manual.
-6. `tokopedia_kurir_rekomendasi.md` — Rujukan untuk Grup Query **G6**. Pertanyaan dibatasi pada definisi layanan dan daftar mitra logistik, menghindari aturan pembulatan berat (masih berupa gambar) serta bagian S&K yang tidak konsisten dengan FAQ.
+| Luaran tugas | Artefak |
+|---|---|
+| Korpus 10–15 dokumen | 4 regulasi + 8 dokumen kebijakan pada `data/corpus/corpus_manifest.csv`; sumber marketplace disediakan lokal dan tidak didistribusikan di Git |
+| Ingestion dan chunking | `src/knowledge/corpus_loader.py`, `src/knowledge/chunker.py`, `scripts/build_index.py` |
+| Embedding dan indeks persisten | `src/knowledge/embedder.py`, `src/knowledge/vector_store.py`, direktori runtime `chroma_db/` |
+| Benchmark relevansi, ambiguitas, dan OOD | `data/benchmark_queries.json`, `scripts/run_benchmark.py`, `scripts/benchmark.py`, hasil pada `reports/` |
 
-### C. Dokumen Belum Layak (Dikecualikan dari Ground Truth Aktif)
-* `tokopedia_cara_menghitung_ongkos_kirim.md` — Dikecualikan karena syarat dan panduan penggabungan ongkir hanya ada di dalam dua file GIF yang belum diekstrak.
-* `tokopedia_batas_waktu_respon_pesanan.md` — Dikecualikan karena tabel SLA terbaru (10 September 2024) dan diagram rumus hanya berupa gambar.
-* `permendag_19_2026_pmse.txt` — Dikecualikan karena baru berisi metadata halaman JDIH Kemendag tanpa isi pasal peraturan.
+## 2. Korpus dan prapemrosesan
 
----
+Korpus terdiri dari 12 dokumen terdaftar: regulasi konsumen, PMSE, PDP, dan
+layanan pos komersial; serta dokumen kebijakan marketplace. Loader hanya
+memasukkan keputusan `KEEP`, `KEEP_PROVISIONAL`, dan `REVISE`. Ekstraksi PDF
+menggunakan PyMuPDF, Markdown/TXT dibaca langsung, dan pembersihan menghapus
+noise web, nomor halaman, pemenggalan kata, serta whitespace berlebih.
+Dokumen pendek dan sumber yang hilang dilaporkan, bukan diam-diam dianggap
+berhasil.
 
-## 3. Desain Dataset Benchmark (`benchmark_queries.csv`)
-Dataset terdiri dari **6 Grup Bisnis (24 Query)** yang dibagi secara proporsional ke dalam 4 kategori:
-* **`business` (6 query):** Pertanyaan spesifik dan formal seputar prosedur/kebijakan layanan pelanggan Tokopedia.
-* **`synonym` (6 query):** Pertanyaan dengan maksud semantik yang sama persis dengan kategori `business`, tetapi ditulis menggunakan padanan kata (sinonim) dan struktur kalimat berbeda untuk menguji ketahanan *embedding model*.
-* **`ambiguous` (6 query):** Pertanyaan pendek, kolokial, atau multi-tafsir yang sering diajukan pengguna awam untuk menguji kemampuan sistem mengambil dokumen kandidat terdekat atau meminta klarifikasi.
-* **`out_of_domain` / OOD (6 query):** Pertanyaan di luar konteks e-commerce Tokopedia yang sengaja memuat kata kunci serupa (*lexical trap*, seperti "estimasi penerbangan", "subsidi pupuk gratis", "restitusi pajak", "gugatan pengadilan", "durasi panggang kue", "rekomendasi sepeda") untuk menguji ketepatan filter penolakan OOD (*OOD rejection*).
+URL dan tanggal akses seluruh dokumen terdaftar dicatat di manifest. URL
+regulasi diverifikasi di portal resmi; empat snapshot Markdown Tokopedia
+memuat URL dan tanggal pada front matter. Metadata PDF MKT005–MKT008
+menyediakan tanggal snapshot; tautan internal memberi URL kategori untuk
+MKT005–MKT007 dan URL artikel untuk MKT008. URL artikel utama Shopee
+MKT005–MKT007 belum dapat diidentifikasi dari snapshot, sehingga statusnya
+tetap dinamis/tidak diverifikasi dan tidak boleh dipakai untuk menyatakan
+kebijakan masih berlaku. Detail provenance ada di `docs/corpus_sources.md`.
 
----
+PDF/teks marketplace dan hasil ekstraksinya dikecualikan dari Git karena izin
+redistribusi belum dipastikan. Sumber lokal yang telah tersedia dipertahankan
+untuk evaluasi; clone baru perlu menyiapkan sumber yang berhak digunakan
+sebelum indeks lengkap dapat dibangun. Lihat `docs/corpus_sources.md`.
 
-## 4. Kontrak Antarmuka CSV dengan Pipeline RAG
-Agar skrip `scripts/benchmark.py` dapat langsung memproses keluaran sistem tanpa menyentuh kode T01/T02, tim pipeline RAG mengekspor hasil pencarian ke berkas `predictions.csv` dengan kolom berikut:
+## 3. Chunking, embedding, dan penyimpanan
 
-| Nama Kolom | Tipe Data | Contoh Isi | Keterangan |
-| :--- | :--- | :--- | :--- |
-| `query_id` | String | `Q01` | ID query sesuai `benchmark_queries.csv` |
-| `retrieved_doc_ids` | String (`;` separated) | `tokopedia_estimasi_pesanan_tiba.md;tokopedia_kurir_rekomendasi.md` | Daftar nama dokumen terambil dari peringkat 1 s.d. $K$ (isi `NONE` jika ditolak) |
-| `cosine_scores` | String (`;` separated) | `0.8542;0.7120` | Daftar skor *cosine similarity* yang berkorespondensi dengan dokumen terambil |
-| `is_rejected` | Boolean | `False` | Bernilai `True` jika query ditolak sebagai Out-of-Domain, `False` jika diterima |
+Chunker memprioritaskan batas kalimat, menggabungkan kalimat sampai target
+ukuran, mempertahankan overlap dalam kata antar-chunk, serta memecah kalimat
+panjang berdasarkan batas kata. Ablation memakai E5-small pada ukuran
+180/36 dan 120/24, serta multilingual MiniLM pada 80/16 dan 120/24
+(ukuran/overlap dalam kata). Jumlah chunk pada snapshot korpus masing-masing
+302, 449, 688, dan 449; angka ini dapat direproduksi dengan `scripts/run_all.py`.
 
----
+Pemilihan 180/36 sebagai konfigurasi acuan memberi unit konteks lebih panjang
+dengan overlap 20% untuk menjaga konteks lintas batas. Ia bukan klaim optimum
+universal: hasil benchmark serta perbedaan model dan ukuran chunk harus
+dibaca bersama pada `reports/summary_ablation.md`. Pada benchmark holdout final,
+semua 8 kueri synonym berhasil pada Hit@1 untuk E5 180/36; konfigurasi ini
+dipakai sebagai acuan pelaporan, bukan karena angka tersebut membuktikan
+keunggulan universal. Tokenizer E5-small lokal
+diukur pada seluruh konfigurasi; batas 512 token tidak terlampaui (konfigurasi
+180/36 maksimum 379 token). Tokenizer MiniLM tidak tersedia lokal ketika diuji,
+jadi risiko pemotongan pada batas model 128 token belum terukur.
 
-## 5. Metodologi Pengukuran & Rumus Evaluasi
+Embedding dinormalisasi L2; E5 memakai prefix `query:` dan `passage:`.
+ChromaDB menggunakan `PersistentClient`, cosine distance, koleksi terpisah
+per model/konfigurasi, `upsert` idempoten, dan metadata sumber/dokumen/chunk
+untuk filter atau hybrid search.
 
-### 5.1 Precision@K ($P@K$)
-Mengukur proporsi dokumen relevan di antara $K$ dokumen teratas yang diambil untuk setiap query *in-domain* $q$:
-$$\text{Precision}@K(q) = \frac{|\text{Ret}_K(q) \cap \text{Rel}(q)|}{K}$$
+## 4. Benchmark dan ground truth
 
-### 5.2 Recall@K ($R@K$)
-Mengukur proporsi dokumen relevan yang berhasil terambil pada $K$ urutan teratas dibandingkan total dokumen relevan di *ground truth* untuk query $q$:
-$$\text{Recall}@K(q) = \frac{|\text{Ret}_K(q) \cap \text{Rel}(q)|}{|\text{Rel}(q)|}$$
+`data/benchmark_queries.json` adalah satu-satunya sumber resmi: 16 kueri,
+terdiri dari 8 kueri synonym, 3 ambiguous, dan 5 OOD. Label dokumen
+menggunakan `document_id` manifest dan diperiksa terhadap korpus yang
+diindeks. Benchmark CSV 24 kueri lama tidak lagi digunakan agar tidak ada
+dua sumber kebenaran. OOD tidak memiliki dokumen relevan dan dievaluasi
+terutama melalui keputusan tolak/terima.
 
-### 5.3 Mean Reciprocal Rank ($\text{MRR}$)
-Mengukur rata-rata kebalikan peringkat (*reciprocal rank*) dari dokumen relevan pertama yang berhasil ditemukan untuk seluruh himpunan query *in-domain* $Q_{\text{in}}$:
-$$\text{MRR} = \frac{1}{|Q_{\text{in}}|} \sum_{q \in Q_{\text{in}}} \frac{1}{\text{rank}_q}$$
+Threshold tidak dicari pada kueri holdout. `scripts/calibrate_threshold.py`
+memilih threshold dari dataset development terpisah di
+`data/ood_calibration_queries.json` dengan balanced accuracy. Nilai untuk
+E5-small 180/36 adalah 0.850363. Dataset dev hanya 7 kueri per kelas; hasil
+dev bukan estimasi performa produksi. Untuk konfigurasi lain, kalibrasikan
+ambang tersendiri.
 
-### 5.4 OOD Rejection Precision
-Mengukur tingkat ketepatan sistem ketika memutuskan untuk menolak sebuah query:
-$$\text{OOD Rejection Precision} = \frac{\text{TP}_{\text{OOD}}}{\text{TP}_{\text{OOD}} + \text{FP}_{\text{OOD}}}$$
-* $\text{TP}_{\text{OOD}}$: Query berlabel Out-of-Domain (`is_ood = True`) yang berhasil ditolak (`is_rejected = True`).
-* $\text{FP}_{\text{OOD}}$: Query berlabel In-Domain (`is_ood = False`) yang salah ditolak oleh sistem (`is_rejected = True`).
-* Sebagai metrik pendamping, dihitung pula **OOD Rejection Recall** ($\frac{\text{TP}_{\text{OOD}}}{\text{TP}_{\text{OOD}} + \text{FN}_{\text{OOD}}}$) dan **OOD Rejection F1-Score**.
+Metrik retrieval menghitung Precision@K, Recall@K, dan MRR untuk kueri
+in-domain. Untuk OOD, positif berarti kueri OOD yang ditolak; laporan
+menghitung precision, recall, F1, dan jumlah false rejection/missed rejection.
+Analisis cosine menghasilkan statistik per kategori serta boxplot dan
+histogram in-domain vs OOD.
 
-### 5.5 Metode Analisis Cosine Similarity
-1. Mengambil skor tertinggi (**Top-1 Cosine Similarity**) dari setiap query terhadap dokumen di dalam *vector database*.
-2. Mengelompokkan distribusi skor berdasarkan 4 kategori (`business`, `synonym`, `ambiguous`, `out_of_domain`) dan menghitung nilai statistik: *Count, Mean, Std Dev, Min, Median,* dan *Max*.
-3. Memvisualisasikan distribusi menggunakan **Boxplot per Kategori** dan **Histogram Separabilitas In-Domain vs OOD** (`eval_results/cosine_similarity_analysis.png`) guna menentukan ambang batas (*threshold* $\tau$) yang meminimalkan $\text{FP}_{\text{OOD}}$ sekaligus memaksimalkan $\text{TP}_{\text{OOD}}$.
+## 5. Hasil dan analisis
 
----
+Hasil terbaru disimpan sebagai:
 
-## 6. Tabel Hasil Pengujian (Diisi Setelah Eksekusi Pipeline)
+- `reports/summary_ablation.md` — perbandingan empat konfigurasi.
+- `reports/benchmark_kb_multilingual_e5_small_c180_o36.md` — per-query dan
+  ringkasan konfigurasi acuan.
+- `reports/evaluation_kb_multilingual_e5_small_c180_o36/` — metrik formal,
+  statistik cosine, dan visualisasi dari `scripts/benchmark.py`.
+- `reports/calibration_kb_multilingual_e5_small_c180_o36.json` — skor dev dan
+  threshold yang dipilih.
 
-### Tabel 6.1 Ringkasan Metrik Retrieval In-Domain
-*(Sumber data: `eval_results/retrieval_metrics_summary.csv`)*
+Pada E5-small 180/36, korpus menghasilkan 302 chunk dan threshold dev 0.850363.
+Holdout terdiri dari 11 kueri in-domain dan 5 OOD: 11/11 diterima dan 5/5
+ditolak (precision/recall/F1 penolakan OOD masing-masing 1.00; TP=5, FP=0,
+FN=0, TN=11). Rata-rata cosine top-1 adalah 0.877 untuk synonym, 0.874 untuk
+ambiguous, dan 0.792 untuk OOD. Skor in-domain minimum adalah 0.8545 dan skor
+OOD maksimum 0.8163; jarak pemisahannya 0.0382. Margin skor in-domain minimum
+terhadap threshold hanya sekitar 0.0041, sehingga threshold perlu diuji pada
+set yang lebih besar.
 
-| Kategori Query | Jumlah Query | P@1 | P@3 | P@5 | R@1 | R@3 | R@5 | MRR |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Business** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
-| **Synonym** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
-| **Ambiguous** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
-| **ALL_IN_DOMAIN** | 18 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
+Metrik retrieval gabungan in-domain: P@1=0.909, P@3=0.424, P@5=0.273,
+R@1=0.712, R@3=0.864, R@5=0.894, MRR=0.939. Kategori ambiguous lebih lemah
+(Hit@1=0.667, MRR=0.778) daripada synonym (Hit@1=1.00, MRR=1.00). Kueri Q01
+sebelumnya tidak menyebut marketplace dan hasil teratasnya berasal dari
+Shopee; setelah kueri diperjelas dengan "Di Tokopedia", MKT004 berada pada
+peringkat pertama. Ini menunjukkan pentingnya konteks platform pada kueri
+yang membandingkan kebijakan.
 
-### Tabel 6.2 Hasil Evaluasi Penolakan Out-of-Domain (OOD Rejection)
-*(Sumber data: `eval_results/ood_metrics_summary.json`)*
+Angka holdout tersebut berdasarkan sampel kecil dan tidak membuktikan
+generalisasi ke trafik produksi. `reports/summary_ablation.md` harus
+diperbarui lewat `scripts/run_all.py` setelah seluruh konfigurasi selesai;
+jangan menyalin angka dari run lama.
 
-| Metrik Evaluasi OOD | Nilai Hasil Uji | Target Ideal | Keterangan |
-| :--- | :---: | :---: | :--- |
-| **Similarity Threshold ($\tau$)** | [TBD] | Disesuaikan | Ambang batas skor minimum penerimaan query |
-| **True Positive ($\text{TP}_{\text{OOD}}$)** | [TBD] | 6 | Query OOD berhasil ditolak |
-| **False Positive ($\text{FP}_{\text{OOD}}$)** | [TBD] | 0 | Query In-Domain salah ditolak (*False Rejection*) |
-| **False Negative ($\text{FN}_{\text{OOD}}$)** | [TBD] | 0 | Query OOD gagal ditolak (*kebobolan*) |
-| **True Negative ($\text{TN}_{\text{OOD}}$)** | [TBD] | 18 | Query In-Domain berhasil diproses |
-| **OOD Rejection Precision** | [TBD] | 1.0000 | $\text{TP}_{\text{OOD}} / (\text{TP}_{\text{OOD}} + \text{FP}_{\text{OOD}})$ |
-| **OOD Rejection Recall** | [TBD] | 1.0000 | $\text{TP}_{\text{OOD}} / (\text{TP}_{\text{OOD}} + \text{FN}_{\text{OOD}})$ |
-| **OOD Rejection F1-Score** | [TBD] | 1.0000 | Rata-rata harmonik Precision & Recall OOD |
+## 6. Reproduksi
 
-### Tabel 6.3 Statistik Distribusi Top-1 Cosine Similarity
-*(Sumber data: `eval_results/cosine_similarity_summary.csv`)*
+Pada working tree yang memiliki semua sumber korpus yang sah:
 
-| Kategori Query | Count | Mean | Std Dev | Min | Median | Max |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **business** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
-| **synonym** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
-| **ambiguous** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
-| **out_of_domain** | 6 | [TBD] | [TBD] | [TBD] | [TBD] | [TBD] |
+```powershell
+uv sync
+uv run python scripts/build_index.py --reset
+uv run python scripts/run_all.py
+uv run python scripts/benchmark.py --preds reports/predictions_kb_multilingual_e5_small_c180_o36.csv --out reports/evaluation_kb_multilingual_e5_small_c180_o36
+uv run pytest -q
+```
 
----
+Jika sumber marketplace belum disediakan, `build_index.py` berhenti dengan
+daftar dokumen yang hilang. `--allow-partial-corpus` hanya untuk eksperimen
+parsial dan tidak memenuhi korpus 10–15 dokumen.
 
-## 7. Visualisasi & Analisis Temuan
-*(Lampirkan gambar `eval_results/cosine_similarity_analysis.png` di bagian ini setelah menjalankan `scripts/benchmark.py`)*
-
-* **Analisis Perbandingan Kategori (`business` vs `synonym` vs `ambiguous`):** `[TBD - Jelaskan apakah penurunan skor dari business ke synonym dan ambiguous signifikan]`
-* **Analisis Pemisahan Skor In-Domain vs OOD:** `[TBD - Jelaskan apakah terdapat tumpang tindih (overlap) antara skor minimum query ambiguous dengan skor maksimum query out_of_domain]`
-* **Rekomendasi Threshold ($\tau$):** `[TBD - Tentukan angka threshold optimal berdasarkan distribusi pada grafik]`
+Laporan PDF yang dibuat dari dokumen ini disimpan sebagai
+`Grup14-Tugas03.pdf`. Tim tetap perlu meninjau isi akhir dan memeriksa izin
+penggunaan setiap sumber sebelum menyerahkan laporan.

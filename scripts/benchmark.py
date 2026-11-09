@@ -18,6 +18,7 @@ Catatan Penting:
 import argparse
 import json
 import os
+from pathlib import Path
 from typing import List, Dict, Set, Any
 import numpy as np
 import pandas as pd
@@ -147,7 +148,9 @@ def analyze_cosine_similarity(df_merged: pd.DataFrame, output_dir: str) -> pd.Da
         data_by_cat = [valid_scores[valid_scores["category"] == c]["top1_score"].values for c in present_cats]
 
         if data_by_cat:
-            axes[0].boxplot(data_by_cat, labels=present_cats, patch_artist=True)
+            axes[0].boxplot(data_by_cat, patch_artist=True)
+            axes[0].set_xticks(range(1, len(present_cats) + 1))
+            axes[0].set_xticklabels(present_cats)
             axes[0].set_title("Distribusi Top-1 Cosine Similarity per Kategori")
             axes[0].set_xlabel("Kategori Query")
             axes[0].set_ylabel("Top-1 Cosine Similarity")
@@ -174,17 +177,52 @@ def analyze_cosine_similarity(df_merged: pd.DataFrame, output_dir: str) -> pd.Da
 
 def evaluate_predictions(
     queries_path: str,
-    gt_path: str,
+    gt_path: str | None,
     preds_path: str,
     k_values: List[int],
     output_dir: str,
 ) -> None:
     """Fungsi utama untuk mengevaluasi prediksi RAG terhadap ground truth."""
-    df_q = pd.read_csv(queries_path)
-    df_gt = pd.read_csv(gt_path)
+    if queries_path.lower().endswith(".json"):
+        query_data = json.loads(Path(queries_path).read_text(encoding="utf-8"))["queries"]
+        df_q = pd.DataFrame(
+            [
+                {
+                    "query_id": row["id"],
+                    "category": row["type"],
+                    "query_text": row["query"],
+                }
+                for row in query_data
+            ]
+        )
+        df_gt = pd.DataFrame(
+            [
+                {
+                    "query_id": row["id"],
+                    "relevant_doc_ids": ";".join(row["expected_docs"]),
+                    "is_ood": row["type"] == "out_of_domain",
+                }
+                for row in query_data
+            ]
+        )
+    else:
+        if gt_path is None:
+            raise ValueError("--gt wajib diisi jika --queries bukan JSON.")
+        df_q = pd.read_csv(queries_path)
+        df_gt = pd.read_csv(gt_path)
     df_pred = pd.read_csv(preds_path)
 
-    df = df_q.merge(df_gt, on="query_id", how="inner").merge(df_pred, on="query_id", how="inner")
+    for name, frame in (("queries", df_q), ("ground truth", df_gt), ("predictions", df_pred)):
+        if frame["query_id"].duplicated().any():
+            raise ValueError(f"ID kueri duplikat pada berkas {name}.")
+    query_ids = set(df_q["query_id"])
+    if query_ids != set(df_gt["query_id"]) or query_ids != set(df_pred["query_id"]):
+        raise ValueError("ID kueri pada query, ground truth, dan predictions harus sama persis.")
+
+    df = (
+        df_q.merge(df_gt, on="query_id", how="inner", validate="one_to_one")
+        .merge(df_pred, on="query_id", how="inner", validate="one_to_one")
+    )
 
     df["parsed_relevant"] = df["relevant_doc_ids"].apply(lambda x: set(parse_doc_list(x)))
     df["parsed_retrieved"] = df["retrieved_doc_ids"].apply(parse_doc_list)
@@ -213,7 +251,7 @@ def evaluate_predictions(
     indomain_df = df[~df["is_ood"]]
     metric_cols = [f"P@{k}" for k in k_values] + [f"R@{k}" for k in k_values] + ["rr"]
     summary_by_cat = indomain_df.groupby("category")[metric_cols].mean().reset_index()
-    summary_by_cat.rename(columns={"rr": "MRR"}, inplace=True)
+    summary_by_cat = summary_by_cat.rename(columns={"rr": "MRR"})
 
     overall_row = {"category": "ALL_IN_DOMAIN"}
     for col in metric_cols:
@@ -240,8 +278,8 @@ def evaluate_predictions(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluasi Benchmark SmartStore AI T03")
-    parser.add_argument("--queries", default="benchmark_queries.csv", help="Path ke benchmark_queries.csv")
-    parser.add_argument("--gt", default="ground_truth.csv", help="Path ke ground_truth.csv")
+    parser.add_argument("--queries", default="data/benchmark_queries.json", help="Kueri JSON resmi atau ekspor CSV")
+    parser.add_argument("--gt", default=None, help="Ground truth CSV untuk kompatibilitas input CSV lama")
     parser.add_argument("--preds", required=True, help="Path ke file predictions.csv dari pipeline RAG T01/T02")
     parser.add_argument("--k", nargs="+", type=int, default=[1, 3, 5], help="Daftar nilai K untuk Precision@K dan Recall@K")
     parser.add_argument("--out", default="eval_results", help="Folder output hasil evaluasi")

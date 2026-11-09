@@ -1,17 +1,17 @@
-id,type,query,top1_doc,top1_section,top1_score,top2_score,expected,rank_of_expected,hit@1,hit@3,rr
-Q01,synonym,Berapa lama uang saya kembali setelah pesanan dibatalkan?,MKT006,,0.6765,0.609,MKT004,4,0,0,0.25
-Q02,synonym,Kenapa paket saya telat sampai melebihi perkiraan?,MKT001,Pertanyaan dan Jawaban,0.6221,0.6193,MKT001,1,1,1,1.0
-Q03,synonym,"Penjual menolak keluhan saya, langkah apa yang bisa saya tempuh?",MKT002,Proses Komplain dan Penanganannya,0.621,0.5785,MKT002,1,1,1,1.0
-Q04,synonym,Voucher bebas biaya kirim bisa dipakai di jenis toko apa saja?,MKT008,,0.5375,0.5272,"MKT003,MKT008",1,1,1,1.0
-Q05,synonym,Apa hak pembeli jika barang yang diterima tidak sesuai perjanjian?,MKT007,,0.7807,0.7454,REG001,2,0,1,0.5
-Q06,synonym,Kewajiban penyelenggara platform dalam menjaga kerahasiaan data pribadi pengguna,REG003,Pasal 25...,0.7158,0.7079,REG003,1,1,1,1.0
-Q07,synonym,Berapa hari batas waktu retur barang di Shopee Mall?,MKT006,,0.8344,0.6787,"MKT005,MKT006",1,1,1,1.0
-Q08,synonym,Kewajiban pelaku usaha yang berdagang lewat sistem elektronik,REG002,BAB VI KEWAJIBAN PELAKU USAHA PERDAGANGAN MELALUI SISTEM ELEKTRONIK Pedagang dal,0.6582,0.657,REG002,1,1,1,1.0
-Q09,ambiguous,Bagaimana kebijakan pengembalian?,MKT005,,0.7109,0.6547,"MKT004,MKT005,MKT007",1,1,1,1.0
-Q10,ambiguous,Aturan soal pengiriman barang,REG002,BAB XIII PENGIRIMAN BARANG DAN JASA DALAM PERDAGANGAN MELALUI SISTEM ELEKTRONIK ,0.7538,0.7213,"MKT001,MKT003,REG004",2,0,1,0.5
-Q11,ambiguous,Syarat dan ketentuan,REG004,BAB II KETENTUAN TEKNIS,0.6424,0.622,"MKT007,MKT008",5,0,0,0.2
-Q12,out_of_domain,Resep nasi goreng seafood yang enak,REG001,BAB IV PERBUATAN YANG DILARANG BAGI PELAKU USAHA,0.1754,0.1127,,,,,
-Q13,out_of_domain,Siapa juara Liga Champions musim lalu?,REG001,BAB VIII BADAN PERLINDUNGAN KONSUMEN NASIONAL,0.2166,0.1624,,,,,
-Q14,out_of_domain,Cara install Python di Windows 11,MKT008,,0.131,0.1156,,,,,
-Q15,out_of_domain,Prakiraan cuaca besok di Medan,REG004,Pasal 47 ayat (2) huruf a merupakan kepastian waktu tempuh Kiriman yang dihitung,0.3083,0.2496,,,,,
-Q16,out_of_domain,Apa itu teori relativitas Einstein?,REG003,Pasal 48...,0.212,0.1662,,,,,
+id,type,query,top1_doc,top1_section,top1_score,top2_score,expected,rank_of_expected,hit@1,hit@3,rr,retrieved_doc_ids,cosine_scores,is_rejected
+Q01,synonym,"Di Tokopedia, berapa lama dana refund masuk setelah pesanan dibatalkan?",MKT006,,0.6667,0.6665,MKT004,5,0,0,0.2,MKT006;MKT005;MKT008;REG004;MKT004,0.6667;0.6665;0.6505;0.6464;0.6204,False
+Q02,synonym,Kenapa paket saya telat sampai melebihi perkiraan?,MKT001,Pertanyaan dan Jawaban,0.6221,0.3795,MKT001,1,1,1,1.0,MKT001;MKT003;MKT006;MKT002;MKT007,0.6221;0.3795;0.3686;0.3537;0.3490,False
+Q03,synonym,"Penjual menolak keluhan saya, langkah apa yang bisa saya tempuh?",MKT002,Proses Komplain dan Penanganannya,0.621,0.5708,MKT002,1,1,1,1.0,MKT002;REG001;MKT005;MKT007;REG004,0.6210;0.5708;0.5309;0.5015;0.4362,False
+Q04,synonym,Voucher bebas biaya kirim bisa dipakai di jenis toko apa saja?,MKT008,,0.5375,0.5272,"MKT003,MKT008",1,1,1,1.0,MKT008;MKT007;REG004;MKT005;MKT003,0.5375;0.5272;0.5233;0.5081;0.4966,True
+Q05,synonym,Apa hak pembeli jika barang yang diterima tidak sesuai perjanjian?,MKT007,,0.7807,0.7454,REG001,2,0,1,0.5,MKT007;REG001;MKT005;REG002;MKT002,0.7807;0.7454;0.7417;0.6905;0.6178,False
+Q06,synonym,Kewajiban penyelenggara platform dalam menjaga kerahasiaan data pribadi pengguna,REG003,Pasal 25...,0.7158,0.7079,REG003,1,1,1,1.0,REG003;REG002;REG004;MKT008;REG001,0.7158;0.7079;0.5898;0.5341;0.5331,False
+Q07,synonym,Berapa hari batas waktu retur barang di Shopee Mall?,MKT006,,0.8344,0.6787,"MKT005,MKT006",1,1,1,1.0,MKT006;MKT007;MKT005;REG001;REG004,0.8344;0.6787;0.5979;0.5274;0.5049,False
+Q08,synonym,Kewajiban pelaku usaha yang berdagang lewat sistem elektronik,REG002,BAB VI KEWAJIBAN PELAKU USAHA PERDAGANGAN MELALUI SISTEM ELEKTRONIK Pedagang dal,0.6582,0.5767,REG002,1,1,1,1.0,REG002;REG004;REG001;REG003;MKT008,0.6582;0.5767;0.5745;0.5430;0.4622,False
+Q09,ambiguous,Bagaimana kebijakan pengembalian?,MKT005,,0.7109,0.5388,"MKT004,MKT005,MKT007",1,1,1,1.0,MKT005;MKT002;MKT006;MKT004;REG001,0.7109;0.5388;0.5042;0.4931;0.4926,False
+Q10,ambiguous,Aturan soal pengiriman barang,REG002,BAB XIII PENGIRIMAN BARANG DAN JASA DALAM PERDAGANGAN MELALUI SISTEM ELEKTRONIK ,0.7538,0.7213,"MKT001,MKT003,REG004",2,0,1,0.5,REG002;REG004;REG001;MKT005;MKT007,0.7538;0.7213;0.5745;0.5741;0.5535,False
+Q11,ambiguous,Syarat dan ketentuan,REG004,BAB II KETENTUAN TEKNIS,0.6424,0.622,"MKT007,MKT008",5,0,0,0.2,REG004;REG001;REG002;REG003;MKT008,0.6424;0.6220;0.5959;0.5669;0.5665,False
+Q12,out_of_domain,Resep nasi goreng seafood yang enak,REG001,BAB IV PERBUATAN YANG DILARANG BAGI PELAKU USAHA,0.1754,0.1106,,,,,,REG001;MKT006;REG002;MKT003;REG004,0.1754;0.1106;0.1038;0.0984;0.0879,True
+Q13,out_of_domain,Siapa juara Liga Champions musim lalu?,REG001,BAB VIII BADAN PERLINDUNGAN KONSUMEN NASIONAL,0.2166,0.1624,,,,,,REG001;REG004;REG002;REG003;MKT002,0.2166;0.1624;0.1436;0.1212;0.0695,True
+Q14,out_of_domain,Cara install Python di Windows 11,MKT008,,0.131,0.1156,,,,,,MKT008;REG004;REG001;REG002;MKT001,0.1310;0.1156;0.0973;0.0939;0.0828,True
+Q15,out_of_domain,Prakiraan cuaca besok di Medan,REG004,Pasal 47 ayat (2) huruf a merupakan kepastian waktu tempuh Kiriman yang dihitung,0.3083,0.244,,,,,,REG004;MKT003;REG002;REG001;MKT001,0.3083;0.2440;0.2370;0.2106;0.1957,True
+Q16,out_of_domain,Apa itu teori relativitas Einstein?,REG003,Pasal 48...,0.212,0.1471,,,,,,REG003;REG004;MKT003;REG002;REG001,0.2120;0.1471;0.1405;0.1388;0.1173,True

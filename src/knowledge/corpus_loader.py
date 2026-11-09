@@ -1,7 +1,7 @@
 """Loader korpus berbasis manifest + pembersihan teks (Data & Knowledge Layer, M3).
 
 Alur: ``corpus_manifest.csv`` -> pilih dokumen (KEEP / KEEP_PROVISIONAL / REVISE)
--> ekstraksi teks (md/txt langsung, PDF via pypdf) -> pembersihan -> ``Document``.
+-> ekstraksi teks (md/txt langsung, PDF via PyMuPDF) -> pembersihan -> ``Document``.
 Dokumen yang gagal (mis. PDF hasil scan tanpa teks) TIDAK diam-diam dilewati:
 alasannya dicatat di ``LoadReport`` agar bisa masuk laporan.
 """
@@ -17,7 +17,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CORPUS_DIR = ROOT / "data" / "corpus"
-DEFAULT_MANIFEST = ROOT / "data" / "corpus_manifest.csv"
+_DEFAULT_MANIFEST_LEGACY = ROOT / "data" / "corpus_manifest.csv"
+_DEFAULT_MANIFEST_CURRENT = ROOT / "data" / "corpus" / "corpus_manifest.csv"
+DEFAULT_MANIFEST = (
+    _DEFAULT_MANIFEST_CURRENT if _DEFAULT_MANIFEST_CURRENT.exists() else _DEFAULT_MANIFEST_LEGACY
+)
 INCLUDED_DECISIONS = ("KEEP", "KEEP_PROVISIONAL", "REVISE")
 MIN_WORDS = 50  # di bawah ini dianggap gagal ekstraksi (PDF scan)
 

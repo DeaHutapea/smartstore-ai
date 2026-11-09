@@ -8,9 +8,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import pytest  # noqa: E402
 
 from knowledge.chunker import chunk_text  # noqa: E402
-from knowledge.corpus_loader import Document, clean_text  # noqa: E402
+from knowledge.corpus_loader import DEFAULT_MANIFEST, Document, clean_text, load_corpus  # noqa: E402
+from knowledge.embedder import DEFAULT_MODEL  # noqa: E402
 from knowledge.retriever import Retriever  # noqa: E402
-from knowledge.vector_store import VectorStore  # noqa: E402
+from knowledge.vector_store import VectorStore, collection_name  # noqa: E402
 
 
 class HashEmbedder:
@@ -89,3 +90,39 @@ def test_ood_threshold_rejects_unrelated_query(tmp_path):
     r = Retriever(store, threshold=0.5)
     assert r.retrieve("kebijakan pengembalian dana pembeli").in_domain
     assert not r.retrieve("resep nasi goreng seafood").in_domain
+
+
+def test_default_manifest_loads_available_regulatory_corpus():
+    assert DEFAULT_MANIFEST.is_file()
+    documents, report = load_corpus()
+    assert {"REG001", "REG002", "REG003", "REG004"} <= {doc.doc_id for doc in documents}
+    assert "MKT006" in report.loaded
+    assert not any("tidak persis" in warning for warning in report.warnings)
+    assert not report.skipped
+    assert all(doc.meta["source_url"] and doc.meta["access_date"] for doc in documents)
+
+
+def test_retriever_uses_calibrated_default_threshold(tmp_path):
+    embedder = HashEmbedder()
+    embedder.model_name = DEFAULT_MODEL
+    store = VectorStore(embedder, collection_name(DEFAULT_MODEL, 180, 36), tmp_path)
+    assert Retriever(store).threshold == pytest.approx(0.850363)
+    with pytest.raises(ValueError, match="threshold"):
+        Retriever(store, threshold=1.1)
+    with pytest.raises(ValueError, match="dikalibrasi"):
+        Retriever(VectorStore(HashEmbedder(), "test_unknown_model", tmp_path))
+
+
+def test_official_benchmark_expected_documents_exist_in_manifest():
+    import csv
+    import json
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1]
+    with DEFAULT_MANIFEST.open(encoding="utf-8-sig", newline="") as manifest_file:
+        manifest_ids = {row["document_id"] for row in csv.DictReader(manifest_file)}
+    benchmark = json.loads((root / "data" / "benchmark_queries.json").read_text(encoding="utf-8"))
+    query_ids = [query["id"] for query in benchmark["queries"]]
+    assert len(query_ids) == len(set(query_ids))
+    for query in benchmark["queries"]:
+        assert set(query["expected_docs"]) <= manifest_ids

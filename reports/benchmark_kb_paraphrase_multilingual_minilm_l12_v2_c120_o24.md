@@ -1,18 +1,20 @@
 # Benchmark `kb_paraphrase_multilingual_minilm_l12_v2_c120_o24`
 
 Model: `paraphrase-multilingual-MiniLM-L12-v2` · chunk=120 kata · overlap=24 · 449 chunk
+Ambang OOD dari kalibrasi data dev terpisah: **0.617**.
 
 | Tipe | n | Hit@1 | Hit@3 | MRR | Rata-rata skor top-1 |
 |---|---|---|---|---|---|
-| synonym | 8 | 0.75 | 0.88 | 0.84 | 0.681 |
+| synonym | 8 | 0.75 | 0.88 | 0.84 | 0.680 |
 | ambiguous | 3 | 0.33 | 0.67 | 0.57 | 0.702 |
 | out_of_domain | 5 | – | – | – | 0.209 |
 
-**Ambang OOD (kalibrasi, balanced accuracy=1.00): 0.423** — in-domain diterima 11/11, out-of-domain ditolak 5/5.
+**Hasil holdout dengan ambang dev** — in-domain diterima 10/11, out-of-domain ditolak 5/5.
+Precision penolakan OOD=0.833, recall=1.000, F1=0.909.
 
 | ID | Tipe | Kueri | Top-1 | Skor | Ekspektasi | Rank |
 |---|---|---|---|---|---|---|
-| Q01 | synonym | Berapa lama uang saya kembali setelah pesanan dibatalkan? | MKT006 | 0.6765 | MKT004 | 4 |
+| Q01 | synonym | Di Tokopedia, berapa lama dana refund masuk setelah pesanan dibatalkan? | MKT006 | 0.6667 | MKT004 | 5 |
 | Q02 | synonym | Kenapa paket saya telat sampai melebihi perkiraan? | MKT001 | 0.6221 | MKT001 | 1 |
 | Q03 | synonym | Penjual menolak keluhan saya, langkah apa yang bisa saya tempuh? | MKT002 | 0.621 | MKT002 | 1 |
 | Q04 | synonym | Voucher bebas biaya kirim bisa dipakai di jenis toko apa saja? | MKT008 | 0.5375 | MKT003,MKT008 | 1 |
@@ -28,3 +30,5 @@ Model: `paraphrase-multilingual-MiniLM-L12-v2` · chunk=120 kata · overlap=24 �
 | Q14 | out_of_domain | Cara install Python di Windows 11 | MKT008 | 0.131 | – | – |
 | Q15 | out_of_domain | Prakiraan cuaca besok di Medan | REG004 | 0.3083 | – | – |
 | Q16 | out_of_domain | Apa itu teori relativitas Einstein? | REG003 | 0.212 | – | – |
+
+Catatan: angka OOD dihitung pada set evaluasi holdout. Ukuran set kecil, jadi hasil ini belum membuktikan generalisasi ke kueri produksi.

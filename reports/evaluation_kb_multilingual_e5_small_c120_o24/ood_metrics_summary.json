@@ -1,0 +1,9 @@
+{
+  "TP_ood_rejected": 5,
+  "FP_indomain_falsely_rejected": 0,
+  "FN_ood_missed": 0,
+  "TN_indomain_accepted": 11,
+  "ood_rejection_precision": 1.0,
+  "ood_rejection_recall": 1.0,
+  "ood_rejection_f1": 1.0
+}

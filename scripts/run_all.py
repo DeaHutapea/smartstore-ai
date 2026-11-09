@@ -9,6 +9,7 @@ Keluaran: reports/benchmark_<koleksi>.md|csv per konfigurasi dan reports/summary
 from __future__ import annotations
 
 import csv
+import json
 import re
 import subprocess
 import sys
@@ -43,7 +44,12 @@ def summarize(model: str, cw: int, ov: int) -> str:
     inn = [r for r in rows if r["type"] != "out_of_domain"]
     ood = [r for r in rows if r["type"] == "out_of_domain"]
     md = (ROOT / "reports" / f"benchmark_{name}.md").read_text(encoding="utf-8")
-    m = re.search(r"Ambang OOD.*?: ([\d.]+)\*\* — in-domain diterima (\d+)/(\d+), out-of-domain ditolak (\d+)/(\d+)", md)
+    m = re.search(
+        r"Ambang OOD dari kalibrasi data dev terpisah: \*\*([\d.]+)\*\*.*?"
+        r"Hasil holdout dengan ambang dev.*?in-domain diterima (\d+)/(\d+), out-of-domain ditolak (\d+)/(\d+)",
+        md,
+        re.S,
+    )
     thr, a, b, c, d = m.groups() if m else ("?", "?", "?", "?", "?")
     n_chunks = re.search(r"· (\d+) chunk", md)
     f = lambda xs, k: mean([float(r[k]) for r in xs])  # noqa: E731
@@ -56,7 +62,21 @@ def summarize(model: str, cw: int, ov: int) -> str:
 def main() -> None:
     for model, cw, ov in CONFIGS:
         run("build_index.py", model, cw, ov, ["--reset"])
-        run("run_benchmark.py", model, cw, ov)
+        run("calibrate_threshold.py", model, cw, ov)
+        calibration_path = ROOT / "reports" / f"calibration_{collection_name(model, cw, ov)}.json"
+        threshold = json.loads(calibration_path.read_text(encoding="utf-8"))["threshold"]
+        run("run_benchmark.py", model, cw, ov, ["--threshold", str(threshold)])
+        name = collection_name(model, cw, ov)
+        evaluation_cmd = [
+            sys.executable,
+            str(ROOT / "scripts" / "benchmark.py"),
+            "--preds",
+            str(ROOT / "reports" / f"predictions_{name}.csv"),
+            "--out",
+            str(ROOT / "reports" / f"evaluation_{name}"),
+        ]
+        print("\n>>>", " ".join(evaluation_cmd), flush=True)
+        subprocess.run(evaluation_cmd, check=True, cwd=ROOT)
 
     header = ("| Konfigurasi | Chunk | Hit@1 sin. | Hit@3 sin. | MRR sin. | Hit@3 ambigu | Skor top-1 in-domain "
               "| Skor top-1 OOD | Ambang OOD | In-domain diterima | OOD ditolak |\n|---|---|---|---|---|---|---|---|---|---|---|")

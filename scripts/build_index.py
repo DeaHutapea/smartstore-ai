@@ -30,6 +30,11 @@ def main() -> None:
     ap.add_argument("--overlap", type=int, default=36)
     ap.add_argument("--ocr", action="store_true", help="coba OCR untuk PDF scan (butuh pytesseract)")
     ap.add_argument("--reset", action="store_true", help="hapus koleksi lama dengan konfigurasi sama")
+    ap.add_argument(
+        "--allow-partial-corpus",
+        action="store_true",
+        help="izinkan indeks parsial jika sumber manifest belum tersedia",
+    )
     a = ap.parse_args()
 
     docs, report = load_corpus(a.manifest, a.corpus_dir, use_ocr=a.ocr)
@@ -37,6 +42,13 @@ def main() -> None:
         print("[WARN]", w)
     for doc_id, why in report.skipped:
         print(f"[SKIP] {doc_id}: {why}")
+    missing_sources = [(doc_id, why) for doc_id, why in report.skipped if why == "file tidak ditemukan"]
+    if missing_sources and not a.allow_partial_corpus:
+        missing_ids = ", ".join(doc_id for doc_id, _ in missing_sources)
+        sys.exit(
+            f"Korpus tidak lengkap; file untuk {missing_ids} tidak ditemukan. "
+            "Sediakan sumber lokal sesuai docs/corpus_sources.md atau gunakan --allow-partial-corpus."
+        )
 
     out_dir = ROOT / "data" / "processed"
     out_dir.mkdir(exist_ok=True)

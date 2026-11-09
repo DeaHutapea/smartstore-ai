@@ -1,0 +1,84 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "collection": "kb_multilingual_e5_small_c120_o24",
+  "development_query_file": "data\\ood_calibration_queries.json",
+  "in_domain_count": 7,
+  "out_of_domain_count": 7,
+  "threshold": 0.857031,
+  "balanced_accuracy_dev": 1.0,
+  "in_domain_accepted_dev": 7,
+  "out_of_domain_rejected_dev": 7,
+  "scores": [
+    {
+      "id": "D01",
+      "type": "in_domain",
+      "top1_score": 0.92433
+    },
+    {
+      "id": "D02",
+      "type": "in_domain",
+      "top1_score": 0.898619
+    },
+    {
+      "id": "D03",
+      "type": "in_domain",
+      "top1_score": 0.9109
+    },
+    {
+      "id": "D04",
+      "type": "in_domain",
+      "top1_score": 0.87166
+    },
+    {
+      "id": "D05",
+      "type": "in_domain",
+      "top1_score": 0.898753
+    },
+    {
+      "id": "D06",
+      "type": "in_domain",
+      "top1_score": 0.914534
+    },
+    {
+      "id": "D07",
+      "type": "in_domain",
+      "top1_score": 0.885859
+    },
+    {
+      "id": "D08",
+      "type": "out_of_domain",
+      "top1_score": 0.823353
+    },
+    {
+      "id": "D09",
+      "type": "out_of_domain",
+      "top1_score": 0.842401
+    },
+    {
+      "id": "D10",
+      "type": "out_of_domain",
+      "top1_score": 0.79793
+    },
+    {
+      "id": "D11",
+      "type": "out_of_domain",
+      "top1_score": 0.793227
+    },
+    {
+      "id": "D12",
+      "type": "out_of_domain",
+      "top1_score": 0.797041
+    },
+    {
+      "id": "D13",
+      "type": "out_of_domain",
+      "top1_score": 0.809862
+    },
+    {
+      "id": "D14",
+      "type": "out_of_domain",
+      "top1_score": 0.832077
+    }
+  ],
+  "warning": "Ambang dipilih pada data dev; metrik dev bukan estimasi performa holdout."
+}

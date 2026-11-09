@@ -1,0 +1,19 @@
+{
+  "_catatan": "Data dev untuk memilih ambang OOD. Tidak dipakai sebagai data uji holdout.",
+  "queries": [
+    {"id": "D01", "type": "in_domain", "query": "Faktor apa yang menentukan tanggal estimasi tiba pesanan pembeli?", "expected_docs": ["MKT001"]},
+    {"id": "D02", "type": "in_domain", "query": "Bagaimana cara menyampaikan keluhan kepada penjual melalui Pusat Resolusi?", "expected_docs": ["MKT002"]},
+    {"id": "D03", "type": "in_domain", "query": "Dalam kondisi apa voucher Gratis Ongkir Tokopedia tidak bisa digunakan?", "expected_docs": ["MKT003"]},
+    {"id": "D04", "type": "in_domain", "query": "Metode apa yang digunakan untuk menerima dana refund dari pesanan yang dibatalkan?", "expected_docs": ["MKT004"]},
+    {"id": "D05", "type": "in_domain", "query": "Apa tanggung jawab pelaku usaha jika barang tidak sesuai dengan yang diperjanjikan?", "expected_docs": ["REG001"]},
+    {"id": "D06", "type": "in_domain", "query": "Apa kewajiban pengendali data untuk memastikan keamanan data pribadi?", "expected_docs": ["REG003"]},
+    {"id": "D07", "type": "in_domain", "query": "Apa kewajiban pelaku usaha yang melakukan perdagangan melalui sistem elektronik?", "expected_docs": ["REG002"]},
+    {"id": "D08", "type": "out_of_domain", "query": "Bagaimana cara memesan tiket kapal untuk liburan?", "expected_docs": []},
+    {"id": "D09", "type": "out_of_domain", "query": "Cara menghitung pajak kendaraan bermotor tahunan", "expected_docs": []},
+    {"id": "D10", "type": "out_of_domain", "query": "Kapan jadwal pertandingan tim nasional Indonesia berikutnya?", "expected_docs": []},
+    {"id": "D11", "type": "out_of_domain", "query": "Apa saja bahan untuk memasak rendang daging sapi?", "expected_docs": []},
+    {"id": "D12", "type": "out_of_domain", "query": "Bagaimana cara mengonfigurasi router Wi-Fi di rumah?", "expected_docs": []},
+    {"id": "D13", "type": "out_of_domain", "query": "Tips merawat tanaman monstera agar tumbuh subur", "expected_docs": []},
+    {"id": "D14", "type": "out_of_domain", "query": "Rute bus dari Medan ke Binjai dan jadwal keberangkatannya", "expected_docs": []}
+  ]
+}

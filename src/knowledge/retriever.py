@@ -4,7 +4,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from .vector_store import Hit, VectorStore
+from .embedder import DEFAULT_MODEL
+from .vector_store import Hit, VectorStore, collection_name
+
+DEFAULT_THRESHOLD = 0.850363
 
 
 @dataclass
@@ -16,7 +19,17 @@ class RetrievalResult:
 
 
 class Retriever:
-    def __init__(self, store: VectorStore, threshold: float = 0.80):
+    def __init__(self, store: VectorStore, threshold: float | None = None):
+        if threshold is None:
+            default_collection = collection_name(DEFAULT_MODEL, 180, 36)
+            if store.embedder.model_name != DEFAULT_MODEL or store.collection.name != default_collection:
+                raise ValueError(
+                    "Ambang default dikalibrasi untuk E5 dengan konfigurasi chunk 180/36; "
+                    "berikan threshold terkalibrasi untuk konfigurasi lain."
+                )
+            threshold = DEFAULT_THRESHOLD
+        if not 0.0 <= threshold <= 1.0:
+            raise ValueError("threshold harus berada pada rentang 0.0 sampai 1.0")
         self.store = store
         self.threshold = threshold
 

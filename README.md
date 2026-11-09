@@ -4,7 +4,7 @@
 ![Package manager](https://img.shields.io/badge/package%20manager-uv-purple)
 ![Tests](https://img.shields.io/badge/tests-pytest-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-![Milestone](https://img.shields.io/badge/milestone-1--2%20selesai-yellow)
+![Milestone](https://img.shields.io/badge/milestone-1--3%20implementasi-yellow)
 
 Proyek Akhir mata kuliah **10S3001 - Kecerdasan Buatan**, Program Studi
 Sarjana Sistem Informasi, Institut Teknologi Del (Semester Gasal 2026/2027).
@@ -158,15 +158,17 @@ Kalau belum punya `uv`, install dulu: https://docs.astral.sh/uv/getting-started/
 
 ```bash
 uv sync
-uv run python scripts/build_index.py --reset          # bersihkan -> chunk -> embed -> ChromaDB (chroma_db/)
-uv run python scripts/run_benchmark.py                # reports/benchmark_<koleksi>.md|csv
+uv run python scripts/run_all.py                      # ablation, kalibrasi OOD, retrieval, dan evaluasi
 uv run pytest -v
 ```
 
 Modul di `src/knowledge/`: `corpus_loader.py` (manifest + pembersihan), `chunker.py`
 (word-aware + overlap), `embedder.py` (Sentence-Transformers), `vector_store.py`
-(ChromaDB persisten, cosine, metadata lengkap), `retriever.py` (top-k + ambang out-of-domain).
-Kueri uji ada di `data/benchmark_queries.json` (ground truth wajib diverifikasi tim).
+(ChromaDB persisten, cosine, metadata), `retriever.py` (top-k + ambang OOD).
+Korpus terdaftar pada `data/corpus/corpus_manifest.csv`; sumber marketplace
+perlu disediakan lokal. Kueri benchmark ada di `data/benchmark_queries.json`,
+dan set kalibrasi terpisah di `data/ood_calibration_queries.json`. Hasil
+benchmark serta evaluasi disimpan di `reports/`.
 
 ## Roadmap Milestone Selanjutnya
 - **Milestone 3 (W07):** Knowledge Base & Vector Search (ChromaDB, RAG) —
